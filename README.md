@@ -72,13 +72,13 @@ python baseline.py > output/baseline/cfsr-arima.out
 * add `--chirps`: change the dataset to rainfall (CHIRPS). Default dataset: temperature (CFSR). 
 * add `--mae`: change the metric to MAE. Default metric: RMSE.
 * add `-s 15`: change the horizon. Default horizon: 5.
-* add `--email`: send email at the end. To use this functionality, set your email in the file `/config/mail_config.ini`.
+* add `--email`: send email at the end. To use this functionality, set your email in the file [config/mail_config.ini](https://github.com/MLRG-CEFET-RJ/stconvs2s/blob/master/config/mail_config.ini).
 
 ## Citation
 ```
 @article{Nascimento2019,
 	author    = {Rafaela C. Nascimento, Yania M. Souto, Eduardo Ogasawara, Fabio Porto and Eduardo Bezerra},
-	title     = {{TConvS2S: Spatiotemporal Convolutional Sequence to Sequence Network for weather forecasting}},
+	title     = {{STConvS2S: Spatiotemporal Convolutional Sequence to Sequence Network for weather forecasting}},
 	journal   = {arXiv:1912.00134},
 	year      = {2019}
 }

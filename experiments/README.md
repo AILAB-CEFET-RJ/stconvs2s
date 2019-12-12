@@ -10,10 +10,11 @@ cd experiments
 
 ```
 
-When you run `run-notebook.sh` without parameter, it runs experiment experiments with default values. This script injects the settings defined in `dataset-variables.py` into the `base-stconvs2s.ipynb` (or `base-convlstm.ipynb`) and at the end generates a new notebook with the results.
+When you run [run-notebook.sh](https://github.com/MLRG-CEFET-RJ/stconvs2s/blob/master/experiments/run-notebooks.sh) without parameter, it runs experiment experiments with default values. This script injects the settings defined in [dataset-variables.py](https://github.com/MLRG-CEFET-RJ/stconvs2s/blob/master/experiments/dataset-variables.py) into the [base-stconvs2s.ipynb](https://github.com/MLRG-CEFET-RJ/stconvs2s/blob/master/experiments/base-stconvs2s.ipynb) (or [base-convlstm.ipynb](https://github.com/MLRG-CEFET-RJ/stconvs2s/blob/master/experiments/base-convlstm.ipynb)) and at the end generates a new notebook with the results.
 
 
 ### Positional Parameters
 
 [1] `--stconvs2s` or `--convlstm`: change the model. Default model: stconvs2s
+
 [2] `--cfsr` or `--chirps`: change the dataset to rainfall (CHIRPS). Default dataset: temperature (CFSR)
