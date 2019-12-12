@@ -1,0 +1,64 @@
+RUN MODEL: ConvLSTM
+Device: cuda:0
+=> Loaded checkpoint chirps_l1loss_4_20191024-025611.pth.tar (best epoch: 11, validation error: 2.3531)
+timestamp: 2334.669219017029
+Training time: 0:38:54.67
+ConvLSTM L1Loss: 2.3649
+
+=> Loaded checkpoint chirps_l1loss_4_20191024-033514.pth.tar (best epoch: 36, validation error: 2.3483)
+timestamp: 4516.729828119278
+Training time: 1:15:16.73
+ConvLSTM L1Loss: 2.3600
+
+=> Loaded checkpoint chirps_l1loss_4_20191024-045040.pth.tar (best epoch: 26, validation error: 2.3495)
+timestamp: 3648.1954295635223
+Training time: 1:00:48.20
+ConvLSTM L1Loss: 2.3605
+
+=> Loaded checkpoint chirps_l1loss_4_20191024-055137.pth.tar (best epoch: 33, validation error: 2.3502)
+timestamp: 4257.730271577835
+Training time: 1:10:57.73
+ConvLSTM L1Loss: 2.3626
+
+=> Loaded checkpoint chirps_l1loss_4_20191024-070244.pth.tar (best epoch: 22, validation error: 2.3494)
+timestamp: 3299.340791463852
+Training time: 0:54:59.34
+ConvLSTM L1Loss: 2.3611
+
+=> Loaded checkpoint chirps_l1loss_4_20191024-075752.pth.tar (best epoch: 37, validation error: 2.3488)
+timestamp: 4608.5947461128235
+Training time: 1:16:48.59
+ConvLSTM L1Loss: 2.3634
+
+=> Loaded checkpoint chirps_l1loss_4_20191024-091450.pth.tar (best epoch: 40, validation error: 2.3505)
+timestamp: 4864.408253192902
+Training time: 1:21:04.41
+ConvLSTM L1Loss: 2.3623
+
+=> Loaded checkpoint chirps_l1loss_4_20191024-103604.pth.tar (best epoch: 20, validation error: 2.3529)
+timestamp: 3129.8838675022125
+Training time: 0:52:09.88
+ConvLSTM L1Loss: 2.3638
+
+=> Loaded checkpoint chirps_l1loss_4_20191024-112822.pth.tar (best epoch: 42, validation error: 2.3489)
+timestamp: 5037.39622092247
+Training time: 1:23:57.40
+ConvLSTM L1Loss: 2.3614
+
+=> Loaded checkpoint chirps_l1loss_4_20191024-125229.pth.tar (best epoch: 25, validation error: 2.3486)
+timestamp: 3563.680543899536
+Training time: 0:59:23.68
+ConvLSTM L1Loss: 2.3600
+
+timestamp: 3926.062917137146
+
+Errors:  [2.3649166332823888, 2.360043229801314, 2.360489477004324, 2.362610386950629, 2.3611156110252653, 2.3634375674383983, 2.362279568399702, 2.3638044723442624, 2.3614035227469037, 2.3599950202873776]
+
+Times:  [2334.669219017029, 4516.729828119278, 3648.1954295635223, 4257.730271577835, 3299.340791463852, 4608.5947461128235, 4864.408253192902, 3129.8838675022125, 5037.39622092247, 3563.680543899536]
+-----------------------
+Mean and standard deviation after 10 iterations
+=> Test Error: mean: 2.3620, std: 0.001598
+=> Training time: mean_readable: 1:05:26.06, mean: 3926.0629, std: 825.108535
+-----------------------
+timestamp: 39353.291300058365
+email sent

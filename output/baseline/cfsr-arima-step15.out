@@ -1,0 +1,4106 @@
+RUN MODEL: ARIMA
+
+=> Model ARIMA lat: [-54], lon: [296]
+RMSE: 2.22376016
+MAE: 2.03011437
+
+=> Model ARIMA lat: [-46], lon: [292]
+RMSE: 3.88466000
+MAE: 3.41585824
+
+=> Model ARIMA lat: [-40], lon: [298]
+RMSE: 9.48985478
+MAE: 8.78201010
+
+=> Model ARIMA lat: [-50], lon: [330]
+RMSE: 1.13609564
+MAE: 1.01311757
+
+=> Model ARIMA lat: [-42], lon: [290]
+RMSE: 4.63956740
+MAE: 4.00290629
+
+=> Model ARIMA lat: [-52], lon: [286]
+RMSE: 2.57025969
+MAE: 2.34705806
+
+=> Model ARIMA lat: [-54], lon: [314]
+RMSE: 1.14351528
+MAE: 0.96608292
+
+=> Model ARIMA lat: [-52], lon: [340]
+RMSE: 0.76090564
+MAE: 0.51781866
+
+=> Model ARIMA lat: [-46], lon: [310]
+RMSE: 2.95172478
+MAE: 2.63593454
+
+=> Model ARIMA lat: [-48], lon: [284]
+RMSE: 3.50562401
+MAE: 3.16856215
+
+=> Model ARIMA lat: [-42], lon: [326]
+RMSE: 2.71925512
+MAE: 2.38674209
+
+=> Model ARIMA lat: [-54], lon: [278]
+RMSE: 1.67039179
+MAE: 1.53797735
+
+=> Model ARIMA lat: [-40], lon: [316]
+RMSE: 2.20499601
+MAE: 1.82057791
+
+=> Model ARIMA lat: [-44], lon: [336]
+RMSE: 2.38363438
+MAE: 2.19138678
+
+=> Model ARIMA lat: [-48], lon: [320]
+RMSE: 2.87695596
+MAE: 2.51367618
+
+=> Model ARIMA lat: [-52], lon: [304]
+RMSE: 1.53840855
+MAE: 1.28191342
+
+=> Model ARIMA lat: [-52], lon: [322]
+RMSE: 1.16041595
+MAE: 0.94436566
+
+=> Model ARIMA lat: [-48], lon: [338]
+RMSE: 1.49340125
+MAE: 1.37948202
+
+=> Model ARIMA lat: [-54], lon: [332]
+RMSE: 0.56548885
+MAE: 0.46084837
+
+=> Model ARIMA lat: [-46], lon: [328]
+RMSE: 2.08274600
+MAE: 1.92215335
+
+=> Model ARIMA lat: [-50], lon: [312]
+RMSE: 1.86366852
+MAE: 1.47352361
+
+=> Model ARIMA lat: [-38], lon: [288]
+RMSE: 4.03099652
+MAE: 3.49070015
+
+=> Model ARIMA lat: [-40], lon: [280]
+RMSE: 1.03301561
+MAE: 0.93996011
+
+=> Model ARIMA lat: [-48], lon: [302]
+RMSE: 2.07924717
+MAE: 1.60675243
+
+=> Model ARIMA lat: [-44], lon: [300]
+RMSE: 2.29684756
+MAE: 1.66208572
+
+=> Model ARIMA lat: [-42], lon: [308]
+RMSE: 2.39373858
+MAE: 1.77566850
+
+=> Model ARIMA lat: [-44], lon: [318]
+RMSE: 2.32033490
+MAE: 2.05726263
+
+=> Model ARIMA lat: [-40], lon: [334]
+RMSE: 2.39451330
+MAE: 2.04987669
+
+=> Model ARIMA lat: [-44], lon: [282]
+RMSE: 1.28696112
+MAE: 1.23117523
+
+=> Model ARIMA lat: [-46], lon: [294]
+RMSE: 3.04640237
+MAE: 2.53712959
+
+=> Model ARIMA lat: [-50], lon: [294]
+RMSE: 5.72164282
+MAE: 5.60252577
+
+=> Model ARIMA lat: [-40], lon: [282]
+RMSE: 1.22877471
+MAE: 1.12410851
+
+=> Model ARIMA lat: [-44], lon: [302]
+RMSE: 1.79373620
+MAE: 1.53366432
+
+=> Model ARIMA lat: [-54], lon: [298]
+RMSE: 1.53448714
+MAE: 1.44599296
+
+=> Model ARIMA lat: [-50], lon: [296]
+RMSE: 4.89949740
+MAE: 4.75697834
+
+=> Model ARIMA lat: [-48], lon: [286]
+RMSE: 1.68214687
+MAE: 1.27981058
+
+=> Model ARIMA lat: [-40], lon: [300]
+RMSE: 6.46362847
+MAE: 5.79485979
+
+=> Model ARIMA lat: [-52], lon: [288]
+RMSE: 4.59407988
+MAE: 3.92544358
+
+=> Model ARIMA lat: [-44], lon: [284]
+RMSE: 1.37205726
+MAE: 1.20918258
+
+=> Model ARIMA lat: [-42], lon: [292]
+RMSE: 4.55101311
+MAE: 3.96708094
+
+=> Model ARIMA lat: [-50], lon: [332]
+RMSE: 1.20574234
+MAE: 1.02314194
+
+=> Model ARIMA lat: [-48], lon: [288]
+RMSE: 3.44590525
+MAE: 2.79337446
+
+=> Model ARIMA lat: [-52], lon: [290]
+RMSE: 7.24848655
+MAE: 6.64519124
+
+=> Model ARIMA lat: [-52], lon: [324]
+RMSE: 1.09811362
+MAE: 0.95262347
+
+=> Model ARIMA lat: [-52], lon: [306]
+RMSE: 1.46595757
+MAE: 1.30702301
+
+=> Model ARIMA lat: [-44], lon: [338]
+RMSE: 2.45192690
+MAE: 2.24305001
+
+=> Model ARIMA lat: [-50], lon: [314]
+RMSE: 1.92393510
+MAE: 1.50326468
+
+=> Model ARIMA lat: [-48], lon: [322]
+RMSE: 2.29888565
+MAE: 1.96334967
+
+=> Model ARIMA lat: [-42], lon: [328]
+RMSE: 2.51627888
+MAE: 2.18019276
+
+=> Model ARIMA lat: [-46], lon: [312]
+RMSE: 2.56884909
+MAE: 2.26671390
+
+=> Model ARIMA lat: [-50], lon: [278]
+RMSE: 2.08173160
+MAE: 1.97509873
+
+=> Model ARIMA lat: [-46], lon: [330]
+RMSE: 2.20352286
+MAE: 2.00795563
+
+=> Model ARIMA lat: [-48], lon: [340]
+RMSE: 1.40712953
+MAE: 1.25308732
+
+=> Model ARIMA lat: [-54], lon: [316]
+RMSE: 1.00396808
+MAE: 0.86829482
+
+=> Model ARIMA lat: [-54], lon: [280]
+RMSE: 1.59183353
+MAE: 1.45833771
+
+=> Model ARIMA lat: [-38], lon: [290]
+RMSE: 5.46687239
+MAE: 4.80658247
+
+=> Model ARIMA lat: [-42], lon: [310]
+RMSE: 2.49533382
+MAE: 2.15526921
+
+=> Model ARIMA lat: [-40], lon: [318]
+RMSE: 1.90571831
+MAE: 1.62831215
+
+=> Model ARIMA lat: [-40], lon: [284]
+RMSE: 1.04887804
+MAE: 0.96403040
+
+=> Model ARIMA lat: [-54], lon: [334]
+RMSE: 0.83765813
+MAE: 0.70690826
+
+=> Model ARIMA lat: [-46], lon: [296]
+RMSE: 1.81409498
+MAE: 1.34939969
+
+=> Model ARIMA lat: [-44], lon: [286]
+RMSE: 0.75493497
+MAE: 0.62390144
+
+=> Model ARIMA lat: [-40], lon: [302]
+RMSE: 4.93180395
+MAE: 4.13803636
+
+=> Model ARIMA lat: [-48], lon: [304]
+RMSE: 1.83149686
+MAE: 1.30134599
+
+=> Model ARIMA lat: [-40], lon: [336]
+RMSE: 2.45115046
+MAE: 2.10796345
+
+=> Model ARIMA lat: [-44], lon: [320]
+RMSE: 2.24801580
+MAE: 2.12072448
+
+=> Model ARIMA lat: [-52], lon: [292]
+RMSE: 4.74684905
+MAE: 4.53477643
+
+=> Model ARIMA lat: [-44], lon: [304]
+RMSE: 2.04105181
+MAE: 1.64354971
+
+=> Model ARIMA lat: [-54], lon: [300]
+RMSE: 1.61839205
+MAE: 1.52446586
+
+=> Model ARIMA lat: [-50], lon: [298]
+RMSE: 2.32375802
+MAE: 2.09676942
+
+=> Model ARIMA lat: [-48], lon: [290]
+RMSE: 3.69186766
+MAE: 3.16525403
+
+=> Model ARIMA lat: [-42], lon: [294]
+RMSE: 6.60027681
+MAE: 5.65011436
+
+=> Model ARIMA lat: [-44], lon: [288]
+RMSE: 3.53051479
+MAE: 2.79953241
+
+=> Model ARIMA lat: [-40], lon: [286]
+RMSE: 2.56544829
+MAE: 2.49335001
+
+=> Model ARIMA lat: [-50], lon: [334]
+RMSE: 1.13317786
+MAE: 1.02694939
+
+=> Model ARIMA lat: [-52], lon: [294]
+RMSE: 3.62273026
+MAE: 3.51884990
+
+=> Model ARIMA lat: [-52], lon: [326]
+RMSE: 0.97025211
+MAE: 0.82223873
+
+=> Model ARIMA lat: [-44], lon: [340]
+RMSE: 2.45891483
+MAE: 2.24748647
+
+=> Model ARIMA lat: [-52], lon: [308]
+RMSE: 1.16946569
+MAE: 1.02732148
+
+=> Model ARIMA lat: [-50], lon: [316]
+RMSE: 1.68446795
+MAE: 1.31988802
+
+=> Model ARIMA lat: [-42], lon: [330]
+RMSE: 2.37706936
+MAE: 2.05543245
+
+=> Model ARIMA lat: [-48], lon: [324]
+RMSE: 2.16128725
+MAE: 1.97106422
+
+=> Model ARIMA lat: [-46], lon: [314]
+RMSE: 2.12819855
+MAE: 1.79370600
+
+=> Model ARIMA lat: [-48], lon: [292]
+RMSE: 4.27575359
+MAE: 3.48543650
+
+=> Model ARIMA lat: [-46], lon: [332]
+RMSE: 1.88294079
+MAE: 1.68644287
+
+=> Model ARIMA lat: [-50], lon: [280]
+RMSE: 1.89664965
+MAE: 1.74899360
+
+=> Model ARIMA lat: [-46], lon: [278]
+RMSE: 1.12589187
+MAE: 0.89113739
+
+=> Model ARIMA lat: [-38], lon: [292]
+RMSE: 5.89429650
+MAE: 5.05944234
+
+=> Model ARIMA lat: [-42], lon: [312]
+RMSE: 2.75494994
+MAE: 2.36567755
+
+=> Model ARIMA lat: [-54], lon: [318]
+RMSE: 1.01580695
+MAE: 0.87389115
+
+=> Model ARIMA lat: [-54], lon: [282]
+RMSE: 1.59877322
+MAE: 1.47995177
+
+=> Model ARIMA lat: [-42], lon: [296]
+RMSE: 2.94337745
+MAE: 2.37535682
+
+=> Model ARIMA lat: [-54], lon: [336]
+RMSE: 0.89682872
+MAE: 0.71481818
+
+=> Model ARIMA lat: [-48], lon: [306]
+RMSE: 1.88174352
+MAE: 1.59332785
+
+=> Model ARIMA lat: [-46], lon: [298]
+RMSE: 2.44882768
+MAE: 2.12059550
+
+=> Model ARIMA lat: [-40], lon: [338]
+RMSE: 2.53719401
+MAE: 2.24441217
+
+=> Model ARIMA lat: [-40], lon: [320]
+RMSE: 2.11988004
+MAE: 1.87480889
+
+=> Model ARIMA lat: [-40], lon: [304]
+RMSE: 3.47390703
+MAE: 2.42552376
+
+=> Model ARIMA lat: [-44], lon: [306]
+RMSE: 2.21351641
+MAE: 1.94275322
+
+=> Model ARIMA lat: [-44], lon: [322]
+RMSE: 2.13949208
+MAE: 2.04486693
+
+=> Model ARIMA lat: [-40], lon: [288]
+RMSE: 3.59333299
+MAE: 2.81457709
+
+=> Model ARIMA lat: [-50], lon: [300]
+RMSE: 2.08563653
+MAE: 1.80049355
+
+=> Model ARIMA lat: [-54], lon: [302]
+RMSE: 1.48961221
+MAE: 1.36871323
+
+=> Model ARIMA lat: [-48], lon: [294]
+RMSE: 5.02062816
+MAE: 4.41755827
+
+=> Model ARIMA lat: [-50], lon: [336]
+RMSE: 1.21205283
+MAE: 1.06206620
+
+=> Model ARIMA lat: [-44], lon: [290]
+RMSE: 4.26933515
+MAE: 3.67935500
+
+=> Model ARIMA lat: [-52], lon: [328]
+RMSE: 0.93065605
+MAE: 0.74714014
+
+=> Model ARIMA lat: [-52], lon: [296]
+RMSE: 1.86797439
+MAE: 1.77042586
+
+=> Model ARIMA lat: [-42], lon: [298]
+RMSE: 2.36837180
+MAE: 2.09530307
+
+=> Model ARIMA lat: [-50], lon: [318]
+RMSE: 1.57694423
+MAE: 1.29163809
+
+=> Model ARIMA lat: [-42], lon: [278]
+RMSE: 0.83364187
+MAE: 0.68195079
+
+=> Model ARIMA lat: [-42], lon: [332]
+RMSE: 2.65657316
+MAE: 2.41847637
+
+=> Model ARIMA lat: [-52], lon: [310]
+RMSE: 0.91439314
+MAE: 0.82470839
+
+=> Model ARIMA lat: [-48], lon: [326]
+RMSE: 2.12882328
+MAE: 1.88017306
+
+=> Model ARIMA lat: [-46], lon: [316]
+RMSE: 2.19914001
+MAE: 1.93973864
+
+=> Model ARIMA lat: [-46], lon: [334]
+RMSE: 1.86917222
+MAE: 1.66812731
+
+=> Model ARIMA lat: [-54], lon: [320]
+RMSE: 0.98603607
+MAE: 0.92207467
+
+=> Model ARIMA lat: [-50], lon: [282]
+RMSE: 2.07843399
+MAE: 1.96944896
+
+=> Model ARIMA lat: [-54], lon: [338]
+RMSE: 0.99280847
+MAE: 0.90007100
+
+=> Model ARIMA lat: [-46], lon: [280]
+RMSE: 1.15268787
+MAE: 0.95943433
+
+=> Model ARIMA lat: [-42], lon: [314]
+RMSE: 2.67095370
+MAE: 2.27639007
+
+=> Model ARIMA lat: [-48], lon: [308]
+RMSE: 2.63918351
+MAE: 2.30867569
+
+=> Model ARIMA lat: [-40], lon: [306]
+RMSE: 3.40682249
+MAE: 2.97038441
+
+=> Model ARIMA lat: [-40], lon: [340]
+RMSE: 2.49304418
+MAE: 2.22375650
+
+=> Model ARIMA lat: [-46], lon: [300]
+RMSE: 2.22182393
+MAE: 1.95012308
+
+=> Model ARIMA lat: [-38], lon: [294]
+RMSE: 5.99568584
+MAE: 5.09009706
+
+=> Model ARIMA lat: [-54], lon: [284]
+RMSE: 1.67711442
+MAE: 1.56116956
+
+=> Model ARIMA lat: [-40], lon: [290]
+RMSE: 5.28333925
+MAE: 4.67048063
+
+=> Model ARIMA lat: [-44], lon: [308]
+RMSE: 2.53880718
+MAE: 2.24474671
+
+=> Model ARIMA lat: [-40], lon: [322]
+RMSE: 2.34569893
+MAE: 2.08606171
+
+=> Model ARIMA lat: [-44], lon: [324]
+RMSE: 2.14033527
+MAE: 1.91612532
+
+=> Model ARIMA lat: [-50], lon: [338]
+RMSE: 0.96658329
+MAE: 0.80478371
+
+=> Model ARIMA lat: [-48], lon: [296]
+RMSE: 2.24369542
+MAE: 1.72225710
+
+=> Model ARIMA lat: [-50], lon: [302]
+RMSE: 1.97104564
+MAE: 1.62525512
+
+=> Model ARIMA lat: [-54], lon: [304]
+RMSE: 1.59169575
+MAE: 1.44325115
+
+=> Model ARIMA lat: [-52], lon: [330]
+RMSE: 0.88075934
+MAE: 0.74022886
+
+=> Model ARIMA lat: [-44], lon: [292]
+RMSE: 4.22054286
+MAE: 3.65648823
+
+=> Model ARIMA lat: [-52], lon: [298]
+RMSE: 1.80330548
+MAE: 1.69910684
+
+=> Model ARIMA lat: [-50], lon: [320]
+RMSE: 1.61833211
+MAE: 1.40024505
+
+=> Model ARIMA lat: [-42], lon: [280]
+RMSE: 1.12739054
+MAE: 0.97647934
+
+=> Model ARIMA lat: [-42], lon: [334]
+RMSE: 2.46867425
+MAE: 2.23197077
+
+=> Model ARIMA lat: [-52], lon: [312]
+RMSE: 0.94250385
+MAE: 0.82007652
+
+=> Model ARIMA lat: [-42], lon: [300]
+RMSE: 3.11158757
+MAE: 2.50982145
+
+=> Model ARIMA lat: [-48], lon: [328]
+RMSE: 1.90771413
+MAE: 1.62157033
+
+=> Model ARIMA lat: [-46], lon: [318]
+RMSE: 2.28148769
+MAE: 2.03068858
+
+=> Model ARIMA lat: [-46], lon: [336]
+RMSE: 1.91568268
+MAE: 1.72949998
+
+=> Model ARIMA lat: [-54], lon: [340]
+RMSE: 1.24318334
+MAE: 1.09646223
+
+=> Model ARIMA lat: [-54], lon: [322]
+RMSE: 0.87137549
+MAE: 0.74748893
+
+=> Model ARIMA lat: [-38], lon: [278]
+RMSE: 1.86599658
+MAE: 1.76001894
+
+=> Model ARIMA lat: [-52], lon: [300]
+RMSE: 3.32245602
+MAE: 2.84578471
+
+=> Model ARIMA lat: [-46], lon: [302]
+RMSE: 1.80235746
+MAE: 1.33190569
+
+=> Model ARIMA lat: [-42], lon: [316]
+RMSE: 2.60133098
+MAE: 2.21397804
+
+=> Model ARIMA lat: [-46], lon: [282]
+RMSE: 1.07654770
+MAE: 0.90209369
+
+=> Model ARIMA lat: [-50], lon: [284]
+RMSE: 3.59125790
+MAE: 3.34165097
+
+=> Model ARIMA lat: [-40], lon: [292]
+RMSE: 4.49625958
+MAE: 3.82952116
+
+=> Model ARIMA lat: [-40], lon: [308]
+RMSE: 2.94564325
+MAE: 2.61204098
+
+=> Model ARIMA lat: [-38], lon: [296]
+RMSE: 5.76363487
+MAE: 4.92775116
+
+=> Model ARIMA lat: [-48], lon: [310]
+RMSE: 3.13169189
+MAE: 2.76296513
+
+=> Model ARIMA lat: [-50], lon: [340]
+RMSE: 0.85004879
+MAE: 0.72798206
+
+=> Model ARIMA lat: [-54], lon: [286]
+RMSE: 1.87795652
+MAE: 1.67729965
+
+=> Model ARIMA lat: [-52], lon: [332]
+RMSE: 0.96801539
+MAE: 0.82208400
+
+=> Model ARIMA lat: [-44], lon: [326]
+RMSE: 2.42972406
+MAE: 2.20281727
+
+=> Model ARIMA lat: [-54], lon: [306]
+RMSE: 1.51703585
+MAE: 1.38428772
+
+=> Model ARIMA lat: [-48], lon: [298]
+RMSE: 2.59513941
+MAE: 2.00367859
+
+=> Model ARIMA lat: [-44], lon: [294]
+RMSE: 4.73907528
+MAE: 4.26298123
+
+=> Model ARIMA lat: [-40], lon: [324]
+RMSE: 2.54505160
+MAE: 2.29450543
+
+=> Model ARIMA lat: [-44], lon: [310]
+RMSE: 2.94593779
+MAE: 2.64355004
+
+=> Model ARIMA lat: [-50], lon: [304]
+RMSE: 1.99675186
+MAE: 1.60372261
+
+=> Model ARIMA lat: [-50], lon: [286]
+RMSE: 3.14951875
+MAE: 2.62459821
+
+=> Model ARIMA lat: [-50], lon: [322]
+RMSE: 1.63849552
+MAE: 1.37445103
+
+=> Model ARIMA lat: [-42], lon: [336]
+RMSE: 2.52583125
+MAE: 2.26934871
+
+=> Model ARIMA lat: [-48], lon: [330]
+RMSE: 1.45609210
+MAE: 1.29040598
+
+=> Model ARIMA lat: [-42], lon: [282]
+RMSE: 1.64005992
+MAE: 1.58651759
+
+=> Model ARIMA lat: [-52], lon: [314]
+RMSE: 1.01915556
+MAE: 0.85564950
+
+=> Model ARIMA lat: [-42], lon: [302]
+RMSE: 2.42400665
+MAE: 1.92614974
+
+=> Model ARIMA lat: [-44], lon: [296]
+RMSE: 2.29106777
+MAE: 1.51702180
+
+=> Model ARIMA lat: [-46], lon: [320]
+RMSE: 2.18248925
+MAE: 1.91301546
+
+=> Model ARIMA lat: [-46], lon: [338]
+RMSE: 1.92955719
+MAE: 1.72199429
+
+=> Model ARIMA lat: [-52], lon: [278]
+RMSE: 1.46439515
+MAE: 1.27433504
+
+=> Model ARIMA lat: [-38], lon: [280]
+RMSE: 1.63769450
+MAE: 1.25899981
+
+=> Model ARIMA lat: [-52], lon: [302]
+RMSE: 3.52872031
+MAE: 3.16077344
+
+=> Model ARIMA lat: [-46], lon: [304]
+RMSE: 1.90448988
+MAE: 1.53468000
+
+=> Model ARIMA lat: [-40], lon: [294]
+RMSE: 5.26913953
+MAE: 4.39895829
+
+=> Model ARIMA lat: [-42], lon: [318]
+RMSE: 2.52242484
+MAE: 2.18528371
+
+=> Model ARIMA lat: [-54], lon: [324]
+RMSE: 0.72555135
+MAE: 0.61703038
+
+=> Model ARIMA lat: [-46], lon: [284]
+RMSE: 1.25297471
+MAE: 1.02447577
+
+=> Model ARIMA lat: [-52], lon: [334]
+RMSE: 1.21727932
+MAE: 1.04422713
+
+=> Model ARIMA lat: [-48], lon: [278]
+RMSE: 1.59402698
+MAE: 1.31237232
+
+=> Model ARIMA lat: [-44], lon: [312]
+RMSE: 2.66207211
+MAE: 2.42075500
+
+=> Model ARIMA lat: [-48], lon: [312]
+RMSE: 3.53767338
+MAE: 2.88239254
+
+=> Model ARIMA lat: [-38], lon: [298]
+RMSE: 5.65465565
+MAE: 4.89147260
+
+=> Model ARIMA lat: [-40], lon: [310]
+RMSE: 2.29203797
+MAE: 2.03189907
+
+=> Model ARIMA lat: [-48], lon: [300]
+RMSE: 2.63433160
+MAE: 2.07728965
+
+=> Model ARIMA lat: [-44], lon: [328]
+RMSE: 2.39978702
+MAE: 2.18246305
+
+=> Model ARIMA lat: [-54], lon: [288]
+RMSE: 3.59103794
+MAE: 3.06095275
+
+=> Model ARIMA lat: [-54], lon: [308]
+RMSE: 1.31119910
+MAE: 1.19361894
+
+=> Model ARIMA lat: [-50], lon: [288]
+RMSE: 11.38306808
+MAE: 10.99995410
+
+=> Model ARIMA lat: [-50], lon: [324]
+RMSE: 1.27756182
+MAE: 1.12393190
+
+=> Model ARIMA lat: [-42], lon: [284]
+RMSE: 1.40173513
+MAE: 1.22758599
+
+=> Model ARIMA lat: [-40], lon: [326]
+RMSE: 2.43842871
+MAE: 2.19072985
+
+=> Model ARIMA lat: [-50], lon: [306]
+RMSE: 1.70168259
+MAE: 1.39819780
+
+=> Model ARIMA lat: [-48], lon: [332]
+RMSE: 1.46745101
+MAE: 1.31280257
+
+=> Model ARIMA lat: [-42], lon: [338]
+RMSE: 2.70857569
+MAE: 2.42606955
+
+=> Model ARIMA lat: [-46], lon: [286]
+RMSE: 1.35166321
+MAE: 1.16387555
+
+=> Model ARIMA lat: [-54], lon: [290]
+RMSE: 3.53819768
+MAE: 3.02522684
+
+=> Model ARIMA lat: [-52], lon: [316]
+RMSE: 1.02600694
+MAE: 0.86802790
+
+=> Model ARIMA lat: [-40], lon: [296]
+RMSE: 7.63272616
+MAE: 6.47486107
+
+=> Model ARIMA lat: [-42], lon: [304]
+RMSE: 2.57210402
+MAE: 1.78113531
+
+=> Model ARIMA lat: [-42], lon: [286]
+RMSE: 1.48923229
+MAE: 1.28436146
+
+=> Model ARIMA lat: [-46], lon: [322]
+RMSE: 2.14247200
+MAE: 1.93829995
+
+=> Model ARIMA lat: [-42], lon: [306]
+RMSE: 2.24507882
+MAE: 1.85164457
+
+=> Model ARIMA lat: [-38], lon: [306]
+RMSE: 4.36580637
+MAE: 4.10876043
+
+=> Model ARIMA lat: [-44], lon: [298]
+RMSE: 1.99676871
+MAE: 1.55553995
+
+=> Model ARIMA lat: [-50], lon: [290]
+RMSE: 10.28180005
+MAE: 9.89388933
+
+=> Model ARIMA lat: [-46], lon: [340]
+RMSE: 1.72322204
+MAE: 1.49553472
+
+=> Model ARIMA lat: [-52], lon: [336]
+RMSE: 0.98321819
+MAE: 0.76561813
+
+=> Model ARIMA lat: [-46], lon: [306]
+RMSE: 2.35889167
+MAE: 2.03139151
+
+=> Model ARIMA lat: [-52], lon: [280]
+RMSE: 1.62178514
+MAE: 1.46350874
+
+=> Model ARIMA lat: [-38], lon: [282]
+RMSE: 0.88557407
+MAE: 0.71964608
+
+=> Model ARIMA lat: [-48], lon: [280]
+RMSE: 2.05020174
+MAE: 1.69227779
+
+=> Model ARIMA lat: [-54], lon: [292]
+RMSE: 5.40789886
+MAE: 4.80339011
+
+=> Model ARIMA lat: [-54], lon: [326]
+RMSE: 0.76520744
+MAE: 0.67133990
+
+=> Model ARIMA lat: [-46], lon: [288]
+RMSE: 2.48660657
+MAE: 1.97985772
+
+=> Model ARIMA lat: [-42], lon: [320]
+RMSE: 2.58730009
+MAE: 2.30971286
+
+=> Model ARIMA lat: [-38], lon: [324]
+RMSE: 2.55852231
+MAE: 2.21890623
+
+=> Model ARIMA lat: [-40], lon: [312]
+RMSE: 2.16074293
+MAE: 1.74607080
+
+=> Model ARIMA lat: [-42], lon: [288]
+RMSE: 3.79865001
+MAE: 2.90267329
+
+=> Model ARIMA lat: [-44], lon: [314]
+RMSE: 2.57386176
+MAE: 2.30854744
+
+=> Model ARIMA lat: [-50], lon: [326]
+RMSE: 1.19464348
+MAE: 1.08948512
+
+=> Model ARIMA lat: [-50], lon: [292]
+RMSE: 8.09004848
+MAE: 7.75995200
+
+=> Model ARIMA lat: [-38], lon: [300]
+RMSE: 6.33829098
+MAE: 5.50651756
+
+=> Model ARIMA lat: [-48], lon: [314]
+RMSE: 3.54073489
+MAE: 2.97045716
+
+=> Model ARIMA lat: [-44], lon: [330]
+RMSE: 2.42705505
+MAE: 2.23809567
+
+=> Model ARIMA lat: [-54], lon: [310]
+RMSE: 1.22494669
+MAE: 1.05230341
+
+=> Model ARIMA lat: [-54], lon: [294]
+RMSE: 3.37184550
+MAE: 2.99130749
+
+=> Model ARIMA lat: [-48], lon: [334]
+RMSE: 1.56639308
+MAE: 1.38886638
+
+=> Model ARIMA lat: [-42], lon: [340]
+RMSE: 2.65915398
+MAE: 2.45739477
+
+=> Model ARIMA lat: [-50], lon: [308]
+RMSE: 1.74126026
+MAE: 1.45900089
+
+=> Model ARIMA lat: [-40], lon: [328]
+RMSE: 2.47492987
+MAE: 2.14142105
+
+=> Model ARIMA lat: [-34], lon: [286]
+RMSE: 2.35093760
+MAE: 2.30924786
+
+=> Model ARIMA lat: [-52], lon: [318]
+RMSE: 1.08436876
+MAE: 0.93002234
+
+=> Model ARIMA lat: [-36], lon: [278]
+RMSE: 0.87176249
+MAE: 0.65903652
+
+=> Model ARIMA lat: [-38], lon: [308]
+RMSE: 3.00424356
+MAE: 2.82646293
+
+=> Model ARIMA lat: [-46], lon: [324]
+RMSE: 2.06296829
+MAE: 1.81183875
+
+=> Model ARIMA lat: [-36], lon: [296]
+RMSE: 4.97179515
+MAE: 4.22346876
+
+=> Model ARIMA lat: [-44], lon: [278]
+RMSE: 0.74699101
+MAE: 0.59238559
+
+=> Model ARIMA lat: [-52], lon: [338]
+RMSE: 0.92804187
+MAE: 0.72851206
+
+=> Model ARIMA lat: [-46], lon: [290]
+RMSE: 3.75113320
+MAE: 3.26863902
+
+=> Model ARIMA lat: [-48], lon: [282]
+RMSE: 2.76956043
+MAE: 2.22971347
+
+=> Model ARIMA lat: [-38], lon: [302]
+RMSE: 6.81827347
+MAE: 5.65305493
+
+=> Model ARIMA lat: [-36], lon: [314]
+RMSE: 2.63127570
+MAE: 2.57815517
+
+=> Model ARIMA lat: [-38], lon: [284]
+RMSE: 1.03943662
+MAE: 0.85692880
+
+=> Model ARIMA lat: [-38], lon: [310]
+RMSE: 1.74071678
+MAE: 1.63594525
+
+=> Model ARIMA lat: [-46], lon: [308]
+RMSE: 3.03641601
+MAE: 2.64875523
+
+=> Model ARIMA lat: [-50], lon: [328]
+RMSE: 1.21303588
+MAE: 1.09803602
+
+=> Model ARIMA lat: [-52], lon: [282]
+RMSE: 1.69593181
+MAE: 1.48896719
+
+=> Model ARIMA lat: [-36], lon: [332]
+RMSE: 3.12430968
+MAE: 2.61240301
+
+=> Model ARIMA lat: [-38], lon: [326]
+RMSE: 2.49451363
+MAE: 2.15138534
+
+=> Model ARIMA lat: [-54], lon: [328]
+RMSE: 0.76414014
+MAE: 0.64594029
+
+=> Model ARIMA lat: [-42], lon: [322]
+RMSE: 2.92990484
+MAE: 2.57345052
+
+=> Model ARIMA lat: [-40], lon: [314]
+RMSE: 2.23771673
+MAE: 1.81890004
+
+=> Model ARIMA lat: [-44], lon: [316]
+RMSE: 2.31577037
+MAE: 1.99768003
+
+=> Model ARIMA lat: [-44], lon: [332]
+RMSE: 2.34162630
+MAE: 2.16824455
+
+=> Model ARIMA lat: [-48], lon: [316]
+RMSE: 3.26326118
+MAE: 2.82443416
+
+=> Model ARIMA lat: [-48], lon: [336]
+RMSE: 1.44243231
+MAE: 1.28467679
+
+=> Model ARIMA lat: [-40], lon: [278]
+RMSE: 1.45265450
+MAE: 1.26926470
+
+=> Model ARIMA lat: [-34], lon: [304]
+RMSE: 6.92921526
+MAE: 5.67752778
+
+=> Model ARIMA lat: [-54], lon: [312]
+RMSE: 1.08099484
+MAE: 0.94825557
+
+=> Model ARIMA lat: [-50], lon: [310]
+RMSE: 1.89800277
+MAE: 1.52010423
+
+=> Model ARIMA lat: [-52], lon: [320]
+RMSE: 1.04385879
+MAE: 0.85943213
+
+=> Model ARIMA lat: [-30], lon: [284]
+RMSE: 1.75588033
+MAE: 1.69062322
+
+=> Model ARIMA lat: [-38], lon: [286]
+RMSE: 3.40563356
+MAE: 3.30863034
+
+=> Model ARIMA lat: [-40], lon: [330]
+RMSE: 2.71298362
+MAE: 2.39562662
+
+=> Model ARIMA lat: [-36], lon: [280]
+RMSE: 0.83751442
+MAE: 0.71728645
+
+=> Model ARIMA lat: [-34], lon: [288]
+RMSE: 2.40848332
+MAE: 2.29282520
+
+=> Model ARIMA lat: [-46], lon: [326]
+RMSE: 1.88783198
+MAE: 1.68958207
+
+=> Model ARIMA lat: [-32], lon: [294]
+RMSE: 4.44556684
+MAE: 3.75775693
+
+=> Model ARIMA lat: [-34], lon: [322]
+RMSE: 1.31655258
+MAE: 1.13441610
+
+=> Model ARIMA lat: [-44], lon: [280]
+RMSE: 0.99202532
+MAE: 0.83134571
+
+=> Model ARIMA lat: [-36], lon: [298]
+RMSE: 4.86629693
+MAE: 4.08938528
+
+=> Model ARIMA lat: [-38], lon: [312]
+RMSE: 1.58165294
+MAE: 1.46704920
+
+=> Model ARIMA lat: [-26], lon: [282]
+RMSE: 1.06004297
+MAE: 0.87316775
+
+=> Model ARIMA lat: [-34], lon: [340]
+RMSE: 2.55050022
+MAE: 2.21786505
+
+=> Model ARIMA lat: [-36], lon: [334]
+RMSE: 3.09507003
+MAE: 2.56633564
+
+=> Model ARIMA lat: [-38], lon: [304]
+RMSE: 4.22879967
+MAE: 3.65721191
+
+=> Model ARIMA lat: [-36], lon: [316]
+RMSE: 2.33167649
+MAE: 2.16866340
+
+=> Model ARIMA lat: [-30], lon: [286]
+RMSE: 1.44470185
+MAE: 1.39651865
+
+=> Model ARIMA lat: [-52], lon: [284]
+RMSE: 1.75392923
+MAE: 1.56109393
+
+=> Model ARIMA lat: [-38], lon: [328]
+RMSE: 2.63618145
+MAE: 2.19506425
+
+=> Model ARIMA lat: [-32], lon: [312]
+RMSE: 1.92906932
+MAE: 1.46959354
+
+=> Model ARIMA lat: [-34], lon: [306]
+RMSE: 4.93056186
+MAE: 3.66070112
+
+=> Model ARIMA lat: [-42], lon: [324]
+RMSE: 3.07699074
+MAE: 2.70015442
+
+=> Model ARIMA lat: [-54], lon: [330]
+RMSE: 0.72447396
+MAE: 0.61169394
+
+=> Model ARIMA lat: [-30], lon: [302]
+RMSE: 4.73222440
+MAE: 4.08701700
+
+=> Model ARIMA lat: [-26], lon: [318]
+RMSE: 0.59553972
+MAE: 0.53476460
+
+=> Model ARIMA lat: [-32], lon: [330]
+RMSE: 1.36560752
+MAE: 1.14893051
+
+=> Model ARIMA lat: [-26], lon: [284]
+RMSE: 0.82605559
+MAE: 0.66659774
+
+=> Model ARIMA lat: [-48], lon: [318]
+RMSE: 3.16508337
+MAE: 2.89136114
+
+=> Model ARIMA lat: [-44], lon: [334]
+RMSE: 2.18255443
+MAE: 1.98479276
+
+=> Model ARIMA lat: [-26], lon: [336]
+RMSE: 0.45583350
+MAE: 0.33837817
+
+=> Model ARIMA lat: [-32], lon: [278]
+RMSE: 0.71624252
+MAE: 0.60601363
+
+=> Model ARIMA lat: [-30], lon: [338]
+RMSE: 1.67723684
+MAE: 1.43609674
+
+=> Model ARIMA lat: [-28], lon: [310]
+RMSE: 2.08782726
+MAE: 1.68303483
+
+=> Model ARIMA lat: [-32], lon: [332]
+RMSE: 1.51950485
+MAE: 1.26059922
+
+=> Model ARIMA lat: [-28], lon: [328]
+RMSE: 1.15127108
+MAE: 1.11193783
+
+=> Model ARIMA lat: [-28], lon: [292]
+RMSE: 3.76320254
+MAE: 3.18066540
+
+=> Model ARIMA lat: [-30], lon: [320]
+RMSE: 1.54260803
+MAE: 1.44430484
+
+=> Model ARIMA lat: [-26], lon: [286]
+RMSE: 0.82016961
+MAE: 0.62616522
+
+=> Model ARIMA lat: [-30], lon: [288]
+RMSE: 1.71587164
+MAE: 1.63842010
+
+=> Model ARIMA lat: [-32], lon: [334]
+RMSE: 2.21689077
+MAE: 1.79208189
+
+=> Model ARIMA lat: [-24], lon: [326]
+RMSE: 0.35351260
+MAE: 0.29033331
+
+=> Model ARIMA lat: [-40], lon: [332]
+RMSE: 2.40349147
+MAE: 2.14147020
+
+=> Model ARIMA lat: [-22], lon: [280]
+RMSE: 2.01940030
+MAE: 1.76319245
+
+=> Model ARIMA lat: [-34], lon: [290]
+RMSE: 3.02522141
+MAE: 2.46201877
+
+=> Model ARIMA lat: [-26], lon: [300]
+RMSE: 5.13021360
+MAE: 4.33932501
+
+=> Model ARIMA lat: [-32], lon: [296]
+RMSE: 4.85550572
+MAE: 4.00263320
+
+=> Model ARIMA lat: [-26], lon: [338]
+RMSE: 0.40470448
+MAE: 0.34558737
+
+=> Model ARIMA lat: [-32], lon: [280]
+RMSE: 1.19536170
+MAE: 1.01478864
+
+=> Model ARIMA lat: [-36], lon: [300]
+RMSE: 5.62787291
+MAE: 4.61977225
+
+=> Model ARIMA lat: [-28], lon: [312]
+RMSE: 2.87263576
+MAE: 2.60847950
+
+=> Model ARIMA lat: [-34], lon: [324]
+RMSE: 2.49272445
+MAE: 2.06905173
+
+=> Model ARIMA lat: [-36], lon: [282]
+RMSE: 1.14349774
+MAE: 0.95509530
+
+=> Model ARIMA lat: [-38], lon: [314]
+RMSE: 2.44207321
+MAE: 2.30880563
+
+=> Model ARIMA lat: [-28], lon: [330]
+RMSE: 1.65343904
+MAE: 1.59828413
+
+=> Model ARIMA lat: [-26], lon: [288]
+RMSE: 0.71377863
+MAE: 0.61813294
+
+=> Model ARIMA lat: [-36], lon: [336]
+RMSE: 3.04495969
+MAE: 2.54559635
+
+=> Model ARIMA lat: [-34], lon: [308]
+RMSE: 3.61969502
+MAE: 3.40836015
+
+=> Model ARIMA lat: [-24], lon: [328]
+RMSE: 0.23148007
+MAE: 0.19529536
+
+=> Model ARIMA lat: [-38], lon: [330]
+RMSE: 2.59420505
+MAE: 2.20067740
+
+=> Model ARIMA lat: [-22], lon: [282]
+RMSE: 1.39313677
+MAE: 1.21463831
+
+=> Model ARIMA lat: [-36], lon: [318]
+RMSE: 2.07126781
+MAE: 1.62984110
+
+=> Model ARIMA lat: [-26], lon: [340]
+RMSE: 0.61374519
+MAE: 0.48314954
+
+=> Model ARIMA lat: [-24], lon: [290]
+RMSE: 4.40303230
+MAE: 3.85756303
+
+=> Model ARIMA lat: [-32], lon: [282]
+RMSE: 1.94809626
+MAE: 1.77425279
+
+=> Model ARIMA lat: [-34], lon: [310]
+RMSE: 3.58903296
+MAE: 3.22850835
+
+=> Model ARIMA lat: [-32], lon: [314]
+RMSE: 1.46463071
+MAE: 1.24806361
+
+=> Model ARIMA lat: [-24], lon: [308]
+RMSE: 1.61371475
+MAE: 1.31405083
+
+=> Model ARIMA lat: [-30], lon: [304]
+RMSE: 5.29134809
+MAE: 4.72850924
+
+=> Model ARIMA lat: [-30], lon: [340]
+RMSE: 1.68248172
+MAE: 1.45742016
+
+=> Model ARIMA lat: [-22], lon: [298]
+RMSE: 4.01665049
+MAE: 3.41825618
+
+=> Model ARIMA lat: [-24], lon: [330]
+RMSE: 0.25778540
+MAE: 0.18768985
+
+=> Model ARIMA lat: [-26], lon: [320]
+RMSE: 0.85886094
+MAE: 0.79249784
+
+=> Model ARIMA lat: [-22], lon: [284]
+RMSE: 1.72094336
+MAE: 1.46126047
+
+=> Model ARIMA lat: [-28], lon: [294]
+RMSE: 3.40242849
+MAE: 2.66106747
+
+=> Model ARIMA lat: [-24], lon: [278]
+RMSE: 0.82880506
+MAE: 0.68767840
+
+=> Model ARIMA lat: [-32], lon: [284]
+RMSE: 2.43391466
+MAE: 2.37327366
+
+=> Model ARIMA lat: [-32], lon: [336]
+RMSE: 1.91271139
+MAE: 1.57186502
+
+=> Model ARIMA lat: [-30], lon: [290]
+RMSE: 3.34751703
+MAE: 2.81070187
+
+=> Model ARIMA lat: [-32], lon: [298]
+RMSE: 5.40830520
+MAE: 4.46941601
+
+=> Model ARIMA lat: [-30], lon: [322]
+RMSE: 1.17528240
+MAE: 1.08365218
+
+=> Model ARIMA lat: [-36], lon: [284]
+RMSE: 1.43047165
+MAE: 1.29465018
+
+=> Model ARIMA lat: [-22], lon: [316]
+RMSE: 2.19588610
+MAE: 1.92888789
+
+=> Model ARIMA lat: [-36], lon: [302]
+RMSE: 5.97462828
+MAE: 4.80618557
+
+=> Model ARIMA lat: [-38], lon: [316]
+RMSE: 2.41534036
+MAE: 2.26577785
+
+=> Model ARIMA lat: [-28], lon: [278]
+RMSE: 2.09011780
+MAE: 1.71643449
+
+=> Model ARIMA lat: [-34], lon: [326]
+RMSE: 2.28527268
+MAE: 1.89386549
+
+=> Model ARIMA lat: [-28], lon: [314]
+RMSE: 1.12453675
+MAE: 0.85886932
+
+=> Model ARIMA lat: [-26], lon: [302]
+RMSE: 4.67568184
+MAE: 3.82689941
+
+=> Model ARIMA lat: [-34], lon: [292]
+RMSE: 4.65705605
+MAE: 3.90217969
+
+=> Model ARIMA lat: [-24], lon: [332]
+RMSE: 0.51045953
+MAE: 0.47119561
+
+=> Model ARIMA lat: [-22], lon: [286]
+RMSE: 1.82336831
+MAE: 1.57484300
+
+=> Model ARIMA lat: [-36], lon: [338]
+RMSE: 3.07762332
+MAE: 2.62892747
+
+=> Model ARIMA lat: [-32], lon: [286]
+RMSE: 2.34567444
+MAE: 2.31383411
+
+=> Model ARIMA lat: [-26], lon: [290]
+RMSE: 3.84713742
+MAE: 3.38158422
+
+=> Model ARIMA lat: [-36], lon: [286]
+RMSE: 2.43130271
+MAE: 2.34758501
+
+=> Model ARIMA lat: [-24], lon: [280]
+RMSE: 1.23751700
+MAE: 1.06559644
+
+=> Model ARIMA lat: [-28], lon: [332]
+RMSE: 1.25920281
+MAE: 1.21969959
+
+=> Model ARIMA lat: [-32], lon: [316]
+RMSE: 1.20459484
+MAE: 0.93684526
+
+=> Model ARIMA lat: [-28], lon: [280]
+RMSE: 1.88124514
+MAE: 1.47010839
+
+=> Model ARIMA lat: [-38], lon: [332]
+RMSE: 2.60998845
+MAE: 2.15825502
+
+=> Model ARIMA lat: [-36], lon: [320]
+RMSE: 2.18329974
+MAE: 1.87491031
+
+=> Model ARIMA lat: [-30], lon: [306]
+RMSE: 5.24754100
+MAE: 4.77113767
+
+=> Model ARIMA lat: [-36], lon: [304]
+RMSE: 4.47711652
+MAE: 4.28072964
+
+=> Model ARIMA lat: [-24], lon: [334]
+RMSE: 0.32769506
+MAE: 0.25828634
+
+=> Model ARIMA lat: [-22], lon: [288]
+RMSE: 1.66124959
+MAE: 1.45912062
+
+=> Model ARIMA lat: [-24], lon: [292]
+RMSE: 4.38406958
+MAE: 3.59297824
+
+=> Model ARIMA lat: [-28], lon: [334]
+RMSE: 1.18557437
+MAE: 1.12015163
+
+=> Model ARIMA lat: [-34], lon: [312]
+RMSE: 2.43831890
+MAE: 2.06549370
+
+=> Model ARIMA lat: [-24], lon: [282]
+RMSE: 1.83637669
+MAE: 1.58958112
+
+=> Model ARIMA lat: [-24], lon: [310]
+RMSE: 2.01637722
+MAE: 1.79520926
+
+=> Model ARIMA lat: [-22], lon: [300]
+RMSE: 5.10329012
+MAE: 4.22074329
+
+=> Model ARIMA lat: [-28], lon: [296]
+RMSE: 4.11095290
+MAE: 3.15351782
+
+=> Model ARIMA lat: [-28], lon: [282]
+RMSE: 0.92899789
+MAE: 0.69977722
+
+=> Model ARIMA lat: [-32], lon: [300]
+RMSE: 4.67064738
+MAE: 3.81374597
+
+=> Model ARIMA lat: [-24], lon: [336]
+RMSE: 0.50308074
+MAE: 0.40818035
+
+=> Model ARIMA lat: [-32], lon: [338]
+RMSE: 1.83889234
+MAE: 1.57859668
+
+=> Model ARIMA lat: [-28], lon: [336]
+RMSE: 1.16957326
+MAE: 1.09424623
+
+=> Model ARIMA lat: [-30], lon: [292]
+RMSE: 4.16055330
+MAE: 3.61809956
+
+=> Model ARIMA lat: [-26], lon: [322]
+RMSE: 0.80954512
+MAE: 0.72905455
+
+=> Model ARIMA lat: [-34], lon: [328]
+RMSE: 2.33796264
+MAE: 1.92492025
+
+=> Model ARIMA lat: [-38], lon: [318]
+RMSE: 2.51779984
+MAE: 2.24446963
+
+=> Model ARIMA lat: [-30], lon: [324]
+RMSE: 1.03031611
+MAE: 0.93233914
+
+=> Model ARIMA lat: [-28], lon: [316]
+RMSE: 0.70077128
+MAE: 0.53112243
+
+=> Model ARIMA lat: [-26], lon: [304]
+RMSE: 3.94332317
+MAE: 3.28274647
+
+=> Model ARIMA lat: [-24], lon: [284]
+RMSE: 1.71922943
+MAE: 1.43736352
+
+=> Model ARIMA lat: [-22], lon: [318]
+RMSE: 3.53619086
+MAE: 2.95063763
+
+=> Model ARIMA lat: [-34], lon: [294]
+RMSE: 4.39717214
+MAE: 3.67071951
+
+=> Model ARIMA lat: [-36], lon: [340]
+RMSE: 3.04467432
+MAE: 2.63264224
+
+=> Model ARIMA lat: [-28], lon: [284]
+RMSE: 0.45618007
+MAE: 0.34010622
+
+=> Model ARIMA lat: [-32], lon: [288]
+RMSE: 2.18661616
+MAE: 2.12463707
+
+=> Model ARIMA lat: [-36], lon: [288]
+RMSE: 6.49608854
+MAE: 5.57137558
+
+=> Model ARIMA lat: [-28], lon: [338]
+RMSE: 1.40691080
+MAE: 1.31222353
+
+=> Model ARIMA lat: [-24], lon: [338]
+RMSE: 0.64655106
+MAE: 0.55885523
+
+=> Model ARIMA lat: [-36], lon: [306]
+RMSE: 3.11386425
+MAE: 2.93068212
+
+=> Model ARIMA lat: [-26], lon: [324]
+RMSE: 1.25406456
+MAE: 1.19939438
+
+=> Model ARIMA lat: [-32], lon: [318]
+RMSE: 1.81190402
+MAE: 1.55703406
+
+=> Model ARIMA lat: [-38], lon: [334]
+RMSE: 2.52446357
+MAE: 2.16328303
+
+=> Model ARIMA lat: [-26], lon: [292]
+RMSE: 5.63809948
+MAE: 4.93012597
+
+=> Model ARIMA lat: [-22], lon: [320]
+RMSE: 0.60285895
+MAE: 0.54333027
+
+=> Model ARIMA lat: [-24], lon: [286]
+RMSE: 1.72986080
+MAE: 1.52734036
+
+=> Model ARIMA lat: [-28], lon: [286]
+RMSE: 0.45288412
+MAE: 0.37449474
+
+=> Model ARIMA lat: [-30], lon: [308]
+RMSE: 5.24568485
+MAE: 4.46055159
+
+=> Model ARIMA lat: [-36], lon: [322]
+RMSE: 2.72780266
+MAE: 2.38887618
+
+=> Model ARIMA lat: [-22], lon: [290]
+RMSE: 4.71282319
+MAE: 4.10174536
+
+=> Model ARIMA lat: [-24], lon: [294]
+RMSE: 3.91093428
+MAE: 3.14599203
+
+=> Model ARIMA lat: [-28], lon: [340]
+RMSE: 1.24140096
+MAE: 1.06548012
+
+=> Model ARIMA lat: [-24], lon: [340]
+RMSE: 0.35079355
+MAE: 0.27922728
+
+=> Model ARIMA lat: [-26], lon: [326]
+RMSE: 0.93050459
+MAE: 0.87455759
+
+=> Model ARIMA lat: [-28], lon: [298]
+RMSE: 4.86160951
+MAE: 4.07435225
+
+=> Model ARIMA lat: [-32], lon: [302]
+RMSE: 4.50657698
+MAE: 3.64778706
+
+=> Model ARIMA lat: [-34], lon: [314]
+RMSE: 1.56270367
+MAE: 1.32657871
+
+=> Model ARIMA lat: [-22], lon: [322]
+RMSE: 0.58132101
+MAE: 0.53997461
+
+=> Model ARIMA lat: [-24], lon: [312]
+RMSE: 2.09285007
+MAE: 1.85300470
+
+=> Model ARIMA lat: [-22], lon: [302]
+RMSE: 3.74902762
+MAE: 2.99421268
+
+=> Model ARIMA lat: [-34], lon: [330]
+RMSE: 2.44147611
+MAE: 2.02618244
+
+=> Model ARIMA lat: [-38], lon: [320]
+RMSE: 2.60529903
+MAE: 2.27720592
+
+=> Model ARIMA lat: [-32], lon: [340]
+RMSE: 1.89917458
+MAE: 1.72125778
+
+=> Model ARIMA lat: [-26], lon: [278]
+RMSE: 1.36632510
+MAE: 0.96921737
+
+=> Model ARIMA lat: [-30], lon: [294]
+RMSE: 4.32835919
+MAE: 3.54749804
+
+=> Model ARIMA lat: [-26], lon: [306]
+RMSE: 2.13677865
+MAE: 1.71978447
+
+=> Model ARIMA lat: [-30], lon: [310]
+RMSE: 2.44896021
+MAE: 1.92707230
+
+=> Model ARIMA lat: [-26], lon: [328]
+RMSE: 0.65973286
+MAE: 0.58496765
+
+=> Model ARIMA lat: [-34], lon: [296]
+RMSE: 4.29360729
+MAE: 3.57972909
+
+=> Model ARIMA lat: [-28], lon: [288]
+RMSE: 0.78521639
+MAE: 0.69409146
+
+=> Model ARIMA lat: [-22], lon: [278]
+RMSE: 1.16359252
+MAE: 0.97610240
+
+=> Model ARIMA lat: [-34], lon: [278]
+RMSE: 0.54369381
+MAE: 0.45411692
+
+=> Model ARIMA lat: [-36], lon: [290]
+RMSE: 4.61763445
+MAE: 4.02487051
+
+=> Model ARIMA lat: [-22], lon: [324]
+RMSE: 0.45370498
+MAE: 0.38716959
+
+=> Model ARIMA lat: [-28], lon: [318]
+RMSE: 1.18590174
+MAE: 1.10196204
+
+=> Model ARIMA lat: [-32], lon: [290]
+RMSE: 4.08413749
+MAE: 3.54482957
+
+=> Model ARIMA lat: [-30], lon: [278]
+RMSE: 1.34520850
+MAE: 1.15307926
+
+=> Model ARIMA lat: [-26], lon: [280]
+RMSE: 1.57688815
+MAE: 1.42647648
+
+=> Model ARIMA lat: [-38], lon: [336]
+RMSE: 2.61266238
+MAE: 2.20345060
+
+=> Model ARIMA lat: [-36], lon: [308]
+RMSE: 2.52303145
+MAE: 2.41970249
+
+=> Model ARIMA lat: [-32], lon: [320]
+RMSE: 1.27957310
+MAE: 0.99792971
+
+=> Model ARIMA lat: [-26], lon: [330]
+RMSE: 0.56183246
+MAE: 0.51401349
+
+=> Model ARIMA lat: [-30], lon: [326]
+RMSE: 1.56374429
+MAE: 1.47044011
+
+=> Model ARIMA lat: [-24], lon: [314]
+RMSE: 1.28766919
+MAE: 0.99495061
+
+=> Model ARIMA lat: [-24], lon: [288]
+RMSE: 1.28126935
+MAE: 1.09375708
+
+=> Model ARIMA lat: [-26], lon: [294]
+RMSE: 3.29292329
+MAE: 2.72553384
+
+=> Model ARIMA lat: [-22], lon: [334]
+RMSE: 0.39774539
+MAE: 0.32399654
+
+=> Model ARIMA lat: [-36], lon: [324]
+RMSE: 2.68111267
+MAE: 2.25161254
+
+=> Model ARIMA lat: [-34], lon: [280]
+RMSE: 0.45910836
+MAE: 0.35356057
+
+=> Model ARIMA lat: [-22], lon: [326]
+RMSE: 0.22568762
+MAE: 0.19013006
+
+=> Model ARIMA lat: [-22], lon: [292]
+RMSE: 3.85198429
+MAE: 3.15508198
+
+=> Model ARIMA lat: [-30], lon: [280]
+RMSE: 2.17115627
+MAE: 1.96178864
+
+=> Model ARIMA lat: [-24], lon: [296]
+RMSE: 3.57839454
+MAE: 2.84262884
+
+=> Model ARIMA lat: [-28], lon: [300]
+RMSE: 3.72006198
+MAE: 3.07916000
+
+=> Model ARIMA lat: [-32], lon: [304]
+RMSE: 5.44955285
+MAE: 4.43676471
+
+=> Model ARIMA lat: [-20], lon: [288]
+RMSE: 0.76280703
+MAE: 0.63632229
+
+=> Model ARIMA lat: [-26], lon: [332]
+RMSE: 0.42321836
+MAE: 0.32768100
+
+=> Model ARIMA lat: [-34], lon: [332]
+RMSE: 2.45985655
+MAE: 1.94727469
+
+=> Model ARIMA lat: [-24], lon: [316]
+RMSE: 0.85907578
+MAE: 0.71790991
+
+=> Model ARIMA lat: [-38], lon: [322]
+RMSE: 2.65597864
+MAE: 2.32511461
+
+=> Model ARIMA lat: [-26], lon: [308]
+RMSE: 1.41393146
+MAE: 1.20709384
+
+=> Model ARIMA lat: [-34], lon: [282]
+RMSE: 1.04909296
+MAE: 0.96561280
+
+=> Model ARIMA lat: [-22], lon: [304]
+RMSE: 1.99203241
+MAE: 1.72290430
+
+=> Model ARIMA lat: [-22], lon: [336]
+RMSE: 0.51233110
+MAE: 0.42705602
+
+=> Model ARIMA lat: [-34], lon: [316]
+RMSE: 2.71523747
+MAE: 2.14271357
+
+=> Model ARIMA lat: [-30], lon: [282]
+RMSE: 1.95658972
+MAE: 1.85200048
+
+=> Model ARIMA lat: [-28], lon: [290]
+RMSE: 3.46814433
+MAE: 2.97599740
+
+=> Model ARIMA lat: [-30], lon: [312]
+RMSE: 1.88555157
+MAE: 1.34677710
+
+=> Model ARIMA lat: [-22], lon: [328]
+RMSE: 0.21303219
+MAE: 0.16864176
+
+=> Model ARIMA lat: [-30], lon: [296]
+RMSE: 4.49376000
+MAE: 3.81998618
+
+=> Model ARIMA lat: [-34], lon: [298]
+RMSE: 4.31177890
+MAE: 3.51267400
+
+=> Model ARIMA lat: [-36], lon: [292]
+RMSE: 5.49913198
+MAE: 4.67705218
+
+=> Model ARIMA lat: [-26], lon: [334]
+RMSE: 0.42930021
+MAE: 0.33673181
+
+=> Model ARIMA lat: [-24], lon: [318]
+RMSE: 0.42755369
+MAE: 0.34612262
+
+=> Model ARIMA lat: [-20], lon: [324]
+RMSE: 0.47621337
+MAE: 0.42618748
+
+=> Model ARIMA lat: [-32], lon: [292]
+RMSE: 4.48225072
+MAE: 3.78716459
+
+=> Model ARIMA lat: [-30], lon: [328]
+RMSE: 1.92392854
+MAE: 1.84106583
+
+=> Model ARIMA lat: [-38], lon: [338]
+RMSE: 2.63585304
+MAE: 2.17123088
+
+=> Model ARIMA lat: [-18], lon: [278]
+RMSE: 0.66653012
+MAE: 0.55849763
+
+=> Model ARIMA lat: [-22], lon: [338]
+RMSE: 0.96752097
+MAE: 0.89932762
+
+=> Model ARIMA lat: [-34], lon: [284]
+RMSE: 1.94105535
+MAE: 1.90161306
+
+=> Model ARIMA lat: [-22], lon: [330]
+RMSE: 0.58485817
+MAE: 0.53192960
+
+=> Model ARIMA lat: [-32], lon: [322]
+RMSE: 0.80408115
+MAE: 0.61784319
+
+=> Model ARIMA lat: [-28], lon: [320]
+RMSE: 1.43685295
+MAE: 1.38954658
+
+=> Model ARIMA lat: [-32], lon: [306]
+RMSE: 7.86290782
+MAE: 6.94185041
+
+=> Model ARIMA lat: [-36], lon: [326]
+RMSE: 2.78072031
+MAE: 2.27289204
+
+=> Model ARIMA lat: [-36], lon: [310]
+RMSE: 3.11150588
+MAE: 2.98109019
+
+=> Model ARIMA lat: [-32], lon: [324]
+RMSE: 0.85607306
+MAE: 0.70859875
+
+=> Model ARIMA lat: [-26], lon: [296]
+RMSE: 4.27564204
+MAE: 3.23070313
+
+=> Model ARIMA lat: [-24], lon: [320]
+RMSE: 0.66368217
+MAE: 0.62298485
+
+=> Model ARIMA lat: [-20], lon: [326]
+RMSE: 0.33149796
+MAE: 0.28883742
+
+=> Model ARIMA lat: [-18], lon: [332]
+RMSE: 0.51409132
+MAE: 0.42028221
+
+=> Model ARIMA lat: [-36], lon: [312]
+RMSE: 3.15678654
+MAE: 3.06987913
+
+=> Model ARIMA lat: [-20], lon: [306]
+RMSE: 2.08774582
+MAE: 1.78673873
+
+=> Model ARIMA lat: [-32], lon: [308]
+RMSE: 4.60310632
+MAE: 4.06779529
+
+=> Model ARIMA lat: [-22], lon: [294]
+RMSE: 4.47407057
+MAE: 3.61584530
+
+=> Model ARIMA lat: [-18], lon: [280]
+RMSE: 0.66482422
+MAE: 0.47710365
+
+=> Model ARIMA lat: [-20], lon: [290]
+RMSE: 2.61480917
+MAE: 2.27510644
+
+=> Model ARIMA lat: [-34], lon: [334]
+RMSE: 2.62699474
+MAE: 2.15849708
+
+=> Model ARIMA lat: [-28], lon: [302]
+RMSE: 2.75787561
+MAE: 2.23711544
+
+=> Model ARIMA lat: [-22], lon: [340]
+RMSE: 0.82015164
+MAE: 0.78043128
+
+=> Model ARIMA lat: [-24], lon: [298]
+RMSE: 4.46220318
+MAE: 3.64987790
+
+=> Model ARIMA lat: [-22], lon: [332]
+RMSE: 0.41765672
+MAE: 0.35017278
+
+## lat: [-20], lon: [308] error: LU decomposition error.
+
+=> Model ARIMA lat: [-26], lon: [310]
+RMSE: 1.76718449
+MAE: 1.47090640
+
+=> Model ARIMA lat: [-18], lon: [296]
+RMSE: 3.00835037
+MAE: 2.25385806
+
+=> Model ARIMA lat: [-24], lon: [322]
+RMSE: 0.61235613
+MAE: 0.56500324
+
+=> Model ARIMA lat: [-20], lon: [328]
+RMSE: 0.29751684
+MAE: 0.25253992
+
+=> Model ARIMA lat: [-36], lon: [294]
+RMSE: 4.87565132
+MAE: 4.11622704
+
+=> Model ARIMA lat: [-30], lon: [298]
+RMSE: 4.87352075
+MAE: 4.02108945
+
+=> Model ARIMA lat: [-26], lon: [312]
+RMSE: 1.71896872
+MAE: 1.19643664
+
+=> Model ARIMA lat: [-34], lon: [300]
+RMSE: 5.09082122
+MAE: 4.11728646
+
+=> Model ARIMA lat: [-22], lon: [306]
+RMSE: 2.14343565
+MAE: 1.79920591
+
+=> Model ARIMA lat: [-34], lon: [318]
+RMSE: 2.33141235
+MAE: 2.04368245
+
+=> Model ARIMA lat: [-18], lon: [334]
+RMSE: 0.32982265
+MAE: 0.26644799
+
+=> Model ARIMA lat: [-18], lon: [282]
+RMSE: 0.80062035
+MAE: 0.70544290
+
+=> Model ARIMA lat: [-30], lon: [330]
+RMSE: 2.14280456
+MAE: 2.06632191
+
+=> Model ARIMA lat: [-16], lon: [322]
+RMSE: 0.48017643
+MAE: 0.38290687
+
+=> Model ARIMA lat: [-18], lon: [314]
+RMSE: 2.43738224
+MAE: 2.08282190
+
+=> Model ARIMA lat: [-20], lon: [278]
+RMSE: 1.26265139
+MAE: 1.03543021
+
+=> Model ARIMA lat: [-16], lon: [286]
+RMSE: 1.17674906
+MAE: 1.00834077
+
+=> Model ARIMA lat: [-38], lon: [340]
+RMSE: 2.52484189
+MAE: 2.06796234
+
+=> Model ARIMA lat: [-24], lon: [324]
+RMSE: 0.62355626
+MAE: 0.58435506
+
+=> Model ARIMA lat: [-30], lon: [314]
+RMSE: 1.53153613
+MAE: 1.36567666
+
+=> Model ARIMA lat: [-20], lon: [330]
+RMSE: 0.38976768
+MAE: 0.32627837
+
+=> Model ARIMA lat: [-16], lon: [340]
+RMSE: 0.58924956
+MAE: 0.50104615
+
+=> Model ARIMA lat: [-26], lon: [314]
+RMSE: 1.23814270
+MAE: 1.05350416
+
+=> Model ARIMA lat: [-36], lon: [328]
+RMSE: 2.88231675
+MAE: 2.36135175
+
+=> Model ARIMA lat: [-18], lon: [284]
+RMSE: 0.99320853
+MAE: 0.83473487
+
+=> Model ARIMA lat: [-18], lon: [336]
+RMSE: 0.47801222
+MAE: 0.39687397
+
+=> Model ARIMA lat: [-28], lon: [322]
+RMSE: 1.16283871
+MAE: 1.07821751
+
+=> Model ARIMA lat: [-16], lon: [324]
+RMSE: 0.27139137
+MAE: 0.22276207
+
+=> Model ARIMA lat: [-32], lon: [310]
+RMSE: 2.12575193
+MAE: 1.65461799
+
+=> Model ARIMA lat: [-32], lon: [326]
+RMSE: 2.75439147
+MAE: 2.55661193
+
+=> Model ARIMA lat: [-26], lon: [298]
+RMSE: 4.83564479
+MAE: 3.99176047
+
+=> Model ARIMA lat: [-16], lon: [304]
+RMSE: 3.92013649
+MAE: 3.21122661
+
+=> Model ARIMA lat: [-34], lon: [336]
+RMSE: 2.56815029
+MAE: 2.15837707
+
+=> Model ARIMA lat: [-20], lon: [280]
+RMSE: 1.48122874
+MAE: 1.14374210
+
+=> Model ARIMA lat: [-20], lon: [332]
+RMSE: 0.28362007
+MAE: 0.21264674
+
+=> Model ARIMA lat: [-20], lon: [292]
+RMSE: 5.79883861
+MAE: 5.02057188
+
+=> Model ARIMA lat: [-32], lon: [328]
+RMSE: 1.38865527
+MAE: 1.18696273
+
+=> Model ARIMA lat: [-22], lon: [296]
+RMSE: 3.59591857
+MAE: 2.94583661
+
+=> Model ARIMA lat: [-14], lon: [278]
+RMSE: 0.90198336
+MAE: 0.71645481
+
+=> Model ARIMA lat: [-28], lon: [304]
+RMSE: 3.96094068
+MAE: 3.47288337
+
+=> Model ARIMA lat: [-18], lon: [298]
+RMSE: 4.12923642
+MAE: 3.23505104
+
+=> Model ARIMA lat: [-24], lon: [300]
+RMSE: 5.55507385
+MAE: 4.54986980
+
+=> Model ARIMA lat: [-18], lon: [286]
+RMSE: 0.73340938
+MAE: 0.60719871
+
+=> Model ARIMA lat: [-30], lon: [300]
+RMSE: 3.78622548
+MAE: 3.00794743
+
+=> Model ARIMA lat: [-20], lon: [310]
+RMSE: 2.28593596
+MAE: 1.96548821
+
+=> Model ARIMA lat: [-34], lon: [302]
+RMSE: 5.14640014
+MAE: 4.18571438
+
+=> Model ARIMA lat: [-18], lon: [338]
+RMSE: 0.52441526
+MAE: 0.44836499
+
+=> Model ARIMA lat: [-14], lon: [330]
+RMSE: 0.49655357
+MAE: 0.36790121
+
+=> Model ARIMA lat: [-16], lon: [326]
+RMSE: 0.21654358
+MAE: 0.17557077
+
+=> Model ARIMA lat: [-20], lon: [282]
+RMSE: 1.12305972
+MAE: 0.87076142
+
+=> Model ARIMA lat: [-20], lon: [334]
+RMSE: 0.41778893
+MAE: 0.36249891
+
+=> Model ARIMA lat: [-22], lon: [308]
+RMSE: 1.86351341
+MAE: 1.57569143
+
+=> Model ARIMA lat: [-18], lon: [316]
+RMSE: 2.93953487
+MAE: 2.56133746
+
+=> Model ARIMA lat: [-34], lon: [320]
+RMSE: 1.79785730
+MAE: 1.53563117
+
+=> Model ARIMA lat: [-16], lon: [288]
+RMSE: 2.76155290
+MAE: 2.30831860
+
+=> Model ARIMA lat: [-14], lon: [294]
+RMSE: 3.28410979
+MAE: 2.44831983
+
+=> Model ARIMA lat: [-14], lon: [280]
+RMSE: 1.28192855
+MAE: 1.13342524
+
+=> Model ARIMA lat: [-18], lon: [288]
+RMSE: 0.51963093
+MAE: 0.43537272
+
+=> Model ARIMA lat: [-30], lon: [332]
+RMSE: 2.03860665
+MAE: 1.96856528
+
+=> Model ARIMA lat: [-30], lon: [316]
+RMSE: 1.58640643
+MAE: 1.33729584
+
+## lat: [-18], lon: [290] error: LU decomposition error.
+
+=> Model ARIMA lat: [-12], lon: [338]
+RMSE: 0.49253616
+MAE: 0.41405876
+
+=> Model ARIMA lat: [-14], lon: [312]
+RMSE: 3.00143845
+MAE: 2.63456745
+
+=> Model ARIMA lat: [-26], lon: [316]
+RMSE: 0.68744867
+MAE: 0.60572455
+
+=> Model ARIMA lat: [-14], lon: [332]
+RMSE: 0.41551896
+MAE: 0.31839235
+
+=> Model ARIMA lat: [-16], lon: [328]
+RMSE: 0.32274977
+MAE: 0.26074512
+
+=> Model ARIMA lat: [-20], lon: [336]
+RMSE: 0.34767760
+MAE: 0.29734651
+
+=> Model ARIMA lat: [-36], lon: [330]
+RMSE: 3.13757963
+MAE: 2.56033510
+
+=> Model ARIMA lat: [-20], lon: [284]
+RMSE: 1.22872486
+MAE: 1.01069067
+
+=> Model ARIMA lat: [-14], lon: [282]
+RMSE: 1.37026603
+MAE: 1.22169630
+
+=> Model ARIMA lat: [-34], lon: [338]
+RMSE: 2.60303406
+MAE: 2.23411726
+
+=> Model ARIMA lat: [-12], lon: [284]
+RMSE: 3.59339030
+MAE: 2.82875681
+
+=> Model ARIMA lat: [-20], lon: [294]
+RMSE: 3.84321262
+MAE: 2.98910731
+
+=> Model ARIMA lat: [-28], lon: [324]
+RMSE: 1.27306868
+MAE: 1.21063547
+
+=> Model ARIMA lat: [-12], lon: [302]
+RMSE: 3.76155982
+MAE: 2.62647212
+
+=> Model ARIMA lat: [-18], lon: [300]
+RMSE: 3.64824843
+MAE: 3.02683653
+
+=> Model ARIMA lat: [-16], lon: [306]
+RMSE: 3.01453242
+MAE: 2.56669123
+
+=> Model ARIMA lat: [-12], lon: [340]
+RMSE: 0.39188767
+MAE: 0.32578476
+
+=> Model ARIMA lat: [-28], lon: [306]
+RMSE: 2.29542251
+MAE: 1.91217867
+
+=> Model ARIMA lat: [-10], lon: [328]
+RMSE: 0.46267505
+MAE: 0.41331076
+
+=> Model ARIMA lat: [-14], lon: [334]
+RMSE: 0.42315228
+MAE: 0.32086659
+
+=> Model ARIMA lat: [-20], lon: [338]
+RMSE: 0.37218281
+MAE: 0.30124532
+
+=> Model ARIMA lat: [-12], lon: [320]
+RMSE: 4.28195617
+MAE: 3.83975117
+
+=> Model ARIMA lat: [-16], lon: [330]
+RMSE: 0.32993846
+MAE: 0.26826347
+
+=> Model ARIMA lat: [-24], lon: [302]
+RMSE: 6.42524435
+MAE: 5.46557807
+
+=> Model ARIMA lat: [-20], lon: [286]
+RMSE: 1.35536153
+MAE: 1.13701958
+
+=> Model ARIMA lat: [-18], lon: [340]
+RMSE: 0.40684250
+MAE: 0.30935064
+
+=> Model ARIMA lat: [-20], lon: [312]
+RMSE: 3.35497942
+MAE: 2.81420132
+
+=> Model ARIMA lat: [-16], lon: [290]
+RMSE: 4.29709624
+MAE: 3.64433106
+
+=> Model ARIMA lat: [-14], lon: [296]
+RMSE: 3.78532699
+MAE: 2.90743999
+
+=> Model ARIMA lat: [-18], lon: [318]
+RMSE: 3.99580053
+MAE: 3.43658265
+
+=> Model ARIMA lat: [-10], lon: [292]
+RMSE: 2.76164745
+MAE: 1.94197909
+
+=> Model ARIMA lat: [-20], lon: [340]
+RMSE: 0.36855394
+MAE: 0.30214837
+
+=> Model ARIMA lat: [-10], lon: [310]
+RMSE: 3.14362319
+MAE: 2.61351848
+
+=> Model ARIMA lat: [-10], lon: [330]
+RMSE: 0.37568409
+MAE: 0.32831322
+
+=> Model ARIMA lat: [-18], lon: [292]
+RMSE: 4.42907651
+MAE: 3.47397427
+
+=> Model ARIMA lat: [-14], lon: [336]
+RMSE: 0.52461451
+MAE: 0.45756990
+
+=> Model ARIMA lat: [-10], lon: [278]
+RMSE: 0.60716896
+MAE: 0.51228991
+
+=> Model ARIMA lat: [-22], lon: [310]
+RMSE: 2.04233885
+MAE: 1.74177643
+
+=> Model ARIMA lat: [-16], lon: [332]
+RMSE: 0.36596585
+MAE: 0.29975399
+
+=> Model ARIMA lat: [-30], lon: [334]
+RMSE: 1.97063674
+MAE: 1.85792570
+
+=> Model ARIMA lat: [-14], lon: [314]
+RMSE: 2.44519442
+MAE: 2.03197207
+
+=> Model ARIMA lat: [-30], lon: [318]
+RMSE: 1.31822139
+MAE: 1.08935881
+
+=> Model ARIMA lat: [-14], lon: [284]
+RMSE: 3.24887490
+MAE: 2.57123079
+
+=> Model ARIMA lat: [-16], lon: [278]
+RMSE: 0.52606576
+MAE: 0.45931562
+
+=> Model ARIMA lat: [-8], lon: [282]
+RMSE: 2.80725502
+MAE: 2.35731440
+
+=> Model ARIMA lat: [-8], lon: [336]
+RMSE: 0.54839962
+MAE: 0.46121022
+
+=> Model ARIMA lat: [-20], lon: [296]
+RMSE: 3.02094601
+MAE: 2.36301123
+
+=> Model ARIMA lat: [-8], lon: [300]
+RMSE: 4.20028132
+MAE: 3.62741370
+
+=> Model ARIMA lat: [-10], lon: [332]
+RMSE: 0.54362828
+MAE: 0.47618266
+
+=> Model ARIMA lat: [-14], lon: [338]
+RMSE: 0.52861724
+MAE: 0.41538825
+
+=> Model ARIMA lat: [-12], lon: [304]
+RMSE: 2.94776357
+MAE: 2.46206929
+
+=> Model ARIMA lat: [-28], lon: [326]
+RMSE: 1.02214819
+MAE: 0.96885947
+
+=> Model ARIMA lat: [-18], lon: [302]
+RMSE: 3.93771879
+MAE: 3.40471458
+
+=> Model ARIMA lat: [-16], lon: [334]
+RMSE: 0.39932295
+MAE: 0.31820192
+
+=> Model ARIMA lat: [-10], lon: [280]
+RMSE: 0.65840497
+MAE: 0.60837443
+
+=> Model ARIMA lat: [-16], lon: [308]
+RMSE: 3.23700228
+MAE: 2.78773663
+
+=> Model ARIMA lat: [-28], lon: [308]
+RMSE: 2.10799957
+MAE: 1.83530087
+
+=> Model ARIMA lat: [-12], lon: [322]
+RMSE: 2.80523246
+MAE: 2.33057083
+
+=> Model ARIMA lat: [-12], lon: [286]
+RMSE: 3.36684022
+MAE: 2.81200265
+
+=> Model ARIMA lat: [-16], lon: [280]
+RMSE: 0.75614288
+MAE: 0.66982045
+
+=> Model ARIMA lat: [-8], lon: [338]
+RMSE: 0.49201033
+MAE: 0.43227153
+
+=> Model ARIMA lat: [-16], lon: [292]
+RMSE: 1.27447441
+MAE: 0.97496431
+
+=> Model ARIMA lat: [-24], lon: [304]
+RMSE: 2.97865916
+MAE: 2.29373433
+
+=> Model ARIMA lat: [-10], lon: [334]
+RMSE: 0.58190265
+MAE: 0.52861100
+
+=> Model ARIMA lat: [-18], lon: [320]
+RMSE: 3.65275077
+MAE: 3.32665901
+
+=> Model ARIMA lat: [-14], lon: [340]
+RMSE: 0.39219406
+MAE: 0.32925528
+
+=> Model ARIMA lat: [-14], lon: [298]
+RMSE: 3.41865699
+MAE: 2.79652579
+
+=> Model ARIMA lat: [-20], lon: [314]
+RMSE: 1.78572241
+MAE: 1.47620182
+
+=> Model ARIMA lat: [-16], lon: [336]
+RMSE: 0.32630983
+MAE: 0.26512143
+
+=> Model ARIMA lat: [-8], lon: [318]
+RMSE: 4.00082210
+MAE: 3.43147674
+
+=> Model ARIMA lat: [-6], lon: [326]
+RMSE: 0.77226854
+MAE: 0.71036470
+
+=> Model ARIMA lat: [-18], lon: [294]
+RMSE: 5.29239267
+MAE: 3.90658789
+
+=> Model ARIMA lat: [-10], lon: [294]
+RMSE: 2.10275699
+MAE: 1.49930533
+
+=> Model ARIMA lat: [-12], lon: [324]
+RMSE: 0.41385416
+MAE: 0.33603845
+
+=> Model ARIMA lat: [-8], lon: [340]
+RMSE: 0.55640319
+MAE: 0.46321393
+
+=> Model ARIMA lat: [-10], lon: [312]
+RMSE: 2.69660053
+MAE: 2.00434060
+
+=> Model ARIMA lat: [-22], lon: [312]
+RMSE: 1.41366827
+MAE: 1.09735032
+
+=> Model ARIMA lat: [-14], lon: [286]
+RMSE: 4.78370558
+MAE: 3.95457746
+
+=> Model ARIMA lat: [-16], lon: [282]
+RMSE: 0.88464795
+MAE: 0.78648005
+
+=> Model ARIMA lat: [-6], lon: [290]
+RMSE: 2.98438581
+MAE: 2.19743510
+
+=> Model ARIMA lat: [-10], lon: [336]
+RMSE: 0.50834259
+MAE: 0.45156945
+
+=> Model ARIMA lat: [-18], lon: [322]
+RMSE: 0.47495051
+MAE: 0.40139312
+
+=> Model ARIMA lat: [-8], lon: [284]
+RMSE: 4.25807217
+MAE: 3.07748747
+
+=> Model ARIMA lat: [-30], lon: [336]
+RMSE: 1.36380270
+MAE: 1.13251136
+
+=> Model ARIMA lat: [-12], lon: [278]
+RMSE: 0.89215966
+MAE: 0.78537812
+
+=> Model ARIMA lat: [-8], lon: [302]
+RMSE: 3.84740444
+MAE: 3.22839720
+
+=> Model ARIMA lat: [-20], lon: [298]
+RMSE: 4.29456101
+MAE: 3.42775188
+
+=> Model ARIMA lat: [-14], lon: [316]
+RMSE: 4.29760423
+MAE: 3.81892012
+
+=> Model ARIMA lat: [-18], lon: [304]
+RMSE: 2.91237868
+MAE: 2.25235709
+
+=> Model ARIMA lat: [-16], lon: [338]
+RMSE: 0.34526953
+MAE: 0.27780218
+
+=> Model ARIMA lat: [-6], lon: [328]
+RMSE: 1.06757215
+MAE: 1.02785558
+
+=> Model ARIMA lat: [-16], lon: [310]
+RMSE: 2.22732870
+MAE: 1.85831132
+
+=> Model ARIMA lat: [-10], lon: [282]
+RMSE: 1.89132361
+MAE: 1.46299651
+
+=> Model ARIMA lat: [-12], lon: [326]
+RMSE: 0.53522325
+MAE: 0.46791019
+
+=> Model ARIMA lat: [-6], lon: [308]
+RMSE: 3.77302821
+MAE: 3.26092129
+
+=> Model ARIMA lat: [-6], lon: [278]
+RMSE: 0.35483122
+MAE: 0.29814780
+
+=> Model ARIMA lat: [-12], lon: [288]
+RMSE: 2.14158032
+MAE: 1.88486775
+
+=> Model ARIMA lat: [-16], lon: [284]
+RMSE: 0.75829447
+MAE: 0.63455768
+
+=> Model ARIMA lat: [-12], lon: [306]
+RMSE: 4.85864032
+MAE: 4.13396121
+
+=> Model ARIMA lat: [-10], lon: [338]
+RMSE: 0.42112937
+MAE: 0.36173405
+
+=> Model ARIMA lat: [-18], lon: [324]
+RMSE: 0.28322856
+MAE: 0.21963931
+
+=> Model ARIMA lat: [-16], lon: [294]
+RMSE: 3.99347741
+MAE: 2.99738855
+
+=> Model ARIMA lat: [-12], lon: [280]
+RMSE: 0.94217432
+MAE: 0.76331548
+
+=> Model ARIMA lat: [-14], lon: [300]
+RMSE: 3.68753473
+MAE: 3.12549192
+
+=> Model ARIMA lat: [-24], lon: [306]
+RMSE: 1.48944124
+MAE: 1.23520505
+
+=> Model ARIMA lat: [-6], lon: [330]
+RMSE: 0.58084190
+MAE: 0.51106123
+
+=> Model ARIMA lat: [-12], lon: [328]
+RMSE: 0.52715446
+MAE: 0.41311402
+
+=> Model ARIMA lat: [-4], lon: [280]
+RMSE: 3.79356236
+MAE: 3.13787062
+
+=> Model ARIMA lat: [-20], lon: [316]
+RMSE: 2.11922989
+MAE: 1.79527685
+
+=> Model ARIMA lat: [-4], lon: [334]
+RMSE: 0.46753962
+MAE: 0.37492967
+
+=> Model ARIMA lat: [-10], lon: [340]
+RMSE: 0.36345918
+MAE: 0.31361531
+
+=> Model ARIMA lat: [-8], lon: [320]
+RMSE: 4.64396704
+MAE: 3.90864481
+
+=> Model ARIMA lat: [-18], lon: [326]
+RMSE: 0.24423437
+MAE: 0.21053267
+
+=> Model ARIMA lat: [-10], lon: [296]
+RMSE: 2.35427893
+MAE: 1.84516614
+
+=> Model ARIMA lat: [-12], lon: [282]
+RMSE: 0.74370471
+MAE: 0.66209290
+
+=> Model ARIMA lat: [-22], lon: [314]
+RMSE: 2.15249973
+MAE: 1.78806906
+
+=> Model ARIMA lat: [-6], lon: [292]
+RMSE: 2.29441271
+MAE: 1.81972047
+
+=> Model ARIMA lat: [-8], lon: [286]
+RMSE: 2.53772530
+MAE: 2.10154520
+
+=> Model ARIMA lat: [-20], lon: [300]
+RMSE: 3.22163354
+MAE: 2.69658113
+
+=> Model ARIMA lat: [-10], lon: [314]
+RMSE: 2.77129869
+MAE: 2.35420735
+
+=> Model ARIMA lat: [-4], lon: [298]
+RMSE: 3.23277209
+MAE: 2.61388134
+
+=> Model ARIMA lat: [-8], lon: [304]
+RMSE: 3.12085941
+MAE: 2.70476200
+
+=> Model ARIMA lat: [-6], lon: [332]
+RMSE: 0.64523092
+MAE: 0.58205156
+
+=> Model ARIMA lat: [-14], lon: [288]
+RMSE: 4.72202702
+MAE: 3.93985697
+
+=> Model ARIMA lat: [-18], lon: [306]
+RMSE: 2.49003201
+MAE: 2.10163263
+
+=> Model ARIMA lat: [-12], lon: [330]
+RMSE: 0.44605418
+MAE: 0.35609772
+
+=> Model ARIMA lat: [-14], lon: [318]
+RMSE: 5.72766417
+MAE: 4.79574704
+
+=> Model ARIMA lat: [-10], lon: [284]
+RMSE: 1.32164166
+MAE: 1.00881444
+
+=> Model ARIMA lat: [-4], lon: [316]
+RMSE: 4.19994517
+MAE: 3.60865303
+
+=> Model ARIMA lat: [-16], lon: [312]
+RMSE: 1.76593039
+MAE: 1.56408035
+
+=> Model ARIMA lat: [-6], lon: [280]
+RMSE: 4.02388853
+MAE: 3.03216934
+
+=> Model ARIMA lat: [-18], lon: [328]
+RMSE: 0.34710845
+MAE: 0.27455421
+
+=> Model ARIMA lat: [-6], lon: [310]
+RMSE: 4.24774155
+MAE: 3.45254156
+
+=> Model ARIMA lat: [-12], lon: [308]
+RMSE: 4.52295132
+MAE: 3.90504333
+
+=> Model ARIMA lat: [-2], lon: [324]
+RMSE: 0.76320732
+MAE: 0.66774776
+
+=> Model ARIMA lat: [-16], lon: [296]
+RMSE: 4.29825110
+MAE: 3.70688436
+
+=> Model ARIMA lat: [-8], lon: [278]
+RMSE: 0.47664389
+MAE: 0.39499355
+
+=> Model ARIMA lat: [-12], lon: [290]
+RMSE: 4.72158626
+MAE: 4.07210632
+
+=> Model ARIMA lat: [-4], lon: [282]
+RMSE: 1.72842512
+MAE: 1.48966304
+
+=> Model ARIMA lat: [-4], lon: [336]
+RMSE: 0.47471611
+MAE: 0.43318112
+
+=> Model ARIMA lat: [-12], lon: [332]
+RMSE: 0.52380414
+MAE: 0.43153959
+
+=> Model ARIMA lat: [-14], lon: [302]
+RMSE: 2.84889867
+MAE: 2.33099337
+
+=> Model ARIMA lat: [-2], lon: [288]
+RMSE: 2.87219086
+MAE: 2.10182772
+
+=> Model ARIMA lat: [-18], lon: [330]
+RMSE: 0.47334018
+MAE: 0.35333765
+
+=> Model ARIMA lat: [-6], lon: [334]
+RMSE: 0.72241136
+MAE: 0.63130137
+
+=> Model ARIMA lat: [-20], lon: [318]
+RMSE: 3.26755526
+MAE: 2.63503410
+
+=> Model ARIMA lat: [-2], lon: [306]
+RMSE: 3.87921326
+MAE: 3.23104675
+
+=> Model ARIMA lat: [-8], lon: [280]
+RMSE: 0.76357200
+MAE: 0.67805233
+
+=> Model ARIMA lat: [-8], lon: [322]
+RMSE: 4.70095348
+MAE: 3.98597802
+
+=> Model ARIMA lat: [-2], lon: [326]
+RMSE: 1.08146454
+MAE: 1.00075619
+
+=> Model ARIMA lat: [-20], lon: [302]
+RMSE: 3.54716242
+MAE: 2.99374785
+
+=> Model ARIMA lat: [-6], lon: [294]
+RMSE: 2.67176110
+MAE: 2.12620791
+
+=> Model ARIMA lat: [-4], lon: [338]
+RMSE: 0.56113570
+MAE: 0.50482801
+
+=> Model ARIMA lat: [-4], lon: [300]
+RMSE: 4.01346043
+MAE: 3.29186324
+
+=> Model ARIMA lat: [-8], lon: [288]
+RMSE: 2.33141211
+MAE: 1.76073982
+
+=> Model ARIMA lat: [-8], lon: [306]
+RMSE: 3.73331890
+MAE: 3.24017467
+
+=> Model ARIMA lat: [-10], lon: [298]
+RMSE: 2.77899058
+MAE: 2.29268365
+
+=> Model ARIMA lat: [-12], lon: [334]
+RMSE: 0.66677786
+MAE: 0.55791990
+
+=> Model ARIMA lat: [-14], lon: [290]
+RMSE: 1.21078089
+MAE: 0.91864031
+
+=> Model ARIMA lat: [-18], lon: [308]
+RMSE: 2.72807353
+MAE: 2.38535971
+
+=> Model ARIMA lat: [0], lon: [278]
+RMSE: 0.71661609
+MAE: 0.64703216
+
+=> Model ARIMA lat: [-10], lon: [316]
+RMSE: 3.53380501
+MAE: 3.06484860
+
+=> Model ARIMA lat: [-10], lon: [286]
+RMSE: 3.98891431
+MAE: 3.20152594
+
+=> Model ARIMA lat: [-6], lon: [336]
+RMSE: 0.59352279
+MAE: 0.52385916
+
+=> Model ARIMA lat: [-4], lon: [318]
+RMSE: 3.86305434
+MAE: 3.33156070
+
+=> Model ARIMA lat: [-6], lon: [282]
+RMSE: 1.13994539
+MAE: 0.80841937
+
+=> Model ARIMA lat: [-14], lon: [320]
+RMSE: 4.33180832
+MAE: 3.78262393
+
+=> Model ARIMA lat: [-16], lon: [314]
+RMSE: 3.14241683
+MAE: 2.45066666
+
+=> Model ARIMA lat: [-2], lon: [328]
+RMSE: 0.86841389
+MAE: 0.78558617
+
+=> Model ARIMA lat: [-16], lon: [298]
+RMSE: 3.74972329
+MAE: 2.85691907
+
+=> Model ARIMA lat: [-6], lon: [312]
+RMSE: 3.53521241
+MAE: 2.59391512
+
+=> Model ARIMA lat: [-4], lon: [284]
+RMSE: 3.58864851
+MAE: 3.01925821
+
+=> Model ARIMA lat: [-12], lon: [310]
+RMSE: 3.77608166
+MAE: 3.23021706
+
+=> Model ARIMA lat: [-4], lon: [340]
+RMSE: 0.62307122
+MAE: 0.58252663
+
+=> Model ARIMA lat: [-12], lon: [336]
+RMSE: 0.58088880
+MAE: 0.50004195
+
+=> Model ARIMA lat: [-12], lon: [292]
+RMSE: 2.32180633
+MAE: 1.77117219
+
+=> Model ARIMA lat: [-14], lon: [304]
+RMSE: 2.56155620
+MAE: 2.15423849
+
+=> Model ARIMA lat: [-6], lon: [338]
+RMSE: 0.61920076
+MAE: 0.56834111
+
+=> Model ARIMA lat: [-2], lon: [290]
+RMSE: 2.33073836
+MAE: 1.68360183
+
+=> Model ARIMA lat: [-20], lon: [320]
+RMSE: 1.16961831
+MAE: 1.02841701
+
+=> Model ARIMA lat: [-14], lon: [322]
+RMSE: 0.42795280
+MAE: 0.34165680
+
+=> Model ARIMA lat: [-2], lon: [330]
+RMSE: 0.61200537
+MAE: 0.55537544
+
+=> Model ARIMA lat: [0], lon: [296]
+RMSE: 3.55485011
+MAE: 3.01997640
+
+=> Model ARIMA lat: [-2], lon: [308]
+RMSE: 3.99306927
+MAE: 3.31841724
+
+=> Model ARIMA lat: [0], lon: [314]
+RMSE: 0.32280336
+MAE: 0.28251636
+
+=> Model ARIMA lat: [-2], lon: [278]
+RMSE: 0.37070854
+MAE: 0.32130218
+
+=> Model ARIMA lat: [-20], lon: [304]
+RMSE: 2.40337766
+MAE: 2.04034366
+
+=> Model ARIMA lat: [-8], lon: [308]
+RMSE: 3.93956498
+MAE: 3.44654277
+
+=> Model ARIMA lat: [-8], lon: [324]
+RMSE: 1.39745304
+MAE: 1.15661673
+
+=> Model ARIMA lat: [-4], lon: [302]
+RMSE: 3.64048079
+MAE: 3.01808064
+
+=> Model ARIMA lat: [-6], lon: [296]
+RMSE: 2.71484580
+MAE: 2.28496632
+
+=> Model ARIMA lat: [-18], lon: [310]
+RMSE: 3.20209765
+MAE: 2.89818008
+
+=> Model ARIMA lat: [-6], lon: [340]
+RMSE: 0.35031285
+MAE: 0.30539579
+
+=> Model ARIMA lat: [-8], lon: [290]
+RMSE: 2.04189998
+MAE: 1.69626514
+
+=> Model ARIMA lat: [-20], lon: [322]
+RMSE: 0.44276359
+MAE: 0.38346087
+
+=> Model ARIMA lat: [-10], lon: [300]
+RMSE: 3.51976568
+MAE: 2.98874384
+
+=> Model ARIMA lat: [-4], lon: [286]
+RMSE: 2.87868271
+MAE: 2.25849592
+
+=> Model ARIMA lat: [-14], lon: [292]
+RMSE: 4.52440759
+MAE: 3.24373943
+
+=> Model ARIMA lat: [-2], lon: [332]
+RMSE: 0.70786762
+MAE: 0.65749155
+
+=> Model ARIMA lat: [-4], lon: [320]
+RMSE: 3.59602780
+MAE: 3.11319351
+
+=> Model ARIMA lat: [-10], lon: [288]
+RMSE: 2.36070067
+MAE: 1.98288142
+
+=> Model ARIMA lat: [-14], lon: [324]
+RMSE: 0.44605626
+MAE: 0.37035900
+
+=> Model ARIMA lat: [0], lon: [280]
+RMSE: 1.47372532
+MAE: 1.24467330
+
+=> Model ARIMA lat: [-6], lon: [284]
+RMSE: 3.61759379
+MAE: 2.66595847
+
+=> Model ARIMA lat: [-16], lon: [300]
+RMSE: 3.66573625
+MAE: 3.12627836
+
+=> Model ARIMA lat: [-16], lon: [316]
+RMSE: 4.00405024
+MAE: 3.22909031
+
+=> Model ARIMA lat: [-10], lon: [318]
+RMSE: 3.80926000
+MAE: 3.34911702
+
+=> Model ARIMA lat: [-12], lon: [312]
+RMSE: 3.88191048
+MAE: 3.40212894
+
+=> Model ARIMA lat: [-6], lon: [314]
+RMSE: 4.97943881
+MAE: 3.92945460
+
+=> Model ARIMA lat: [0], lon: [332]
+RMSE: 0.55502308
+MAE: 0.46202841
+
+=> Model ARIMA lat: [-4], lon: [278]
+RMSE: 0.41218476
+MAE: 0.28620944
+
+=> Model ARIMA lat: [-8], lon: [326]
+RMSE: 0.38818428
+MAE: 0.31656645
+
+=> Model ARIMA lat: [0], lon: [316]
+RMSE: 0.49217363
+MAE: 0.41199220
+
+=> Model ARIMA lat: [-14], lon: [306]
+RMSE: 4.00621720
+MAE: 3.44172812
+
+=> Model ARIMA lat: [-12], lon: [294]
+RMSE: 2.76944791
+MAE: 2.33517726
+
+=> Model ARIMA lat: [-2], lon: [292]
+RMSE: 2.32533069
+MAE: 1.97051087
+
+=> Model ARIMA lat: [-2], lon: [334]
+RMSE: 0.20669689
+MAE: 0.17265572
+
+=> Model ARIMA lat: [-4], lon: [322]
+RMSE: 0.69946103
+MAE: 0.55833963
+
+=> Model ARIMA lat: [-14], lon: [326]
+RMSE: 0.42727347
+MAE: 0.33262091
+
+=> Model ARIMA lat: [0], lon: [298]
+RMSE: 3.56600515
+MAE: 3.10061210
+
+=> Model ARIMA lat: [0], lon: [334]
+RMSE: 0.65478731
+MAE: 0.58851092
+
+=> Model ARIMA lat: [2], lon: [322]
+RMSE: 0.93299696
+MAE: 0.80784445
+
+=> Model ARIMA lat: [-2], lon: [310]
+RMSE: 3.00706265
+MAE: 2.33576524
+
+=> Model ARIMA lat: [-2], lon: [280]
+RMSE: 3.23123624
+MAE: 2.78243799
+
+=> Model ARIMA lat: [-4], lon: [304]
+RMSE: 3.45682262
+MAE: 2.71145627
+
+=> Model ARIMA lat: [2], lon: [304]
+RMSE: 4.24532683
+MAE: 3.44716631
+
+=> Model ARIMA lat: [-8], lon: [328]
+RMSE: 0.45034864
+MAE: 0.36944240
+
+=> Model ARIMA lat: [-18], lon: [312]
+RMSE: 2.11578717
+MAE: 1.82251278
+
+=> Model ARIMA lat: [-8], lon: [310]
+RMSE: 3.19338070
+MAE: 2.65544147
+
+=> Model ARIMA lat: [-4], lon: [288]
+RMSE: 3.14909260
+MAE: 2.44264747
+
+=> Model ARIMA lat: [-6], lon: [298]
+RMSE: 2.89639311
+MAE: 2.32690683
+
+=> Model ARIMA lat: [-8], lon: [292]
+RMSE: 2.56890020
+MAE: 1.89502647
+
+=> Model ARIMA lat: [-2], lon: [336]
+RMSE: 0.26054670
+MAE: 0.19926547
+
+=> Model ARIMA lat: [-6], lon: [286]
+RMSE: 2.60195246
+MAE: 1.98669012
+
+=> Model ARIMA lat: [-16], lon: [302]
+RMSE: 3.58858177
+MAE: 3.13665237
+
+=> Model ARIMA lat: [0], lon: [336]
+RMSE: 0.30556725
+MAE: 0.26337035
+
+=> Model ARIMA lat: [-14], lon: [328]
+RMSE: 0.36149213
+MAE: 0.26962900
+
+=> Model ARIMA lat: [2], lon: [324]
+RMSE: 0.85179146
+MAE: 0.76682769
+
+=> Model ARIMA lat: [-4], lon: [324]
+RMSE: 0.62173137
+MAE: 0.53607215
+
+=> Model ARIMA lat: [2], lon: [286]
+RMSE: 4.21068628
+MAE: 3.60622663
+
+=> Model ARIMA lat: [-10], lon: [302]
+RMSE: 2.87378882
+MAE: 2.36151940
+
+=> Model ARIMA lat: [0], lon: [282]
+RMSE: 3.19310087
+MAE: 2.68691539
+
+=> Model ARIMA lat: [-16], lon: [318]
+RMSE: 4.36723843
+MAE: 3.77334241
+
+=> Model ARIMA lat: [-12], lon: [314]
+RMSE: 3.04864346
+MAE: 2.55378061
+
+=> Model ARIMA lat: [2], lon: [340]
+RMSE: 0.56892077
+MAE: 0.46633717
+
+=> Model ARIMA lat: [-6], lon: [316]
+RMSE: 4.10286433
+MAE: 3.50855042
+
+=> Model ARIMA lat: [-14], lon: [308]
+RMSE: 4.13295106
+MAE: 3.54933759
+
+=> Model ARIMA lat: [-10], lon: [320]
+RMSE: 4.86513383
+MAE: 4.25019633
+
+=> Model ARIMA lat: [-8], lon: [330]
+RMSE: 0.34587341
+MAE: 0.28542324
+
+=> Model ARIMA lat: [-10], lon: [290]
+RMSE: 1.89614377
+MAE: 1.59018995
+
+=> Model ARIMA lat: [2], lon: [326]
+RMSE: 0.79359300
+MAE: 0.65838161
+
+=> Model ARIMA lat: [0], lon: [338]
+RMSE: 0.65548951
+MAE: 0.51407512
+
+=> Model ARIMA lat: [-2], lon: [338]
+RMSE: 0.47547976
+MAE: 0.31084560
+
+=> Model ARIMA lat: [4], lon: [312]
+RMSE: 1.06957423
+MAE: 0.99684138
+
+=> Model ARIMA lat: [-12], lon: [296]
+RMSE: 2.82501982
+MAE: 1.94998404
+
+=> Model ARIMA lat: [-2], lon: [294]
+RMSE: 1.97013757
+MAE: 1.60617187
+
+=> Model ARIMA lat: [-4], lon: [326]
+RMSE: 0.73340618
+MAE: 0.66872743
+
+=> Model ARIMA lat: [4], lon: [278]
+RMSE: 0.43869001
+MAE: 0.33028678
+
+=> Model ARIMA lat: [-2], lon: [312]
+RMSE: 3.04491285
+MAE: 2.60844879
+
+=> Model ARIMA lat: [0], lon: [300]
+RMSE: 3.90055918
+MAE: 3.30498083
+
+=> Model ARIMA lat: [4], lon: [330]
+RMSE: 0.99670389
+MAE: 0.87101341
+
+=> Model ARIMA lat: [-8], lon: [312]
+RMSE: 3.01820166
+MAE: 2.54558435
+
+=> Model ARIMA lat: [-4], lon: [306]
+RMSE: 3.95243271
+MAE: 3.06943954
+
+=> Model ARIMA lat: [-8], lon: [332]
+RMSE: 0.28895464
+MAE: 0.23178028
+
+=> Model ARIMA lat: [-6], lon: [288]
+RMSE: 3.14296752
+MAE: 2.45370145
+
+=> Model ARIMA lat: [4], lon: [294]
+RMSE: 3.82366487
+MAE: 3.26808953
+
+=> Model ARIMA lat: [-2], lon: [282]
+RMSE: 1.56249325
+MAE: 1.11947005
+
+=> Model ARIMA lat: [0], lon: [340]
+RMSE: 0.32695105
+MAE: 0.22620764
+
+=> Model ARIMA lat: [-4], lon: [290]
+RMSE: 3.05337316
+MAE: 2.20298504
+
+=> Model ARIMA lat: [2], lon: [306]
+RMSE: 4.30149673
+MAE: 3.34634352
+
+=> Model ARIMA lat: [0], lon: [318]
+RMSE: 0.59542436
+MAE: 0.48446373
+
+=> Model ARIMA lat: [4], lon: [314]
+RMSE: 1.04982462
+MAE: 0.96236581
+
+=> Model ARIMA lat: [0], lon: [284]
+RMSE: 3.64521899
+MAE: 3.24113369
+
+=> Model ARIMA lat: [-2], lon: [340]
+RMSE: 0.35104682
+MAE: 0.30121924
+
+=> Model ARIMA lat: [-6], lon: [300]
+RMSE: 3.73515699
+MAE: 2.95455962
+
+=> Model ARIMA lat: [-4], lon: [328]
+RMSE: 0.65329302
+MAE: 0.57178843
+
+=> Model ARIMA lat: [2], lon: [328]
+RMSE: 0.78204028
+MAE: 0.64354803
+
+=> Model ARIMA lat: [4], lon: [280]
+RMSE: 0.52072081
+MAE: 0.43518277
+
+=> Model ARIMA lat: [-8], lon: [294]
+RMSE: 2.39067512
+MAE: 1.79740330
+
+=> Model ARIMA lat: [4], lon: [332]
+RMSE: 1.61215327
+MAE: 1.50326812
+
+=> Model ARIMA lat: [2], lon: [288]
+RMSE: 3.12146112
+MAE: 2.25425267
+
+=> Model ARIMA lat: [4], lon: [316]
+RMSE: 0.80588738
+MAE: 0.68075080
+
+=> Model ARIMA lat: [-16], lon: [320]
+RMSE: 4.28242509
+MAE: 3.77791879
+
+=> Model ARIMA lat: [-10], lon: [304]
+RMSE: 2.60184547
+MAE: 2.17242243
+
+=> Model ARIMA lat: [-8], lon: [334]
+RMSE: 0.44518998
+MAE: 0.35863152
+
+=> Model ARIMA lat: [-14], lon: [310]
+RMSE: 3.21507195
+MAE: 2.68109256
+
+=> Model ARIMA lat: [2], lon: [278]
+RMSE: 0.34757736
+MAE: 0.29175694
+
+=> Model ARIMA lat: [-6], lon: [318]
+RMSE: 3.52944728
+MAE: 2.99245394
+
+=> Model ARIMA lat: [-12], lon: [316]
+RMSE: 3.73528215
+MAE: 3.18987200
+
+=> Model ARIMA lat: [-10], lon: [322]
+RMSE: 3.97042117
+MAE: 3.45832743
+
+=> Model ARIMA lat: [2], lon: [330]
+RMSE: 0.75610990
+MAE: 0.67301003
+
+=> Model ARIMA lat: [4], lon: [334]
+RMSE: 1.49652509
+MAE: 1.33048148
+
+=> Model ARIMA lat: [-12], lon: [298]
+RMSE: 2.77823033
+MAE: 2.27374953
+
+=> Model ARIMA lat: [4], lon: [282]
+RMSE: 0.43587592
+MAE: 0.35411864
+
+=> Model ARIMA lat: [4], lon: [318]
+RMSE: 1.20385631
+MAE: 1.07136101
+
+=> Model ARIMA lat: [-4], lon: [330]
+RMSE: 0.34716181
+MAE: 0.29989077
+
+=> Model ARIMA lat: [-2], lon: [314]
+RMSE: 3.12971590
+MAE: 2.41840173
+
+=> Model ARIMA lat: [6], lon: [338]
+RMSE: 0.69791006
+MAE: 0.52923094
+
+=> Model ARIMA lat: [-2], lon: [296]
+RMSE: 2.42295473
+MAE: 1.92811064
+
+=> Model ARIMA lat: [-8], lon: [314]
+RMSE: 3.64863706
+MAE: 3.08010257
+
+=> Model ARIMA lat: [0], lon: [302]
+RMSE: 3.21257496
+MAE: 2.71443563
+
+=> Model ARIMA lat: [2], lon: [280]
+RMSE: 0.30048348
+MAE: 0.25880760
+
+=> Model ARIMA lat: [-4], lon: [292]
+RMSE: 2.10861667
+MAE: 1.76320424
+
+=> Model ARIMA lat: [-4], lon: [308]
+RMSE: 3.78925909
+MAE: 2.96698180
+
+=> Model ARIMA lat: [2], lon: [332]
+RMSE: 0.78328427
+MAE: 0.65360024
+
+=> Model ARIMA lat: [6], lon: [284]
+RMSE: 4.89431429
+MAE: 4.32582218
+
+=> Model ARIMA lat: [-2], lon: [284]
+RMSE: 2.33574220
+MAE: 1.65327709
+
+=> Model ARIMA lat: [4], lon: [336]
+RMSE: 1.11572356
+MAE: 0.91733337
+
+=> Model ARIMA lat: [2], lon: [308]
+RMSE: 2.26207703
+MAE: 1.92043602
+
+=> Model ARIMA lat: [-2], lon: [316]
+RMSE: 0.34671820
+MAE: 0.27548855
+
+=> Model ARIMA lat: [4], lon: [296]
+RMSE: 3.24724085
+MAE: 2.61027160
+
+=> Model ARIMA lat: [0], lon: [286]
+RMSE: 2.36403310
+MAE: 2.00509161
+
+=> Model ARIMA lat: [4], lon: [320]
+RMSE: 0.85322369
+MAE: 0.74622574
+
+=> Model ARIMA lat: [-10], lon: [324]
+RMSE: 0.85722988
+MAE: 0.68431925
+
+=> Model ARIMA lat: [6], lon: [302]
+RMSE: 2.25947468
+MAE: 1.63960207
+
+=> Model ARIMA lat: [6], lon: [340]
+RMSE: 0.68914870
+MAE: 0.62052020
+
+=> Model ARIMA lat: [-4], lon: [332]
+RMSE: 0.35904207
+MAE: 0.28675790
+
+=> Model ARIMA lat: [-6], lon: [302]
+RMSE: 4.25399595
+MAE: 3.53180757
+
+=> Model ARIMA lat: [-8], lon: [296]
+RMSE: 2.62403153
+MAE: 2.19480641
+
+=> Model ARIMA lat: [2], lon: [310]
+RMSE: 0.34422758
+MAE: 0.27646897
+
+=> Model ARIMA lat: [8], lon: [292]
+RMSE: 2.65024578
+MAE: 2.29971943
+
+=> Model ARIMA lat: [-10], lon: [306]
+RMSE: 4.19687601
+MAE: 3.64344564
+
+=> Model ARIMA lat: [-2], lon: [318]
+RMSE: 0.30083006
+MAE: 0.25440046
+
+=> Model ARIMA lat: [0], lon: [320]
+RMSE: 0.53495903
+MAE: 0.47015800
+
+=> Model ARIMA lat: [-12], lon: [318]
+RMSE: 4.64526811
+MAE: 3.95176009
+
+=> Model ARIMA lat: [2], lon: [334]
+RMSE: 1.21155825
+MAE: 0.99380732
+
+=> Model ARIMA lat: [4], lon: [338]
+RMSE: 0.82503033
+MAE: 0.76112781
+
+=> Model ARIMA lat: [6], lon: [320]
+RMSE: 1.47561674
+MAE: 1.40596428
+
+=> Model ARIMA lat: [2], lon: [290]
+RMSE: 2.11571625
+MAE: 1.74247653
+
+=> Model ARIMA lat: [4], lon: [322]
+RMSE: 0.49628603
+MAE: 0.40880560
+
+=> Model ARIMA lat: [-10], lon: [326]
+RMSE: 0.30986216
+MAE: 0.25756114
+
+=> Model ARIMA lat: [4], lon: [284]
+RMSE: 4.78528424
+MAE: 3.96765175
+
+=> Model ARIMA lat: [-6], lon: [320]
+RMSE: 4.05637844
+MAE: 3.42947585
+
+=> Model ARIMA lat: [0], lon: [304]
+RMSE: 4.17232799
+MAE: 3.58829682
+
+=> Model ARIMA lat: [2], lon: [312]
+RMSE: 0.68230826
+MAE: 0.59624428
+
+=> Model ARIMA lat: [-2], lon: [298]
+RMSE: 2.37638521
+MAE: 1.93795206
+
+=> Model ARIMA lat: [-8], lon: [316]
+RMSE: 3.64349997
+MAE: 3.00690881
+
+=> Model ARIMA lat: [-4], lon: [294]
+RMSE: 2.35533196
+MAE: 2.02283877
+
+=> Model ARIMA lat: [6], lon: [286]
+RMSE: 5.33768441
+MAE: 4.62529595
+
+=> Model ARIMA lat: [6], lon: [322]
+RMSE: 1.72091148
+MAE: 1.66974011
+
+=> Model ARIMA lat: [0], lon: [322]
+RMSE: 0.69506331
+MAE: 0.57122382
+
+=> Model ARIMA lat: [8], lon: [328]
+RMSE: 0.59747251
+MAE: 0.53942157
+
+=> Model ARIMA lat: [-2], lon: [320]
+RMSE: 0.45925437
+MAE: 0.38248709
+
+=> Model ARIMA lat: [-12], lon: [300]
+RMSE: 3.81961926
+MAE: 3.24633985
+
+=> Model ARIMA lat: [2], lon: [282]
+RMSE: 2.27248353
+MAE: 1.78831916
+
+=> Model ARIMA lat: [-4], lon: [310]
+RMSE: 3.39061488
+MAE: 2.81282884
+
+=> Model ARIMA lat: [4], lon: [340]
+RMSE: 1.03418042
+MAE: 0.85825775
+
+=> Model ARIMA lat: [0], lon: [288]
+RMSE: 2.67375080
+MAE: 1.80270602
+
+=> Model ARIMA lat: [2], lon: [336]
+RMSE: 1.04682311
+MAE: 0.83221191
+
+=> Model ARIMA lat: [4], lon: [298]
+RMSE: 3.51188123
+MAE: 2.95836422
+
+=> Model ARIMA lat: [-2], lon: [286]
+RMSE: 2.52487914
+MAE: 2.00140985
+
+=> Model ARIMA lat: [6], lon: [304]
+RMSE: 0.72049001
+MAE: 0.52823826
+
+=> Model ARIMA lat: [8], lon: [310]
+RMSE: 0.48571424
+MAE: 0.37655729
+
+=> Model ARIMA lat: [2], lon: [314]
+RMSE: 0.43497863
+MAE: 0.34655556
+
+=> Model ARIMA lat: [8], lon: [278]
+RMSE: 2.20673318
+MAE: 1.94740341
+
+=> Model ARIMA lat: [8], lon: [330]
+RMSE: 0.59450206
+MAE: 0.40747983
+
+=> Model ARIMA lat: [-2], lon: [322]
+RMSE: 0.88714423
+MAE: 0.73539861
+
+=> Model ARIMA lat: [0], lon: [324]
+RMSE: 0.90337837
+MAE: 0.78373971
+
+=> Model ARIMA lat: [-6], lon: [304]
+RMSE: 3.60551911
+MAE: 3.11114898
+
+=> Model ARIMA lat: [8], lon: [294]
+RMSE: 2.84844413
+MAE: 2.34406022
+
+=> Model ARIMA lat: [6], lon: [288]
+RMSE: 2.11486128
+MAE: 1.59627706
+
+=> Model ARIMA lat: [6], lon: [278]
+RMSE: 0.42214870
+MAE: 0.35897618
+
+=> Model ARIMA lat: [2], lon: [338]
+RMSE: 0.67330722
+MAE: 0.57895446
+
+=> Model ARIMA lat: [-10], lon: [308]
+RMSE: 4.19524731
+MAE: 3.65617306
+
+=> Model ARIMA lat: [-8], lon: [298]
+RMSE: 2.95031544
+MAE: 2.35349020
+
+=> Model ARIMA lat: [2], lon: [292]
+RMSE: 2.66369603
+MAE: 2.25484708
+
+=> Model ARIMA lat: [8], lon: [332]
+RMSE: 0.51503630
+MAE: 0.38412175
+
+=> Model ARIMA lat: [2], lon: [316]
+RMSE: 0.54352404
+MAE: 0.48340284
+
+=> Model ARIMA lat: [4], lon: [286]
+RMSE: 1.90055915
+MAE: 1.43764587
+
+=> Model ARIMA lat: [6], lon: [306]
+RMSE: 0.57218030
+MAE: 0.47979197
+
+=> Model ARIMA lat: [4], lon: [324]
+RMSE: 0.81095087
+MAE: 0.74325389
+
+=> Model ARIMA lat: [0], lon: [326]
+RMSE: 0.54822015
+MAE: 0.44738085
+
+=> Model ARIMA lat: [6], lon: [280]
+RMSE: 0.47646348
+MAE: 0.38342429
+
+=> Model ARIMA lat: [0], lon: [306]
+RMSE: 5.20536102
+MAE: 4.33491610
+
+=> Model ARIMA lat: [-4], lon: [312]
+RMSE: 3.26636327
+MAE: 2.68567971
+
+=> Model ARIMA lat: [-4], lon: [296]
+RMSE: 2.55651350
+MAE: 1.94292570
+
+=> Model ARIMA lat: [-2], lon: [300]
+RMSE: 3.56775336
+MAE: 2.96448876
+
+=> Model ARIMA lat: [8], lon: [280]
+RMSE: 1.50191686
+MAE: 1.30151195
+
+=> Model ARIMA lat: [8], lon: [334]
+RMSE: 0.50577509
+MAE: 0.38551349
+
+=> Model ARIMA lat: [0], lon: [290]
+RMSE: 2.09447506
+MAE: 1.61703868
+
+=> Model ARIMA lat: [-6], lon: [322]
+RMSE: 4.16680962
+MAE: 3.55645090
+
+=> Model ARIMA lat: [2], lon: [284]
+RMSE: 3.40432725
+MAE: 2.81803268
+
+=> Model ARIMA lat: [4], lon: [300]
+RMSE: 3.07289388
+MAE: 2.57492741
+
+=> Model ARIMA lat: [2], lon: [318]
+RMSE: 0.68734896
+MAE: 0.59568995
+
+=> Model ARIMA lat: [6], lon: [308]
+RMSE: 0.51994336
+MAE: 0.40705904
+
+=> Model ARIMA lat: [6], lon: [324]
+RMSE: 1.19718725
+MAE: 1.16467995
+
+=> Model ARIMA lat: [8], lon: [312]
+RMSE: 0.46559221
+MAE: 0.38162403
+
+=> Model ARIMA lat: [6], lon: [282]
+RMSE: 1.10947283
+MAE: 0.96364716
+
+=> Model ARIMA lat: [4], lon: [326]
+RMSE: 0.72623426
+MAE: 0.65754523
+
+=> Model ARIMA lat: [8], lon: [336]
+RMSE: 0.47485891
+MAE: 0.38833560
+
+=> Model ARIMA lat: [2], lon: [320]
+RMSE: 0.79586841
+MAE: 0.69251246
+
+=> Model ARIMA lat: [6], lon: [290]
+RMSE: 2.92220094
+MAE: 2.46607483
+
+=> Model ARIMA lat: [-6], lon: [306]
+RMSE: 4.00816689
+MAE: 3.51841364
+
+=> Model ARIMA lat: [0], lon: [328]
+RMSE: 0.53675041
+MAE: 0.43542336
+
+=> Model ARIMA lat: [8], lon: [296]
+RMSE: 3.16371544
+MAE: 2.69891500
+
+=> Model ARIMA lat: [6], lon: [310]
+RMSE: 0.55920345
+MAE: 0.47893961
+
+=> Model ARIMA lat: [6], lon: [326]
+RMSE: 0.77589052
+MAE: 0.70980690
+
+=> Model ARIMA lat: [4], lon: [328]
+RMSE: 0.81699732
+MAE: 0.73986140
+
+=> Model ARIMA lat: [4], lon: [288]
+RMSE: 2.89234522
+MAE: 2.45014031
+
+=> Model ARIMA lat: [8], lon: [338]
+RMSE: 0.47055431
+MAE: 0.36881123
+
+=> Model ARIMA lat: [2], lon: [294]
+RMSE: 4.03301923
+MAE: 3.34699969
+
+=> Model ARIMA lat: [-4], lon: [314]
+RMSE: 3.85094258
+MAE: 3.14476523
+
+=> Model ARIMA lat: [8], lon: [282]
+RMSE: 3.00540509
+MAE: 2.52044024
+
+=> Model ARIMA lat: [0], lon: [308]
+RMSE: 4.62608939
+MAE: 3.67491466
+
+=> Model ARIMA lat: [0], lon: [330]
+RMSE: 0.45185628
+MAE: 0.34118052
+
+=> Model ARIMA lat: [6], lon: [328]
+RMSE: 0.46816260
+MAE: 0.38050624
+
+=> Model ARIMA lat: [6], lon: [312]
+RMSE: 0.50093642
+MAE: 0.42821632
+
+=> Model ARIMA lat: [4], lon: [302]
+RMSE: 4.23729219
+MAE: 3.60023059
+
+=> Model ARIMA lat: [8], lon: [340]
+RMSE: 0.68202349
+MAE: 0.59284785
+
+=> Model ARIMA lat: [0], lon: [292]
+RMSE: 2.21980611
+MAE: 1.94565304
+
+=> Model ARIMA lat: [-2], lon: [302]
+RMSE: 3.75010164
+MAE: 3.29139926
+
+=> Model ARIMA lat: [-6], lon: [324]
+RMSE: 2.53749757
+MAE: 2.15389953
+
+=> Model ARIMA lat: [0], lon: [310]
+RMSE: 1.25597895
+MAE: 0.98730747
+
+=> Model ARIMA lat: [6], lon: [330]
+RMSE: 0.40817525
+MAE: 0.31030032
+
+=> Model ARIMA lat: [6], lon: [292]
+RMSE: 2.59436634
+MAE: 2.25003914
+
+=> Model ARIMA lat: [8], lon: [298]
+RMSE: 3.03697839
+MAE: 2.47691775
+
+=> Model ARIMA lat: [4], lon: [290]
+RMSE: 2.19183343
+MAE: 1.78534405
+
+=> Model ARIMA lat: [8], lon: [314]
+RMSE: 0.28934629
+MAE: 0.22285786
+
+=> Model ARIMA lat: [0], lon: [312]
+RMSE: 0.46809627
+MAE: 0.40283085
+
+=> Model ARIMA lat: [6], lon: [332]
+RMSE: 0.32989384
+MAE: 0.26673622
+
+=> Model ARIMA lat: [2], lon: [296]
+RMSE: 3.78104185
+MAE: 3.16807269
+
+=> Model ARIMA lat: [8], lon: [284]
+RMSE: 3.54874813
+MAE: 3.00704838
+
+=> Model ARIMA lat: [4], lon: [304]
+RMSE: 2.65036165
+MAE: 2.03726812
+
+=> Model ARIMA lat: [6], lon: [334]
+RMSE: 0.35078286
+MAE: 0.25945948
+
+=> Model ARIMA lat: [0], lon: [294]
+RMSE: 3.74668814
+MAE: 3.10046372
+
+=> Model ARIMA lat: [-2], lon: [304]
+RMSE: 3.70665005
+MAE: 3.08197225
+
+=> Model ARIMA lat: [8], lon: [300]
+RMSE: 2.47235719
+MAE: 1.92734511
+
+=> Model ARIMA lat: [6], lon: [294]
+RMSE: 3.40671196
+MAE: 2.78587340
+
+=> Model ARIMA lat: [4], lon: [292]
+RMSE: 1.82669224
+MAE: 1.45688908
+
+=> Model ARIMA lat: [6], lon: [336]
+RMSE: 0.53709332
+MAE: 0.40809934
+
+=> Model ARIMA lat: [8], lon: [316]
+RMSE: 0.80360212
+MAE: 0.76027736
+
+=> Model ARIMA lat: [8], lon: [302]
+RMSE: 0.38170510
+MAE: 0.28841462
+
+=> Model ARIMA lat: [6], lon: [314]
+RMSE: 0.55505992
+MAE: 0.46299228
+
+=> Model ARIMA lat: [4], lon: [306]
+RMSE: 2.87447329
+MAE: 2.20624443
+
+=> Model ARIMA lat: [2], lon: [298]
+RMSE: 3.06794927
+MAE: 2.63690818
+
+=> Model ARIMA lat: [8], lon: [318]
+RMSE: 0.86402315
+MAE: 0.79730459
+
+=> Model ARIMA lat: [8], lon: [286]
+RMSE: 3.57898877
+MAE: 3.12821650
+
+=> Model ARIMA lat: [8], lon: [304]
+RMSE: 0.26945481
+MAE: 0.18268138
+
+=> Model ARIMA lat: [6], lon: [316]
+RMSE: 1.09206181
+MAE: 1.01197772
+
+=> Model ARIMA lat: [6], lon: [296]
+RMSE: 3.45683758
+MAE: 2.93955828
+
+=> Model ARIMA lat: [8], lon: [320]
+RMSE: 0.99313056
+MAE: 0.96487462
+
+=> Model ARIMA lat: [8], lon: [306]
+RMSE: 0.28233212
+MAE: 0.19459799
+
+=> Model ARIMA lat: [8], lon: [322]
+RMSE: 0.35443814
+MAE: 0.31224644
+
+=> Model ARIMA lat: [4], lon: [308]
+RMSE: 1.70059222
+MAE: 1.47041551
+
+=> Model ARIMA lat: [8], lon: [308]
+RMSE: 0.50264744
+MAE: 0.36673158
+
+=> Model ARIMA lat: [4], lon: [310]
+RMSE: 0.73672435
+MAE: 0.61202532
+
+=> Model ARIMA lat: [8], lon: [288]
+RMSE: 3.60407915
+MAE: 3.00723676
+
+=> Model ARIMA lat: [2], lon: [300]
+RMSE: 3.44275620
+MAE: 2.89497679
+
+=> Model ARIMA lat: [8], lon: [324]
+RMSE: 0.37424448
+MAE: 0.30924828
+
+=> Model ARIMA lat: [6], lon: [298]
+RMSE: 2.73697349
+MAE: 2.29818373
+
+=> Model ARIMA lat: [6], lon: [318]
+RMSE: 1.10782673
+MAE: 1.03339270
+
+=> Model ARIMA lat: [8], lon: [326]
+RMSE: 0.42048600
+MAE: 0.35164497
+
+=> Model ARIMA lat: [8], lon: [290]
+RMSE: 2.51475816
+MAE: 2.11125935
+
+=> Model ARIMA lat: [6], lon: [300]
+RMSE: 2.77766681
+MAE: 2.15730430
+
+=> Model ARIMA lat: [2], lon: [302]
+RMSE: 4.08068477
+MAE: 3.14418972
+timestamp: 16013.478020191193
+Elapsed time 4:26:53.48
+
+RMSE:  [1.6703917857071444, 1.5918335347784094, 1.5987732225719575, 1.6771144193624135, 1.8779565209960951, 3.591037942984608, 3.5381976825771484, 5.4078988631654035, 3.371845501178005, 2.223760163419294, 1.534487139020034, 1.6183920481349094, 1.4896122062305412, 1.5916957522394506, 1.5170358469356753, 1.3111991015925895, 1.224946689990306, 1.0809948412607973, 1.1435152820482684, 1.003968084826634, 1.0158069460071053, 0.9860360700677465, 0.8713754896815334, 0.7255513468091813, 0.7652074391789125, 0.7641401419389916, 0.7244739559271531, 0.5654888526397702, 0.8376581271143122, 0.89682871744822, 0.992808468795744, 1.243183336112925, 1.4643951506741997, 1.621785143274136, 1.69593180690154, 1.7539292294109827, 2.570259693960571, 4.59407987636643, 7.2484865531372344, 4.746849047579924, 3.6227302583050958, 1.867974389568725, 1.8033054783489473, 3.322456016731044, 3.528720313149627, 1.5384085535327774, 1.4659575709281694, 1.1694656910536094, 0.9143931357464076, 0.9425038464411322, 1.0191555563210146, 1.0260069365006717, 1.0843687629359953, 1.0438587881546693, 1.160415949683945, 1.0981136166318457, 0.9702521095441973, 0.9306560469893682, 0.8807593367758327, 0.9680153889392965, 1.217279317379662, 0.983218192970512, 0.9280418701097749, 0.7609056384840981, 2.081731598557347, 1.8966496538457303, 2.078433985341158, 3.591257895297172, 3.1495187483928064, 11.383068083608904, 10.281800050467114, 8.09004848072503, 5.721642820697846, 4.899497401134173, 2.3237580196993366, 2.0856365300451354, 1.9710456375046304, 1.9967518623283833, 1.7016825904177126, 1.7412602564652335, 1.898002768349638, 1.8636685174280314, 1.923935104148347, 1.6844679525941715, 1.5769442274302012, 1.6183321087498364, 1.6384955245835284, 1.2775618161509532, 1.1946434839827087, 1.2130358782468311, 1.1360956370928368, 1.205742335353653, 1.133177861194113, 1.2120528348491153, 0.966583288468199, 0.8500487914744371, 1.5940269826470725, 2.0502017413641807, 2.7695604254623176, 3.505624013691342, 1.6821468650629035, 3.4459052497628826, 3.691867661696183, 4.275753590394204, 5.020628159488079, 2.243695421177077, 2.5951394098414062, 2.634331600618131, 2.0792471669816788, 1.8314968598081738, 1.881743518614923, 2.639183507728445, 3.1316918921780696, 3.5376733774532405, 3.5407348860311565, 3.263261183249942, 3.165083374959474, 2.876955957149194, 2.298885653957034, 2.1612872488360275, 2.1288232785309873, 1.9077141262600295, 1.4560920996531357, 1.467451008923156, 1.566393075558146, 1.442432313451304, 1.493401249834065, 1.4071295250085347, 1.1258918710548287, 1.1526878686678692, 1.0765477018894034, 1.2529747115080028, 1.3516632088456244, 2.48660656785387, 3.7511332049689456, 3.884660001668417, 3.0464023703145426, 1.8140949821322134, 2.448827676948844, 2.2218239324246642, 1.802357458903468, 1.9044898769196716, 2.3588916657311887, 3.03641601195481, 2.9517247777963136, 2.5688490895372667, 2.1281985464479307, 2.1991400052054355, 2.281487691620287, 2.1824892537179568, 2.142472003420625, 2.0629682887706555, 1.8878319809211632, 2.082746003626094, 2.203522856067114, 1.882940792044427, 1.8691722174278829, 1.9156826789937156, 1.9295571861513026, 1.723222040961694, 0.7469910130748382, 0.992025318677245, 1.2869611241753394, 1.3720572610512292, 0.7549349707243632, 3.5305147936236523, 4.269335152510892, 4.2205428619233425, 4.739075281875077, 2.291067769281286, 1.9967687075460565, 2.296847555605491, 1.7937361994046566, 2.041051808193925, 2.2135164101471116, 2.538807178233679, 2.9459377864630447, 2.6620721131365745, 2.573861760481968, 2.31577037008508, 2.320334897555879, 2.248015803454068, 2.1394920845333543, 2.1403352659056547, 2.4297240628882135, 2.399787023846151, 2.4270550465693703, 2.341626295727334, 2.182554427462361, 2.383634380332765, 2.45192689955461, 2.4589148265267986, 0.8336418670564271, 1.1273905371961572, 1.6400599170073031, 1.4017351332997112, 1.4892322852956568, 3.7986500068551994, 4.639567397831124, 4.551013114832021, 6.60027681289949, 2.9433774489206086, 2.3683717956615578, 3.1115875722907673, 2.4240066540297693, 2.5721040151328407, 2.2450788194462503, 2.393738576487926, 2.4953338200846136, 2.7549499444241294, 2.670953697211866, 2.6013309788160055, 2.522424841211127, 2.5873000949647884, 2.92990483598237, 3.0769907397013614, 2.7192551176348267, 2.5162788806799448, 2.3770693601590582, 2.656573162416099, 2.468674251435017, 2.5258312535205816, 2.7085756863050974, 2.6591539783340234, 1.4526544985408651, 1.0330156148555114, 1.228774708668752, 1.0488780448378443, 2.565448286386626, 3.593332988393662, 5.283339251496152, 4.496259582983649, 5.26913953292267, 7.632726162083831, 9.489854783793946, 6.463628468773749, 4.9318039491510985, 3.4739070328606627, 3.4068224877275455, 2.945643251827427, 2.292037968988628, 2.1607429280953503, 2.2377167317078563, 2.2049960099677834, 1.9057183120038388, 2.1198800433007228, 2.3456989328565037, 2.5450515950826755, 2.4384287135641443, 2.4749298693772617, 2.712983615134409, 2.403491465727491, 2.3945132997155185, 2.4511504620419764, 2.5371940141632687, 2.493044182238558, 1.8659965781969758, 1.637694500253442, 0.8855740690589312, 1.0394366228422547, 3.4056335616915203, 4.030996517310283, 5.466872392267912, 5.894296495361963, 5.995685837024463, 5.763634870715283, 5.654655645102558, 6.338290982983053, 6.818273468999117, 4.228799668318582, 4.365806367641352, 3.00424355787175, 1.7407167827870742, 1.5816529377896316, 2.4420732059658685, 2.4153403624330214, 2.5177998370494783, 2.6052990289449105, 2.6559786390381084, 2.558522310897548, 2.494513631121546, 2.636181448217535, 2.5942050493268254, 2.609988446616926, 2.5244635742578665, 2.6126623848921384, 2.635853044775, 2.5248418915175814, 0.8717624934426667, 0.8375144189268343, 1.1434977368952841, 1.430471654976265, 2.4313027095275577, 6.496088535880407, 4.617634452191964, 5.49913198003924, 4.875651315132444, 4.971795152892128, 4.866296930997347, 5.627872906257129, 5.974628280962867, 4.477116521204254, 3.1138642527703193, 2.523031446752486, 3.111505875186506, 3.156786538765235, 2.6312756980345076, 2.3316764875695464, 2.071267806136495, 2.1832997389844238, 2.7278026557544615, 2.6811126726596584, 2.780720313838872, 2.88231674532638, 3.1375796343666518, 3.1243096773581835, 3.0950700316780115, 3.0449596871563878, 3.0776233208178883, 3.044674321091749, 0.5436938139778338, 0.4591083566085559, 1.0490929587131925, 1.9410553458244377, 2.350937597006807, 2.4084833171235815, 3.0252214098106855, 4.6570560529030205, 4.397172140592186, 4.293607294147967, 4.311778898597215, 5.090821216866821, 5.146400143173339, 6.92921525649504, 4.930561859785488, 3.6196950211632757, 3.5890329635111926, 2.4383189034188018, 1.562703668653305, 2.7152374712229217, 2.3314123488290543, 1.7978573029291318, 1.3165525781562204, 2.4927244542806766, 2.2852726796107636, 2.337962644553317, 2.4414761116620656, 2.4598565461763324, 2.626994735997639, 2.568150290439131, 2.6030340568453756, 2.550500221477986, 0.7162425159775142, 1.1953616961321976, 1.9480962597555394, 2.43391466418676, 2.34567444405316, 2.1866161596994753, 4.084137494975027, 4.482250722708629, 4.445566840833442, 4.855505716575373, 5.408305200874989, 4.670647376684406, 4.506576975143942, 5.449552850560441, 7.8629078153716945, 4.603106321782149, 2.125751934985555, 1.9290693213073984, 1.4646307108598993, 1.2045948355091964, 1.8119040188508262, 1.279573097066832, 0.8040811492745855, 0.856073059427076, 2.7543914654165413, 1.3886552747612246, 1.3656075181139589, 1.5195048498104544, 2.2168907656939734, 1.9127113901300854, 1.8388923406447601, 1.89917457695527, 1.345208500020151, 2.1711562691141433, 1.9565897156312264, 1.7558803285494067, 1.4447018477453029, 1.715871635022756, 3.3475170279671524, 4.160553299248121, 4.3283591945237525, 4.493760002345103, 4.873520745641387, 3.7862254820923247, 4.7322243987852435, 5.291348090017393, 5.24754100023125, 5.245684849709888, 2.4489602067245335, 1.8855515702383883, 1.5315361299143675, 1.5864064281930377, 1.3182213913393517, 1.5426080339711188, 1.1752823964892531, 1.030316114315726, 1.5637442895331954, 1.9239285437520908, 2.1428045577476063, 2.0386066504157556, 1.9706367351222642, 1.3638026993408159, 1.6772368389688512, 1.682481718471357, 2.0901178029517684, 1.8812451359862552, 0.9289978896940897, 0.45618007128039917, 0.4528841198485212, 0.7852163912714077, 3.4681443257949165, 3.763202536269974, 3.402428490104292, 4.110952895014717, 4.861609514791055, 3.720061980102022, 2.7578756138823777, 3.9609406761082213, 2.2954225118341607, 2.1079995676029015, 2.0878272568271923, 2.872635757518331, 1.1245367460666724, 0.7007712773836868, 1.1859017427475027, 1.4368529475049672, 1.1628387093313346, 1.2730686783948488, 1.0221481874296376, 1.1512710778312194, 1.6534390439704973, 1.2592028073329027, 1.1855743682814774, 1.1695732618737944, 1.4069108044013745, 1.241400955858331, 1.366325097295567, 1.57688814906938, 1.06004297299861, 0.8260555947927907, 0.8201696067873331, 0.7137786255813096, 3.8471374188811645, 5.638099476012143, 3.292923294898817, 4.275642043789408, 4.8356447929615936, 5.13021360316797, 4.675681837736144, 3.9433231731437086, 2.136778650583166, 1.4139314599889572, 1.7671844908539924, 1.7189687196528123, 1.2381426991265598, 0.6874486707995132, 0.5955397213755288, 0.8588609415265903, 0.8095451247205516, 1.254064562112111, 0.9305045906712835, 0.6597328606012991, 0.5618324567093769, 0.42321836082335745, 0.4293002068933258, 0.45583349690921343, 0.40470447713182467, 0.6137451943399544, 0.8288050586190568, 1.23751699886804, 1.8363766924059524, 1.7192294285987042, 1.7298608042909915, 1.281269349578358, 4.4030322965484645, 4.384069579382192, 3.9109342821575637, 3.578394542664215, 4.462203176534355, 5.5550738544765075, 6.425244353263456, 2.9786591616329097, 1.4894412392207348, 1.6137147526129934, 2.0163772174728716, 2.0928500738430937, 1.2876691944223255, 0.8590757751144914, 0.4275536904740804, 0.6636821668250374, 0.6123561286445128, 0.6235562629150508, 0.3535125975329645, 0.23148007195751386, 0.25778539859341976, 0.5104595338014761, 0.3276950575660206, 0.5030807377550908, 0.646551055796158, 0.3507935489055987, 1.1635925182936835, 2.0194003030180525, 1.3931367741363274, 1.7209433648645662, 1.8233683076063232, 1.661249586577213, 4.712823188260762, 3.8519842888168028, 4.474070568247336, 3.5959185650611154, 4.016650487157315, 5.1032901227146406, 3.7490276203880737, 1.9920324086339105, 2.143435652936486, 1.8635134106166271, 2.042338847238518, 1.4136682670198166, 2.1524997308632674, 2.195886099741822, 3.5361908631009906, 0.6028589510850402, 0.5813210096549755, 0.45370497800861004, 0.22568762396975492, 0.2130321921867734, 0.5848581727771837, 0.4176567214262313, 0.39774539256836, 0.5123310957907148, 0.9675209710819622, 0.8201516438193459, 1.262651393666126, 1.4812287391960928, 1.1230597227337562, 1.2287248645084856, 1.355361534280532, 0.7628070343733039, 2.6148091699221143, 5.7988386081480785, 3.8432126233708117, 3.020946005688747, 4.29456101224326, 3.221633538575848, 3.547162421849441, 2.403377655596245, 2.0877458244188856, 2.285935956434382, 3.354979421303207, 1.7857224055971022, 2.119229892552146, 3.2675552596616395, 1.1696183069742858, 0.4427635942669739, 0.47621336966494215, 0.33149796310492546, 0.29751683980671256, 0.3897676814876571, 0.28362006962803615, 0.4177889269691883, 0.3476775985260269, 0.37218281305305784, 0.3685539446445407, 0.6665301198803977, 0.6648242193029162, 0.80062034844922, 0.9932085261633475, 0.7334093841883188, 0.5196309258637549, 4.429076510853873, 5.292392666749868, 3.008350372604348, 4.129236422428762, 3.6482484348748248, 3.9377187880330067, 2.912378679025284, 2.490032005002406, 2.728073533851626, 3.202097654255951, 2.115787168970209, 2.437382240872265, 2.9395348729952318, 3.9958005316097247, 3.6527507725801747, 0.4749505136983683, 0.2832285572776532, 0.24423437119487124, 0.34710845137007457, 0.4733401823055085, 0.5140913169119564, 0.329822648115588, 0.47801222258235504, 0.5244152642150408, 0.4068424999831433, 0.5260657556364962, 0.7561428798783779, 0.8846479500376566, 0.7582944658005836, 1.1767490569139951, 2.761552900721463, 4.297096235252888, 1.2744744124380358, 3.993477411839805, 4.2982510990317815, 3.74972329083208, 3.6657362502408475, 3.588581769566183, 3.9201364925570936, 3.01453241777006, 3.237002277898118, 2.227328696575803, 1.7659303893591354, 3.1424168319496215, 4.004050238097866, 4.367238429437762, 4.282425094168844, 0.4801764319401105, 0.2713913654869217, 0.21654358403047622, 0.32274976691217877, 0.32993846052722303, 0.3659658525093215, 0.3993229537047333, 0.3263098347596676, 0.34526952773661684, 0.5892495642236847, 0.9019833633844567, 1.2819285489082473, 1.3702660286657575, 3.248874897604347, 4.78370557574926, 4.722027020591224, 1.2107808914402858, 4.52440759449368, 3.2841097858269834, 3.7853269902294246, 3.4186569938519384, 3.6875347343217215, 2.8488986661053097, 2.561556199691459, 4.006217196844594, 4.132951062311391, 3.215071945241067, 3.0014384460689705, 2.4451944163611996, 4.297604230153433, 5.727664169010855, 4.331808317311395, 0.4279527951105133, 0.4460562608997896, 0.42727346780400616, 0.3614921310792821, 0.496553566482184, 0.4155189616888458, 0.42315227913281245, 0.5246145118381732, 0.5286172370251915, 0.39219405780554767, 0.8921596630069185, 0.9421743212401589, 0.7437047094602683, 3.5933902953495043, 3.366840221940318, 2.1415803157509044, 4.721586264602572, 2.3218063270764535, 2.7694479088523463, 2.8250198227656824, 2.7782303284384273, 3.819619264381604, 3.7615598247199986, 2.947763568969181, 4.858640318535254, 4.522951319743964, 3.776081657744026, 3.8819104844557377, 3.04864346078654, 3.7352821460574113, 4.645268109247143, 4.281956167984667, 2.8052324587964463, 0.4138541568897536, 0.5352232542088254, 0.5271544590175289, 0.44605417545172643, 0.5238041378624911, 0.6667778556985334, 0.580888804304435, 0.49253615746988094, 0.39188767143934616, 0.6071689562635941, 0.6584049717378818, 1.8913236118133392, 1.321641662417801, 3.9889143116329127, 2.360700673894419, 1.8961437709645599, 2.7616474481868614, 2.102756986360641, 2.3542789327680604, 2.7789905772753314, 3.5197656800470125, 2.873788819661055, 2.601845472432182, 4.196876009903416, 4.1952473113669955, 3.143623193266618, 2.696600526199146, 2.771298692115226, 3.533805006860263, 3.8092599951722375, 4.865133831636025, 3.9704211681093113, 0.8572298808126163, 0.3098621581257999, 0.46267505355075556, 0.37568408721989394, 0.5436282760530685, 0.5819026543858121, 0.5083425894695116, 0.42112937007753876, 0.3634591780586925, 0.4766438859440501, 0.7635719986527824, 2.807255017758655, 4.258072169280913, 2.5377252973125697, 2.331412105365001, 2.0418999782154352, 2.5689002010952673, 2.390675122917538, 2.6240315329763013, 2.950315441685356, 4.200281323345121, 3.8474044414244246, 3.120859406645392, 3.7333188990057855, 3.939564979337414, 3.1933807005838553, 3.0182016556680846, 3.6486370553209357, 3.6434999735075357, 4.0008220991066255, 4.643967035370929, 4.700953481220348, 1.3974530386193085, 0.38818428097632274, 0.4503486430003782, 0.34587340562622804, 0.2889546358763784, 0.44518998484993005, 0.548399623852665, 0.49201033320064935, 0.556403191235004, 0.3548312226663217, 4.023888529250722, 1.1399453870145433, 3.617593789837915, 2.6019524571367194, 3.142967516178236, 2.984385812332871, 2.2944127113334947, 2.671761099623184, 2.714845796904456, 2.896393112774451, 3.7351569941074825, 4.253995945395615, 3.605519108391558, 4.008166890151904, 3.7730282087294555, 4.247741545522077, 3.535212414301512, 4.9794388097562985, 4.102864331656785, 3.5294472782312707, 4.056378437138538, 4.166809618609281, 2.5374975673866507, 0.7722685432191357, 1.0675721521064379, 0.5808418998079187, 0.6452309249856991, 0.7224113639460695, 0.5935227922333589, 0.6192007636565805, 0.35031284567045323, 0.412184758474676, 3.7935623582574336, 1.7284251196307272, 3.588648512515931, 2.8786827069241885, 3.1490926043312464, 3.0533731574631546, 2.1086166682416825, 2.355331956339205, 2.5565134984985525, 3.232772093624679, 4.013460428974647, 3.6404807866490674, 3.456822615658512, 3.9524327125720276, 3.7892590879471975, 3.390614878523284, 3.266363269606504, 3.8509425844316145, 4.1999451745756895, 3.8630543434102993, 3.5960278047618535, 0.6994610300071966, 0.6217313694140335, 0.7334061792101423, 0.6532930171151605, 0.3471618134701829, 0.35904207095249197, 0.46753962483838013, 0.4747161076720619, 0.561135698716759, 0.6230712211774959, 0.37070854433963213, 3.231236241891281, 1.5624932543111274, 2.3357421966965894, 2.52487913658665, 2.872190861370065, 2.3307383642953017, 2.3253306916703664, 1.9701375715192284, 2.4229547349771035, 2.3763852091718256, 3.5677533559768406, 3.750101637916247, 3.7066500459130363, 3.879213264706285, 3.9930692656671787, 3.00706265322331, 3.0449128458622656, 3.129715899604852, 0.34671819663628534, 0.3008300569466326, 0.45925437051198276, 0.8871442341175143, 0.763207323241946, 1.0814645419030284, 0.8684138850399541, 0.6120053698982941, 0.7078676216359958, 0.20669689089301976, 0.2605466974929705, 0.4754797591158125, 0.35104681575499397, 0.7166160948024337, 1.4737253158692294, 3.1931008730369683, 3.6452189906507257, 2.364033104084483, 2.673750802462615, 2.094475055766226, 2.2198061059852416, 3.7466881448354052, 3.5548501095909697, 3.5660051478726107, 3.900559183761729, 3.2125749571236457, 4.172327991378413, 5.205361016084393, 4.62608938996046, 1.2559789525562304, 0.4680962674768366, 0.3228033622579047, 0.49217363034644945, 0.5954243594614649, 0.5349590323086738, 0.6950633082743384, 0.9033783725187247, 0.5482201544053695, 0.5367504080894444, 0.4518562776274497, 0.5550230752799624, 0.6547873074729493, 0.3055672506664021, 0.6554895142297569, 0.3269510466501399, 0.34757735554422825, 0.3004834800580149, 2.272483532146174, 3.4043272466626164, 4.210686275553592, 3.121461120107373, 2.1157162460860115, 2.6636960349652083, 4.033019228874914, 3.7810418506838452, 3.0679492710361416, 3.4427562016666022, 4.080684766641887, 4.245326827743327, 4.301496726689247, 2.262077033110574, 0.34422758343964954, 0.6823082551922711, 0.434978629629504, 0.5435240438200468, 0.6873489551079836, 0.7958684129238796, 0.932996957578768, 0.8517914591219049, 0.7935930028878765, 0.7820402785180472, 0.7561099024497885, 0.7832842655775066, 1.2115582473252484, 1.0468231060335358, 0.6733072168798447, 0.5689207745532446, 0.4386900097025513, 0.520720810038759, 0.4358759210610968, 4.785284241962715, 1.900559153171417, 2.8923452197952337, 2.191833431338249, 1.826692236546691, 3.8236648707988863, 3.247240845443866, 3.511881230351683, 3.072893880338959, 4.237292186811514, 2.6503616457053925, 2.8744732895824234, 1.7005922165065421, 0.7367243465593286, 1.069574233983573, 1.0498246248721292, 0.8058873798345557, 1.203856311813652, 0.8532236923463712, 0.49628603132975907, 0.8109508668885207, 0.7262342558417586, 0.816997315687824, 0.9967038886258354, 1.612153270657377, 1.4965250851281715, 1.115723556772205, 0.8250303322417506, 1.0341804157971424, 0.4221487003487834, 0.47646348375282055, 1.1094728256111415, 4.894314289430022, 5.3376844117044016, 2.11486127776101, 2.9222009439110415, 2.5943663445291265, 3.4067119597906568, 3.4568375794142105, 2.736973489909914, 2.7776668111963834, 2.2594746761208255, 0.7204900076071419, 0.5721803002790806, 0.519943357130927, 0.5592034473563489, 0.5009364204476973, 0.5550599203832758, 1.092061812985222, 1.1078267271886846, 1.4756167382997087, 1.7209114824046452, 1.1971872488947795, 0.7758905167505779, 0.4681625993371974, 0.40817524849393766, 0.32989383515774146, 0.35078286288164895, 0.5370933186430883, 0.6979100557469377, 0.6891486988574685, 2.206733184513159, 1.5019168563182903, 3.005405090092926, 3.548748128815935, 3.5789887739113886, 3.6040791484982493, 2.5147581588986703, 2.6502457831475335, 2.848444131399423, 3.163715440369741, 3.036978386990707, 2.4723571899349692, 0.38170509581146955, 0.26945481318207753, 0.2823321173747885, 0.5026474447772803, 0.4857142437539624, 0.465592210719175, 0.2893462872157301, 0.8036021218158202, 0.8640231515979977, 0.9931305616369118, 0.3544381373320599, 0.37424448284540196, 0.4204860020420071, 0.5974725147461951, 0.5945020586120414, 0.5150363008474538, 0.5057750918227155, 0.4748589117679927, 0.4705543069682121, 0.6820234927649699]
+
+MAE:  [1.5379773544272117, 1.4583377129548432, 1.479951765855944, 1.5611695612105345, 1.6772996549185413, 3.0609527502032243, 3.0252268400835938, 4.803390110231964, 2.9913074930175267, 2.0301143682179705, 1.4459929600161887, 1.5244658559995639, 1.3687132283676327, 1.4432511452047072, 1.3842877225534336, 1.1936189373936401, 1.052303410488985, 0.9482555697006405, 0.9660829185752554, 0.868294820785881, 0.8738911482842279, 0.9220746722573657, 0.7474889274442118, 0.617030381435245, 0.6713399014558364, 0.6459402925508703, 0.6116939403987747, 0.4608483726285071, 0.7069082568721091, 0.7148181827259257, 0.9000709994595719, 1.0964622254093572, 1.2743350440092336, 1.4635087379056018, 1.4889671946368324, 1.5610939348042974, 2.3470580600622646, 3.9254435798445684, 6.645191242078663, 4.534776432015243, 3.5188498962373918, 1.7704258592977935, 1.6991068357024475, 2.8457847110875565, 3.160773444683827, 1.281913423410653, 1.3070230145783046, 1.0273214829467394, 0.8247083892895796, 0.8200765190071023, 0.8556495027472325, 0.8680279034162529, 0.9300223382238784, 0.859432132678437, 0.9443656585959844, 0.9526234739460021, 0.8222387267763603, 0.7471401389969059, 0.7402288590182154, 0.8220839958165701, 1.0442271268381753, 0.7656181294131318, 0.7285120574920905, 0.5178186616301785, 1.9750987262582413, 1.7489936049574835, 1.969448962548979, 3.3416509744354994, 2.6245982105067625, 10.999954097116595, 9.89388933282361, 7.759951997378777, 5.602525770049453, 4.756978335423064, 2.0967694167299977, 1.8004935526559838, 1.6252551229172953, 1.6037226098375184, 1.3981978044280687, 1.45900089264748, 1.5201042289003748, 1.473523614241185, 1.5032646777216543, 1.3198880197595828, 1.2916380945905714, 1.400245053423493, 1.3744510343508842, 1.1239318957892295, 1.0894851180560945, 1.0980360154046716, 1.0131175664447296, 1.0231419410206761, 1.0269493850586484, 1.062066196719747, 0.8047837137558739, 0.7279820644642244, 1.3123723212095866, 1.692277788909233, 2.2297134674495007, 3.1685621534160884, 1.2798105765968304, 2.7933744602899666, 3.1652540261986064, 3.485436495047002, 4.417558273796097, 1.7222571035082461, 2.003678589518159, 2.0772896535692023, 1.6067524289438866, 1.3013459871154744, 1.5933278489816693, 2.30867569427282, 2.7629651267472863, 2.882392538038804, 2.9704571640628363, 2.8244341603266534, 2.8913611397629158, 2.5136761783795007, 1.9633496705764353, 1.9710642232916662, 1.8801730649687614, 1.6215703271720023, 1.2904059751158645, 1.3128025707242086, 1.3888663803794816, 1.2846767883465724, 1.379482018146051, 1.2530873235285906, 0.8911373907392187, 0.9594343264689672, 0.9020936858441981, 1.02447577426085, 1.1638755535890504, 1.9798577173643246, 3.268639024714274, 3.4158582429309665, 2.5371295920242694, 1.3493996905404222, 2.120595502407966, 1.9501230781078063, 1.3319056871914239, 1.5346800036081472, 2.0313915129152744, 2.64875522618923, 2.6359345421697715, 2.2667139002923733, 1.7937060007567485, 1.9397386402899324, 2.030688581994772, 1.913015462551278, 1.9382999465994077, 1.8118387544714618, 1.6895820703940683, 1.9221533484389488, 2.0079556266247294, 1.6864428704492962, 1.6681273126532183, 1.7294999791828156, 1.7219942888457123, 1.4955347215441082, 0.5923855859397629, 0.8313457126308726, 1.2311752321596117, 1.209182580102083, 0.6239014396088991, 2.799532410318235, 3.679355000004689, 3.656488226915689, 4.2629812337695805, 1.5170218026511142, 1.5555399495743174, 1.6620857199195294, 1.5336643217201134, 1.643549713682593, 1.9427532204166207, 2.244746711432932, 2.643550041606518, 2.42075500393358, 2.30854743916283, 1.9976800300938968, 2.05726262913921, 2.120724480581864, 2.044866932069056, 1.9161253182868467, 2.2028172720443524, 2.1824630487436343, 2.2380956747259426, 2.168244547364113, 1.984792756903273, 2.1913867818950776, 2.243050009888894, 2.247486470423786, 0.6819507938817302, 0.9764793424279193, 1.5865175925307788, 1.22758598646205, 1.2843614649160935, 2.9026732901458874, 4.00290629158092, 3.967080938833615, 5.650114361378413, 2.3753568172359976, 2.0953030710158225, 2.50982145396921, 1.926149744659643, 1.7811353138999024, 1.8516445714210719, 1.775668504586527, 2.1552692139424265, 2.365677551585621, 2.2763900717147822, 2.2139780413294123, 2.185283706048946, 2.3097128641040334, 2.5734505151686027, 2.700154415991966, 2.386742090905679, 2.180192759431804, 2.0554324485261866, 2.418476374564813, 2.231970773470056, 2.2693487144220126, 2.426069547317145, 2.4573947728100123, 1.269264703265418, 0.9399601141426018, 1.1241085142012215, 0.9640304030906011, 2.493350006879484, 2.8145770908416647, 4.6704806277537925, 3.8295211559488673, 4.398958290633151, 6.474861072843333, 8.782010095854584, 5.794859790451722, 4.138036359920648, 2.4255237572089388, 2.9703844139342395, 2.6120409846819173, 2.031899073989764, 1.7460708046013576, 1.8189000350144582, 1.820577911794756, 1.6283121453413238, 1.874808891201658, 2.0860617057664563, 2.2945054349832925, 2.190729847055939, 2.1414210462964327, 2.3956266237256645, 2.141470204206193, 2.049876694477432, 2.1079634542750187, 2.244412174775499, 2.2237565006830335, 1.7600189369494235, 1.2589998050494784, 0.719646079678509, 0.8569288029033464, 3.308630335950092, 3.4907001521551897, 4.806582466468266, 5.059442341572996, 5.0900970559915075, 4.927751156697564, 4.891472604906579, 5.506517559744374, 5.6530549346156915, 3.6572119131489758, 4.108760427608642, 2.82646293084612, 1.6359452525983293, 1.467049199532586, 2.308805626102179, 2.2657778519582856, 2.2444696281311622, 2.2772059190237086, 2.325114612657206, 2.218906234737782, 2.1513853388873128, 2.1950642453030986, 2.20067740344119, 2.1582550215717253, 2.163283027025349, 2.203450598661323, 2.1712308759451204, 2.0679623372218683, 0.6590365160374113, 0.7172864486395095, 0.9550953016136775, 1.2946501812161515, 2.347585012326158, 5.571375581228106, 4.024870510775343, 4.677052175992673, 4.116227044197629, 4.223468763798802, 4.089385277511626, 4.619772252648365, 4.806185565972354, 4.280729638322882, 2.930682116593685, 2.419702485737241, 2.9810901905014187, 3.06987912959953, 2.578155166416312, 2.1686633997204647, 1.6298411021292045, 1.8749103106386713, 2.388876176486883, 2.2516125357503824, 2.272892040309756, 2.361351751977716, 2.5603350990742544, 2.6124030104176827, 2.5663356415663983, 2.5455963544328757, 2.6289274707349937, 2.632642244555329, 0.45411691626552325, 0.35356057259184176, 0.9656127990943665, 1.9016130550420118, 2.3092478608600073, 2.2928252020054116, 2.462018769996351, 3.9021796866406646, 3.6707195104452275, 3.5797290906120245, 3.512673995303395, 4.117286459156268, 4.185714375549215, 5.677527780661536, 3.660701116740157, 3.408360153605973, 3.2285083516289004, 2.0654937006455842, 1.3265787088980352, 2.1427135703770213, 2.0436824527319506, 1.5356311695256852, 1.1344161008773073, 2.0690517344007224, 1.8938654911154684, 1.9249202523426376, 2.026182439281612, 1.9472746854513086, 2.1584970817510643, 2.1583770692267006, 2.2341172624676684, 2.2178650525817263, 0.6060136331826761, 1.0147886399124697, 1.7742527883404104, 2.3732736635063, 2.3138341128812168, 2.1246370700456554, 3.5448295688915916, 3.7871645916688585, 3.75775693330899, 4.002633203012637, 4.469416006168166, 3.8137459693509292, 3.6477870583528182, 4.436764709607933, 6.94185040857112, 4.067795290938048, 1.6546179866625674, 1.469593535357811, 1.2480636094124924, 0.9368452601497136, 1.5570340590095257, 0.9979297071180196, 0.6178431944266217, 0.7085987477784852, 2.5566119280565864, 1.1869627264508231, 1.148930513681744, 1.2605992211400974, 1.7920818923064263, 1.5718650213902083, 1.578596684955192, 1.721257780482637, 1.1530792603844724, 1.961788639051796, 1.8520004812204383, 1.6906232236237884, 1.396518654846967, 1.6384201000618102, 2.810701874923149, 3.618099559350125, 3.5474980422141518, 3.8199861798562593, 4.021089454512904, 3.0079474252680165, 4.087016997477382, 4.728509238539543, 4.771137667441264, 4.460551586187756, 1.9270723039854503, 1.3467770965331745, 1.3656766551283441, 1.3372958448293455, 1.0893588141399375, 1.4443048380866301, 1.0836521757361113, 0.9323391407672158, 1.470440111378143, 1.8410658307959267, 2.0663219065303324, 1.968565284497694, 1.8579256992989028, 1.1325113619483014, 1.4360967383566372, 1.4574201631374433, 1.7164344935006328, 1.4701083930229293, 0.6997772232610258, 0.34010621562827303, 0.37449473795382787, 0.6940914592895222, 2.975997398133702, 3.1806653953287767, 2.661067468404552, 3.1535178238319594, 4.07435224799461, 3.0791600005212794, 2.2371154399667756, 3.472883370408365, 1.9121786723001348, 1.8353008670652553, 1.6830348262965333, 2.6084795023061833, 0.8588693171776526, 0.5311224283520972, 1.1019620400235195, 1.3895465762671362, 1.0782175144871602, 1.210635465402119, 0.9688594727985884, 1.1119378295170603, 1.598284126621927, 1.2196995862798312, 1.120151634878313, 1.094246225768794, 1.312223534479304, 1.0654801182123097, 0.9692173679440562, 1.4264764785707496, 0.8731677517482593, 0.6665977403149278, 0.6261652197405027, 0.6181329372599715, 3.381584223966138, 4.930125971128024, 2.7255338404755673, 3.230703129603938, 3.991760466086142, 4.339325005620454, 3.826899405131568, 3.2827464743934787, 1.719784467182157, 1.2070938353994782, 1.4709063965910552, 1.1964366439267329, 1.0535041585234042, 0.6057245495847331, 0.5347646027970536, 0.7924978395825307, 0.7290545534711755, 1.1993943757895977, 0.8745575916728132, 0.5849676490730938, 0.5140134912764235, 0.3276810033985327, 0.33673180970814326, 0.3383781688221796, 0.34558737404484313, 0.48314954200856836, 0.6876783962919686, 1.0655964370520523, 1.5895811228286743, 1.4373635246656484, 1.5273403580263978, 1.093757082332767, 3.8575630264105114, 3.5929782375724177, 3.1459920269099233, 2.842628843825476, 3.649877899132546, 4.549869800376181, 5.4655780724468235, 2.2937343272723743, 1.2352050487371695, 1.3140508293788127, 1.795209260675312, 1.8530046958358126, 0.9949506056044726, 0.7179099097333655, 0.34612261845314474, 0.6229848484876858, 0.5650032396780539, 0.5843550612657985, 0.29033331440794247, 0.19529536026975045, 0.1876898451925749, 0.47119560658461107, 0.25828634111317594, 0.4081803450918898, 0.5588552303631708, 0.2792272792686496, 0.9761023974524113, 1.763192453827999, 1.2146383093312936, 1.4612604738943065, 1.5748429994931783, 1.4591206162850472, 4.101745355029126, 3.155081977212969, 3.6158452995947727, 2.945836606224644, 3.418256177905388, 4.220743292898525, 2.9942126822983663, 1.7229042969710278, 1.7992059058141605, 1.575691428521434, 1.7417764348734017, 1.0973503151627795, 1.7880690572497882, 1.9288878929593671, 2.9506376321671315, 0.5433302710142772, 0.5399746100162582, 0.387169593113952, 0.19013006489560377, 0.16864176208028384, 0.5319296045457207, 0.35017278290466486, 0.3239965355931329, 0.42705601660333187, 0.8993276169504787, 0.7804312774722626, 1.0354302098005728, 1.1437420960165123, 0.8707614160983256, 1.010690671749976, 1.1370195802246386, 0.6363222916947479, 2.275106444009422, 5.020571877907081, 2.989107313042048, 2.3630112296857493, 3.4277518804586524, 2.696581126638543, 2.9937478454290183, 2.0403436593303224, 1.7867387304819535, 1.965488210562862, 2.8142013169047466, 1.4762018205215595, 1.7952768529980385, 2.6350340963460233, 1.028417007349055, 0.38346086729524465, 0.4261874807878078, 0.2888374208973691, 0.25253992215978266, 0.32627837348660127, 0.21264674093644112, 0.3624989122210744, 0.29734651293713926, 0.3012453167143105, 0.30214837459431304, 0.5584976304223633, 0.47710364841197944, 0.7054428955385764, 0.8347348652046894, 0.6071987069854127, 0.4353727179228417, 3.473974271820192, 3.9065878904684648, 2.2538580572183378, 3.235051044616021, 3.026836527092559, 3.404714575858376, 2.2523570862223288, 2.101632627540267, 2.3853597109319957, 2.8981800771522206, 1.822512784301451, 2.082821900552496, 2.5613374600794767, 3.4365826499589454, 3.326659010470396, 0.4013931218075679, 0.21963930560978917, 0.21053267037666035, 0.27455421341749403, 0.3533376507204231, 0.4202822072003176, 0.26644799048469764, 0.39687397077648195, 0.44836499150893455, 0.3093506430650593, 0.4593156177232356, 0.6698204489111782, 0.7864800526513211, 0.6345576802990869, 1.0083407746017783, 2.3083185972378044, 3.644331058398032, 0.9749643127766038, 2.9973885473525677, 3.706884364238355, 2.856919071650042, 3.1262783610871807, 3.1366523672462505, 3.211226612606067, 2.5666912294556883, 2.7877366273032287, 1.8583113159751559, 1.5640803538187296, 2.4506666552156653, 3.2290903129875055, 3.7733424111238443, 3.7779187866430526, 0.3829068701606142, 0.22276206706796953, 0.17557076938493352, 0.2607451185181286, 0.2682634701805751, 0.2997539866935012, 0.3182019223351984, 0.2651214335942795, 0.2778021775570179, 0.5010461469945507, 0.7164548060901775, 1.1334252413807937, 1.2216962978589112, 2.571230791026881, 3.9545774611638813, 3.9398569730036876, 0.9186403074692403, 3.2437394258413197, 2.4483198335600798, 2.9074399855073882, 2.796525790794865, 3.1254919247647464, 2.3309933671052403, 2.1542384907322103, 3.4417281210289654, 3.549337593495735, 2.681092560299426, 2.634567448059333, 2.031972072641468, 3.818920115738282, 4.795747039143018, 3.78262392605283, 0.34165679887095557, 0.37035899709557446, 0.33262090841794145, 0.26962900106783727, 0.3679012066260386, 0.3183923491935358, 0.32086658845285115, 0.4575699046630308, 0.4153882537505773, 0.32925527688491846, 0.7853781220705409, 0.7633154797141884, 0.6620929045537157, 2.8287568104916314, 2.812002653297746, 1.8848677456174323, 4.072106321960376, 1.7711721880222957, 2.3351772604613186, 1.949984041839824, 2.2737495344264684, 3.2463398528193825, 2.6264721232521917, 2.4620692865400122, 4.133961207454697, 3.905043328301343, 3.2302170637026557, 3.4021289438741404, 2.5537806127384366, 3.189872004017205, 3.951760085862766, 3.8397511677667615, 2.330570834411174, 0.336038446516993, 0.46791018648390237, 0.4131140228967402, 0.35609772415448343, 0.43153959113127344, 0.5579198973892617, 0.5000419483032034, 0.41405875911449, 0.3257847557998889, 0.5122899140539289, 0.6083744325686481, 1.4629965130278546, 1.008814443847788, 3.2015259418790065, 1.9828814161851713, 1.5901899517903217, 1.9419790925417064, 1.499305334863686, 1.8451661371042147, 2.292683650772874, 2.9887438431003877, 2.361519401900587, 2.172422434438986, 3.6434456360755743, 3.656173064827224, 2.6135184827489173, 2.004340598209865, 2.3542073533200893, 3.064848598915051, 3.3491170158756227, 4.250196334882767, 3.4583274335233654, 0.6843192544619412, 0.2575611416338749, 0.41331075961337976, 0.3283132229993963, 0.47618266091730277, 0.5286110019876818, 0.4515694514937356, 0.3617340456597769, 0.31361530594928455, 0.39499354795189384, 0.6780523294057726, 2.357314395019605, 3.077487465548653, 2.101545196319664, 1.7607398248083215, 1.6962651372776152, 1.8950264669253827, 1.7974033001141956, 2.1948064146301127, 2.353490196994377, 3.6274137022705375, 3.228397200635065, 2.7047620042722187, 3.240174666180797, 3.4465427672997895, 2.6554414729933447, 2.545584352709492, 3.080102571664194, 3.0069088093763185, 3.4314767402933914, 3.908644805468132, 3.9859780167684247, 1.1566167283345279, 0.31656644560919944, 0.36944239805242907, 0.28542323933362956, 0.2317802790099058, 0.35863152347201316, 0.46121022051103283, 0.4322715262064338, 0.4632139251271221, 0.29814779982719225, 3.032169340583035, 0.8084193683146133, 2.6659584746346803, 1.9866901204414418, 2.4537014506466996, 2.197435102110489, 1.8197204739812023, 2.126207909365244, 2.28496632371415, 2.3269068308861813, 2.9545596181404243, 3.5318075739492105, 3.111148977152528, 3.518413637919835, 3.2609212914438968, 3.452541560346411, 2.5939151234428532, 3.9294545985588587, 3.5085504189245285, 2.992453938094814, 3.429475845166506, 3.5564508965680504, 2.1538995311288023, 0.7103647047191077, 1.0278555801922964, 0.5110612304799026, 0.5820515582745815, 0.6313013670715104, 0.5238591594362251, 0.5683411131462012, 0.30539578789499605, 0.286209437397292, 3.1378706203351143, 1.4896630419320565, 3.0192582058467097, 2.258495924657172, 2.4426474743703763, 2.2029850367766226, 1.7632042366874903, 2.0228387716975615, 1.9429256972782512, 2.613881338927938, 3.2918632380711084, 3.018080638654318, 2.711456267289216, 3.069439541323677, 2.966981804845943, 2.812828843413763, 2.6856797087793445, 3.144765229972819, 3.6086530316952286, 3.331560697721521, 3.1131935054170956, 0.5583396270599437, 0.5360721468036213, 0.668727434195981, 0.5717884290211135, 0.29989077413571247, 0.2867579023469152, 0.37492967296392105, 0.43318111714160684, 0.5048280083434554, 0.5825266267308915, 0.32130218302377994, 2.7824379896655054, 1.1194700526422299, 1.6532770858229153, 2.0014098536700993, 2.101827716408768, 1.6836018335381702, 1.9705108714406363, 1.6061718731359973, 1.9281106406096076, 1.9379520640000667, 2.9644887642277165, 3.291399264310421, 3.081972250811608, 3.231046751018226, 3.318417239431575, 2.335765242430224, 2.608448791991797, 2.418401726602866, 0.2754885524444703, 0.2544004551946602, 0.3824870937545383, 0.7353986121234904, 0.6677477579639822, 1.0007561877606286, 0.7855861747925316, 0.5553754362270288, 0.6574915492667759, 0.17265572062453394, 0.19926547396734698, 0.3108456031214309, 0.30121923908526066, 0.6470321550674974, 1.2446733041511586, 2.68691539218293, 3.2411336923210805, 2.005091608097189, 1.8027060226846316, 1.6170386805586292, 1.945653039074574, 3.10046372399707, 3.0199763952173257, 3.1006120998685502, 3.3049808279953505, 2.7144356300590613, 3.5882968166644638, 4.334916098836918, 3.6749146550866456, 0.9873074701025021, 0.4028308455162011, 0.28251636250232887, 0.411992201641079, 0.4844637306254415, 0.4701579977402828, 0.5712238234877768, 0.7837397054263698, 0.44738085255717336, 0.4354233581360624, 0.34118052148953765, 0.4620284050866437, 0.5885109239382451, 0.2633703499088705, 0.5140751195136665, 0.22620764109981653, 0.2917569373460356, 0.2588075957013699, 1.7883191595048855, 2.8180326754227742, 3.6062266274495602, 2.2542526681346557, 1.7424765330035292, 2.2548470799520604, 3.3469996850603985, 3.1680726870113127, 2.6369081800399505, 2.894976793854887, 3.1441897187226346, 3.4471663134154844, 3.3463435167698807, 1.920436024561061, 0.27646897054392305, 0.5962442777599949, 0.3465555610630049, 0.4834028443449144, 0.5956899455556395, 0.6925124610586578, 0.8078444533203223, 0.766827685008883, 0.6583816087665918, 0.6435480304034854, 0.673010033367742, 0.6536002370680977, 0.9938073178964526, 0.8322119102959796, 0.5789544594064044, 0.46633716773800143, 0.33028678418144963, 0.4351827667223649, 0.3541186376788969, 3.967651752143798, 1.4376458689933365, 2.450140312677458, 1.785344051106588, 1.4568890757394544, 3.2680895344580665, 2.610271598220235, 2.958364215407799, 2.574927414185561, 3.600230591919352, 2.0372681239439348, 2.206244428968746, 1.4704155057443604, 0.6120253205968017, 0.9968413766750007, 0.9623658120027309, 0.6807508035624088, 1.0713610098494553, 0.7462257428936541, 0.40880560093753865, 0.7432538903202426, 0.6575452349045364, 0.739861396420991, 0.8710134057819156, 1.5032681244258626, 1.3304814808751564, 0.9173333717691837, 0.7611278092208984, 0.8582577508867136, 0.35897618162043377, 0.3834242946313111, 0.963647162318766, 4.325822179714803, 4.625295951112686, 1.5962770629114154, 2.466074826033258, 2.250039140935542, 2.7858733985063995, 2.9395582758156404, 2.2981837303695882, 2.1573042955578434, 1.639602069467955, 0.5282382637420383, 0.47979196701433396, 0.4070590387825019, 0.47893961156992537, 0.4282163153327314, 0.46299228395803044, 1.0119777199667404, 1.0333927034922088, 1.405964275705691, 1.6697401139724384, 1.1646799467275801, 0.7098068962674572, 0.3805062419080243, 0.31030031556211574, 0.26673622294258303, 0.25945947722157825, 0.4080993365525564, 0.5292309442876952, 0.6205201998689769, 1.9474034069843882, 1.301511949374947, 2.5204402403700077, 3.007048384050085, 3.1282164968186508, 3.0072367564233056, 2.111259348694897, 2.2997194255656566, 2.3440602212902273, 2.6989150017074, 2.4769177492759233, 1.9273451072221632, 0.28841461713406025, 0.18268138125926345, 0.19459799460028396, 0.36673157793455036, 0.37655729440737257, 0.3816240328494149, 0.22285785862098106, 0.7602773596048941, 0.7973045868710608, 0.9648746236034954, 0.31224643654641876, 0.3092482765595507, 0.35164497309988363, 0.5394215692681691, 0.4074798329222297, 0.38412175350281136, 0.3855134867144949, 0.38833559591552747, 0.36881123448920156, 0.5928478532044723]
+-----------------------
+Mean and standard deviation
+=> RMSE: mean: 2.2481, std: 1.538517
+=> MAE: mean: 1.9077, std: 1.327706
+-----------------------
+timestamp: 16013.509019613266
+email sent

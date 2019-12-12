@@ -1,0 +1,64 @@
+RUN MODEL: STConvS2s
+Device: cuda:0
+=> Loaded checkpoint cfsr_step15_rmseloss_4_20191023-133406.pth.tar (best epoch: 48, validation error: 2.1005)
+timestamp: 5033.500647783279
+Training time: 1:23:53.50
+STConvS2s RMSELoss: 2.0710
+
+=> Loaded checkpoint cfsr_step15_rmseloss_4_20191023-145810.pth.tar (best epoch: 26, validation error: 2.1196)
+timestamp: 3305.5039105415344
+Training time: 0:55:05.50
+STConvS2s RMSELoss: 2.0885
+
+=> Loaded checkpoint cfsr_step15_rmseloss_4_20191023-155326.pth.tar (best epoch: 48, validation error: 2.1029)
+timestamp: 5038.560688734055
+Training time: 1:23:58.56
+STConvS2s RMSELoss: 2.0687
+
+=> Loaded checkpoint cfsr_step15_rmseloss_4_20191023-171735.pth.tar (best epoch: 15, validation error: 2.1641)
+timestamp: 2441.569977283478
+Training time: 0:40:41.57
+STConvS2s RMSELoss: 2.1265
+
+=> Loaded checkpoint cfsr_step15_rmseloss_4_20191023-175828.pth.tar (best epoch: 39, validation error: 2.1196)
+timestamp: 4331.855980396271
+Training time: 1:12:11.86
+STConvS2s RMSELoss: 2.0892
+
+=> Loaded checkpoint cfsr_step15_rmseloss_4_20191023-191050.pth.tar (best epoch: 60, validation error: 2.1145)
+timestamp: 5985.674294710159
+Training time: 1:39:45.67
+STConvS2s RMSELoss: 2.0835
+
+=> Loaded checkpoint cfsr_step15_rmseloss_4_20191023-205047.pth.tar (best epoch: 63, validation error: 2.0980)
+timestamp: 6223.711132526398
+Training time: 1:43:43.71
+STConvS2s RMSELoss: 2.0647
+
+=> Loaded checkpoint cfsr_step15_rmseloss_4_20191023-223441.pth.tar (best epoch: 53, validation error: 2.1091)
+timestamp: 5436.615104198456
+Training time: 1:30:36.62
+STConvS2s RMSELoss: 2.0753
+
+=> Loaded checkpoint cfsr_step15_rmseloss_4_20191024-000529.pth.tar (best epoch: 52, validation error: 2.1002)
+timestamp: 5355.302582979202
+Training time: 1:29:15.30
+STConvS2s RMSELoss: 2.0620
+
+=> Loaded checkpoint cfsr_step15_rmseloss_4_20191024-013455.pth.tar (best epoch: 28, validation error: 2.1251)
+timestamp: 3461.4206342697144
+Training time: 0:57:41.42
+STConvS2s RMSELoss: 2.0913
+
+timestamp: 4661.371495342255
+
+Errors:  [2.0710324158866285, 2.0884879415485718, 2.068736780074335, 2.1265284592105496, 2.089247612359886, 2.083459287195162, 2.0646891445608184, 2.0752849425038984, 2.0619585904108213, 2.091325019361786]
+
+Times:  [5033.500647783279, 3305.5039105415344, 5038.560688734055, 2441.569977283478, 4331.855980396271, 5985.674294710159, 6223.711132526398, 5436.615104198456, 5355.302582979202, 3461.4206342697144]
+-----------------------
+Mean and standard deviation after 10 iterations
+=> Test Error: mean: 2.0821, std: 0.017914
+=> Training time: mean_readable: 1:17:41.37, mean: 4661.3715, std: 1177.808816
+-----------------------
+timestamp: 46723.40410089493
+email sent
