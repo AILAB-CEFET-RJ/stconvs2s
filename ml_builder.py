@@ -6,8 +6,10 @@ import matplotlib.pyplot as plt
 import time as tm
 import os
 
-from model.convlstm import STConvLSTM
-from model.stconvs2s import STConvS2S
+from model.stconvs2s import STConvS2S_R, STConvS2S_C
+from model.baselines import *
+from model.ablation import *
+ 
 from tool.train_evaluate import Trainer, Evaluator
 from tool.dataset import NetCDFDataset
 from tool.loss import RMSELoss
@@ -18,50 +20,34 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 from torch import optim
 
-
 class MLBuilder:
 
-    def __init__(self, model_descr, version, plot, no_seed, verbose, 
-               small_dataset, no_stop, epoch, patience, device, 
-               workers, convlstm, mae, chirps, step):
+    def __init__(self, config, device):
         
-        self.model_descr = model_descr
-        self.version = version
-        self.plot = plot
-        self.no_seed = no_seed
-        self.verbose = verbose
-        self.small_dataset = small_dataset
-        self.no_stop = no_stop
-        self.epochs = epoch
-        self.patience = patience
+        self.config = config
         self.device = device
-        self.dataset_type = 'small-dataset' if (self.small_dataset) else 'full-dataset'
-        self.workers = workers
-        self.convlstm = convlstm
-        self.mae = mae
-        self.chirps = chirps
-        self.step = str(step) 
-        
-    def run_model(self, seed_number):
-        self.__define_seed(seed_number)
-        # Hyperparameters
-        batch_size = 50
+        self.dataset_type = 'small-dataset' if (self.config.small_dataset) else 'full-dataset'
+        self.step = str(config.step)
+        self.dataset_name, self.dataset_file = self.__get_dataset_file()
+        self.dropout_rate = self.__get_dropout_rate()
+        self.filename_prefix = self.dataset_name + '_step' + self.step
+                
+    def run_model(self, number):
+        self.__define_seed(number)
         validation_split = 0.2
         test_split = 0.2
-        dataset_file = None
         # Loading the dataset
-        dataset_name, dataset_file, dropout_rate = self.__get_dataset_file()
-        ds = xr.open_mfdataset(dataset_file)
-        if (self.small_dataset):
+        ds = xr.open_mfdataset(self.dataset_file)
+        if (self.config.small_dataset):
             ds = ds[dict(sample=slice(0,500))]
 
         train_dataset = NetCDFDataset(ds, test_split=test_split, 
                                       validation_split=validation_split)
-        val_dataset = NetCDFDataset(ds, test_split=test_split, 
-                                    validation_split=validation_split, is_validation=True)
-        test_dataset = NetCDFDataset(ds, test_split=test_split, 
-                                     validation_split=validation_split, is_test=True)
-        if (self.verbose):
+        val_dataset   = NetCDFDataset(ds, test_split=test_split, 
+                                      validation_split=validation_split, is_validation=True)
+        test_dataset  = NetCDFDataset(ds, test_split=test_split, 
+                                      validation_split=validation_split, is_test=True)
+        if (self.config.verbose):
             print('[X_train] Shape:', train_dataset.X.shape)
             print('[y_train] Shape:', train_dataset.y.shape)
             print('[X_val] Shape:', val_dataset.X.shape)
@@ -69,109 +55,143 @@ class MLBuilder:
             print('[X_test] Shape:', test_dataset.X.shape)
             print('[y_test] Shape:', test_dataset.y.shape)
             print(f'Train on {len(train_dataset)} samples, validate on {len(val_dataset)} samples')
-
-        upsample = False
-        filename_prefix = dataset_name
-        if (int(self.step) == 15):
-            upsample = True
-            filename_prefix += '_step' + self.step
-            
-        params = {'batch_size': batch_size, 
-                  'num_workers': self.workers, 
+                        
+        params = {'batch_size': self.config.batch, 
+                  'num_workers': self.config.workers, 
                   'worker_init_fn': self.__init_seed}
 
         train_loader = DataLoader(dataset=train_dataset, shuffle=True,**params)
         val_loader = DataLoader(dataset=val_dataset, shuffle=False,**params)
         test_loader = DataLoader(dataset=test_dataset, shuffle=False, **params)
-
-        # Creating the model
-        model, criterion  = None, None
-        if (self.convlstm):
-            model = STConvLSTM(input_size=train_dataset.X.shape[3], dropout_rate=dropout_rate, upsample=upsample)
-        else:
-            model = STConvS2S(channels=train_dataset.X.shape[1], dropout_rate=dropout_rate, upsample=upsample)
-                              
+        
+        models = {
+            'stconvs2s-r': STConvS2S_R,
+            'stconvs2s-c': STConvS2S_C,
+            'convlstm': STConvLSTM,
+            'predrnn': PredRNN,
+            'mim': MIM,
+            'conv2plus1d': Conv2Plus1D,
+            'conv3d': Conv3D,
+            'enc-dec3d': Endocer_Decoder3D,
+            'ablation-stconvs2s-nocausalconstraint': AblationSTConvS2S_NoCausalConstraint,
+            'ablation-stconvs2s-notemporal': AblationSTConvS2S_NoTemporal,
+            'ablation-stconvs2s-r-nochannelincrease': AblationSTConvS2S_R_NoChannelIncrease,
+            'ablation-stconvs2s-c-nochannelincrease': AblationSTConvS2S_C_NoChannelIncrease,
+            'ablation-stconvs2s-r-inverted': AblationSTConvS2S_R_Inverted,
+            'ablation-stconvs2s-c-inverted': AblationSTConvS2S_C_Inverted,
+            'ablation-stconvs2s-r-notfactorized': AblationSTConvS2S_R_NotFactorized,
+            'ablation-stconvs2s-c-notfactorized': AblationSTConvS2S_C_NotFactorized
+        }
+        if not(self.config.model in models):
+            raise ValueError(f'{self.config.model} is not a valid model name. Choose between: {models.keys()}')
+            quit()
+            
+        # Creating the model    
+        model_bulder = models[self.config.model]
+        model = model_bulder(train_dataset.X.shape, self.config.num_layers, self.config.hidden_dim, 
+                             self.config.kernel_size, self.device, self.dropout_rate, int(self.step))
         model.to(self.device)
-        
-        if (self.mae):
-            criterion = nn.L1Loss()
-        else:
-            criterion = RMSELoss()
-        
+        criterion = RMSELoss()
         opt_params = {'lr': 0.001, 
                       'alpha': 0.9, 
                       'eps': 1e-6}
         optimizer = torch.optim.RMSprop(model.parameters(), **opt_params)
-        model_info = self.__execute_learning(model, criterion, optimizer, train_loader, val_loader, 
-                                              test_loader, dataset_name, filename_prefix, dropout_rate)
+        util = Util(self.config.model, self.dataset_type, self.config.version, self.filename_prefix)
+        
+        train_info = {'train_time': 0}
+        if self.config.pre_trained is None:
+            train_info = self.__execute_learning(model, criterion, optimizer, train_loader,  val_loader, util) 
+                                                 
+        eval_info = self.__load_and_evaluate(model, criterion, optimizer, test_loader, 
+                                             train_info['train_time'], util)
 
         if (torch.cuda.is_available()):
             torch.cuda.empty_cache()
 
-        #util.send_email(model_info, self.email)
-        return model_info
+        return {**train_info, **eval_info}
 
 
-    def __execute_learning(self, model, criterion, optimizer, train_loader, val_loader, test_loader, 
-                            dataset_name, filename_prefix, dropout_rate):
-        criterion_name = type(criterion).__name__
-        filename_prefix += '_' + criterion_name
-        util = Util(self.model_descr, self.dataset_type, self.version, filename_prefix)
-    
-        # Training the model
+    def __execute_learning(self, model, criterion, optimizer, train_loader, val_loader, util):
         checkpoint_filename = util.get_checkpoint_filename()    
-        trainer = Trainer(model, criterion, optimizer, train_loader, val_loader, self.epochs, 
-                          self.device, self.verbose, self.patience, self.no_stop)
+        trainer = Trainer(model, criterion, optimizer, train_loader, val_loader, self.config.epoch, 
+                          self.device, util, self.config.verbose, self.config.patience, self.config.no_stop)
     
         start_timestamp = tm.time()
-        train_losses, val_losses = trainer.fit(checkpoint_filename)
+        # Training the model
+        train_losses, val_losses = trainer.fit(checkpoint_filename, is_chirps=self.config.chirps)
         end_timestamp = tm.time()
-        # Error analysis
+        # Learning curve
         util.save_loss(train_losses, val_losses)
-        util.plot([train_losses, val_losses], ['Training', 'Validation'], 
-                  'Epochs', 'Error', 'Error analysis', self.plot)
+        util.plot([train_losses, val_losses], ['Training', 'Validation'], 'Epochs', 'Loss',
+                  'Learning curve - ' + self.config.model.upper(), self.config.plot)
+
+        train_time = end_timestamp - start_timestamp       
+        print(f'\nTraining time: {util.to_readable_time(train_time)} [{train_time}]')
+               
+        return {'dataset': self.dataset_name,
+                'dropout_rate': self.dropout_rate,
+                'train_time': train_time
+                }
+                
     
-        # Load model with minimal loss after training phase
-        model,_, best_epoch, val_loss = trainer.load_checkpoint(checkpoint_filename)
-    
-        # Evaluating the model
-        evaluator = Evaluator(model, criterion, test_loader, self.device)
-        test_loss = evaluator.eval()
-        train_time = end_timestamp - start_timestamp
-        print(f'Training time: {util.to_readable_time(train_time)}\n{self.model_descr} {criterion_name}: {test_loss:.4f}\n')
+    def __load_and_evaluate(self, model, criterion, optimizer, test_loader, train_time, util):  
+        evaluator = Evaluator(model, criterion, optimizer, test_loader, self.device, util, self.step)
+        if self.config.pre_trained is not None:
+            # Load pre-trained model
+            best_epoch, val_loss = evaluator.load_checkpoint(self.config.pre_trained, self.dataset_type, self.config.model)
+        else:
+            # Load model with minimal loss after training phase
+            checkpoint_filename = util.get_checkpoint_filename() 
+            best_epoch, val_loss = evaluator.load_checkpoint(checkpoint_filename)
         
+        time_per_epochs = 0
+        if not(self.config.no_stop): # Earling stopping during training
+            time_per_epochs = train_time / (best_epoch + self.config.patience)
+            print(f'Training time/epochs: {util.to_readable_time(time_per_epochs)} [{time_per_epochs}]')
+        
+        test_rmse, test_mae = evaluator.eval(is_chirps=self.config.chirps)
+        print(f'Test RMSE: {test_rmse:.4f}\nTest MAE: {test_mae:.4f}')
+                        
         return {'best_epoch': best_epoch,
-                'val_error': val_loss,
-                'test_error': test_loss,
-                'train_time': train_time,
-                'loss_type': criterion_name,
-                'dropout_rate': dropout_rate,
-                'dataset': dataset_name}
+                'val_rmse': val_loss,
+                'test_rmse': test_rmse,
+                'test_mae': test_mae,
+                'train_time_epochs': time_per_epochs
+                }
           
     def __define_seed(self, number):      
-        if (~self.no_seed):
+        if (~self.config.no_seed):
             # define a different seed in every iteration 
-            number *= 1000
-            np.random.seed(number)
-            rd.seed(number)
-            torch.manual_seed(number)
-            torch.cuda.manual_seed(number)
+            seed = (number * 10) + 1000
+            np.random.seed(seed)
+            rd.seed(seed)
+            torch.manual_seed(seed)
+            torch.cuda.manual_seed(seed)
             torch.backends.cudnn.deterministic=True
             
     def __init_seed(self, number):
-        np.random.seed(number*1000)
+        seed = (number * 10) + 1000
+        np.random.seed(seed)
         
     def __get_dataset_file(self):
         dataset_file, dataset_name = None, None
-        dropout_rate = 0.
-        if (self.chirps):
+        if (self.config.chirps):
             dataset_file = 'data/dataset-chirps-1981-2019-seq5-ystep' + self.step + '.nc'
             dataset_name = 'chirps'
-            dropout_rate = 0.8 if (self.convlstm) else 0.2
-            
         else:
             dataset_file = 'data/dataset-ucar-1979-2015-seq5-ystep' + self.step + '.nc'
             dataset_name = 'cfsr'
         
-        return dataset_name, dataset_file, dropout_rate
-    
+        return dataset_name, dataset_file
+        
+    def __get_dropout_rate(self):
+        dropout_rates = {
+            'predrnn': 0.5,
+            'mim': 0.5
+        }
+        if self.config.model in dropout_rates:
+            dropout_rate = dropout_rates[self.config.model] 
+        else:
+            dropout_rate = 0.
+
+        return dropout_rate

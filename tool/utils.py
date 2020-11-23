@@ -7,11 +7,13 @@ from datetime import datetime
 from configparser import ConfigParser
 from pathlib import Path
 import matplotlib
+import matplotlib.pyplot as plt
 matplotlib.use('Agg') #non-interactive backends for png files
 from matplotlib.ticker import MaxNLocator
+import torch
 
 class Util:
-    def __init__(self, model_descr, dataset_type='default', version=0, prefix=''):
+    def __init__(self, model_descr, dataset_type='notebooks', version=0, prefix=''):
         current_time = datetime.now()
         self.model_descr = model_descr
         self.start_time = current_time.strftime('%d/%m/%Y %H:%M:%S')
@@ -21,7 +23,6 @@ class Util:
         self.base_filename =  prefix + self.version + '_' + current_time.strftime('%Y%m%d-%H%M%S')
         self.project_dir = str(Path(__file__).absolute().parent.parent)
         self.output_dir = os.path.join(self.project_dir, 'output', dataset_type)
-        
         
     def plot(self, data, columns_name, x_label, y_label, title, enable=True, inline=False):
         if (enable):
@@ -83,13 +84,37 @@ class Util:
             np.savetxt(train_filename, train_losses, delimiter=",", fmt='%g')
             np.savetxt(val_filename, val_losses, delimiter=",", fmt='%g')
             
+    def save_examples(self, inputs, target, output, step):
+        input_seq_length = inputs.shape[2]
+        row = step // input_seq_length
+        fig_input, ax_input = plt.subplots(nrows=1, ncols=input_seq_length)
+        fig_ground_truth, ax_ground_truth = plt.subplots(nrows=row, ncols=input_seq_length)
+        fig_prediction, ax_prediction = plt.subplots(nrows=row, ncols=input_seq_length)
+        count = 0
+        for i in range(row):
+            for j in range(input_seq_length):
+                if step == 5:
+                    ax_input[j] = self.__create_image_plot(inputs, ax_input, i, j, count+j, step)  
+                    ax_ground_truth[j] = self.__create_image_plot(target, ax_ground_truth, i,j ,count+j, step)
+                    ax_prediction[j] = self.__create_image_plot(output, ax_prediction, i,j ,count+j, step)
+                else:
+                    if i == 0:
+                        ax_input[j] = self.__create_image_plot(inputs, ax_input, i, j, count+j, step, ax_input=True)
+                    ax_ground_truth[i][j] = self.__create_image_plot(target, ax_ground_truth, i,j ,count+j, step)
+                    ax_prediction[i][j] = self.__create_image_plot(output, ax_prediction, i,j ,count+j, step)
+            count+=5
+                    
+        examples_dir = self.__create_dir('examples')
+        self.__save_image_plot(fig_input, examples_dir, 'input', step, fig_input=True)
+        self.__save_image_plot(fig_ground_truth, examples_dir, 'ground_truth', step)
+        self.__save_image_plot(fig_prediction, examples_dir, 'prediction', step)
+    
     def get_checkpoint_filename(self):
         check_dir = self.__create_dir('checkpoints')
         filename = os.path.join(check_dir, self.base_filename + '.pth.tar')
         return filename
         
     def to_readable_time(self, timestamp):
-        print(f'timestamp: {timestamp}')
         hours = int(timestamp / (60 * 60))
         minutes = int((timestamp % (60 * 60)) / 60)
         seconds = timestamp % 60.
@@ -106,6 +131,22 @@ class Util:
                       'end_time': end_time,
                       'elapsed_time': elapsed_time}
         return time_info
+       
+    def get_mask_land(self):
+        """
+        Original chirps dataset has no ocean data, 
+        so this mask is required to ensure that only land data is considered
+        """
+        filename = os.path.join(self.project_dir, 'data', 'chirps_mask_land.npy')
+        mask_land = np.load(filename)
+        mask_land = torch.from_numpy(mask_land).float()
+        return mask_land
+        
+    @staticmethod         
+    def generate_list_from(integer, size=3):
+        if isinstance(integer,int):
+            return [integer] * size
+        return integer        
         
     def __create_train_val_dir_in(self, dir_path):
         train_dir = os.path.join(dir_path, 'train')
@@ -118,3 +159,22 @@ class Util:
         new_dir = os.path.join(self.output_dir, dir_name, self.model_descr)
         os.makedirs(new_dir, exist_ok=True)
         return new_dir
+        
+    def __create_image_plot(self, tensor, ax, i, j, index, step, ax_input=False):
+        cmap = 'YlGnBu' if self.base_filename.startswith('chirps') else 'viridis'
+        tensor_numpy = tensor[0,:,index,:,:].squeeze().cpu().numpy()
+        if step == 5 or ax_input:
+            ax[j].imshow(np.flipud(tensor_numpy), cmap=cmap)
+            ax[j].get_xaxis().set_visible(False)
+            ax[j].get_yaxis().set_visible(False)
+        else:
+            ax[i][j].imshow(np.flipud(tensor_numpy), cmap=cmap)
+            ax[i][j].get_xaxis().set_visible(False)
+            ax[i][j].get_yaxis().set_visible(False)        
+        return ax
+        
+    def __save_image_plot(self, figure, folder, name, step, fig_input=False):
+        y = 0.7 if (step == 5 or fig_input) else 0.9
+        figure.suptitle(name, y=y)
+        filename = os.path.join(folder, name + '_' + self.base_filename + '.png') 
+        figure.savefig(filename, dpi=300)

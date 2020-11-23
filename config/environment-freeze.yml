@@ -72,7 +72,6 @@ dependencies:
   - numpy=1.16.2=py36h7e9f1db_0
   - numpy-base=1.16.2=py36hde5b4d6_0
   - olefile=0.46=py36_0
-  - openssl=1.1.1=h7b6447c_0
   - owslib=0.17.1=py_0
   - packaging=19.0=py36_0
   - pandas=0.24.2=py36he6710b0_0
@@ -150,6 +149,5 @@ dependencies:
     - tb-nightly==1.14.0a20190319
     - tensorflow-estimator-2-0-preview==1.14.0.dev2019040500
     - termcolor==1.1.0
-    - tf-nightly-gpu-2-0-preview==2.0.0.dev20190407
     - werkzeug==0.15.2
 

@@ -1,10 +1,13 @@
 import os
+import numpy as np
+
 import torch
+import torch.nn.functional as F
 
 class Trainer:
     
     def __init__(self, model, loss_fn, optimizer, train_loader, val_loader, 
-                 epochs, device, verbose, patience, no_stop):
+                 epochs, device, util, verbose, patience, no_stop):
         self.model = model
         self.loss_fn = loss_fn
         self.optimizer = optimizer
@@ -13,15 +16,16 @@ class Trainer:
         self.epochs = epochs
         self.device = device
         self.verbose = verbose
+        self.util = util
         self.early_stopping = EarlyStopping(verbose, patience, no_stop)
         
-    def fit(self, filename):
+    def fit(self, filename, is_chirps=False):
         train_losses, val_losses = [], []
 
         for epoch in range(1,self.epochs+1):
-            train_loss = self.__train()
-            evaluator = Evaluator(self.model, self.loss_fn, self.val_loader, self.device)
-            val_loss = evaluator.eval()
+            train_loss = self.__train(is_chirps)
+            evaluator = Evaluator(self.model, self.loss_fn, self.optimizer, self.val_loader, self.device, self.util)
+            val_loss,_ = evaluator.eval(is_test=False, is_chirps=is_chirps)
             if (self.verbose):
                 print(f'Epoch: {epoch}/{self.epochs} - loss: {train_loss:.4f} - val_loss: {val_loss:.4f}')
             train_losses.append(train_loss)
@@ -36,13 +40,16 @@ class Trainer:
 
         return train_losses, val_losses
 
-    def __train(self):
+    def __train(self, is_chirps=False):
         self.model.train()
         epoch_loss = 0.0
+        mask_land = self.util.get_mask_land().to(self.device)
         for batch_idx, (inputs, target) in enumerate(self.train_loader):
             inputs, target = inputs.to(self.device), target.to(self.device)
             # get prediction
             output = self.model(inputs)
+            if is_chirps:
+                output = mask_land * output
             loss = self.loss_fn(output, target)
             # clear previous gradients 
             self.optimizer.zero_grad()
@@ -53,22 +60,7 @@ class Trainer:
             epoch_loss += loss.item()
 
         return  epoch_loss/len(self.train_loader)
-    
-    def load_checkpoint(self, filename):
-        epoch, loss = 0.0, 0.0
-        if os.path.isfile(filename):
-            checkpoint = torch.load(filename)
-            name = os.path.basename(filename)
-            self.model.load_state_dict(checkpoint['model_state_dict'])
-            self.optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
-            epoch = checkpoint['epoch']
-            loss = checkpoint['loss']
-            print(f'=> Loaded checkpoint {name} (best epoch: {epoch}, validation error: {loss:.4f})')
-        else:
-            print(f'=> No checkpoint found at {filename}')
-
-        return self.model, self.optimizer, epoch, loss
-    
+            
             
 class EarlyStopping:
     """
@@ -108,20 +100,67 @@ class EarlyStopping:
     
 class Evaluator:
         
-    def __init__(self, model, loss_fn, data_loader, device):
+    def __init__(self, model, loss_fn, optimizer, data_loader, device, util=None, step=0):
         self.model = model
         self.loss_fn = loss_fn
+        self.optimizer = optimizer
         self.data_loader = data_loader
+        self.util = util
+        self.step = int(step)
         self.device = device
-        
-    def eval(self):
+       
+    def eval(self, is_test=True, is_chirps=False):
         self.model.eval()
-        epoch_loss = 0.0
+        cumulative_rmse, cumulative_mae = 0.0, 0.0
+        observation_rmse, observation_mae = [0]*self.step, [0]*self.step
+        loader_size = len(self.data_loader)
+        mask_land = self.util.get_mask_land().to(self.device)
         with torch.no_grad(): 
-            for inputs, target in self.data_loader:
+            for batch_i, (inputs, target) in enumerate(self.data_loader):
                 inputs, target = inputs.to(self.device), target.to(self.device)
                 output = self.model(inputs)
-                loss = self.loss_fn(output, target)
-                epoch_loss += loss.item()
+                if is_chirps:
+                    output = mask_land * output    
+                rmse_loss = self.loss_fn(output, target)
+                mae_loss = F.l1_loss(output, target)
+                cumulative_rmse += rmse_loss.item()
+                cumulative_mae += mae_loss.item()
+                
+                if is_test:
+                    #metric per observation (lat x lon) at each time step (t) 
+                    for i in range(self.step):
+                        output_observation = output[:,:,i,:,:]
+                        target_observation = target[:,:,i,:,:]
+                        rmse_loss_obs = self.loss_fn(output_observation,target_observation)
+                        mae_loss_obs = F.l1_loss(output_observation, target_observation)
+                        observation_rmse[i] += rmse_loss_obs.item()
+                        observation_mae[i] += mae_loss_obs.item()
+        
+            if is_test:             
+                self.util.save_examples(inputs, target, output, self.step)
+                print('>>>>>>>>> Metric per observation (lat x lon) at each time step (t)')
+                print('RMSE')
+                print(*np.divide(observation_rmse, batch_i+1), sep = ",")
+                print('MAE')
+                print(*np.divide(observation_mae, batch_i+1), sep = ",")
+                print('>>>>>>>>')  
+                
+        return cumulative_rmse/loader_size,cumulative_mae/loader_size
+        
+        
+    def load_checkpoint(self, filename, dataset_type=None, model=None):
+        if not(os.path.isabs(filename)):
+            filename = os.path.join('output', dataset_type, 'checkpoints', model.lower(), filename)  
+        epoch, loss = 0.0, 0.0
+        if os.path.isfile(filename):
+            checkpoint = torch.load(filename)
+            name = os.path.basename(filename)
+            self.model.load_state_dict(checkpoint['model_state_dict'])
+            self.optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+            epoch = checkpoint['epoch']
+            loss = checkpoint['loss']
+            print(f'=> Loaded checkpoint {name} (best epoch: {epoch}, validation rmse: {loss:.4f})')
+        else:
+            print(f'=> No checkpoint found at {filename}')
 
-        return epoch_loss/len(self.data_loader)
+        return epoch, loss
