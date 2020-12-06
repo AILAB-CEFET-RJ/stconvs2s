@@ -1,0 +1,15 @@
+RUN MODEL: ABLATION-STCONVS2S-R-NOCHANNELINCREASE
+Device: GPU
+Settings: Namespace(batch=15, chirps=True, cuda='1', email=True, epoch=50, hidden_dim=8, iteration=1, kernel_size=5, model='ablation-stconvs2s-r-nochannelincrease', no_seed=False, no_stop=True, num_layers=2, patience=16, plot=True, pre_trained=None, small_dataset=False, step=5, verbose=False, version='4', workers=4)
+
+Training time: 0:09:25.95 [565.9487612247467]
+=> Loaded checkpoint chirps_step5_4_20200621-220015.pth.tar (best epoch: 47, validation rmse: 6.2557)
+>>>>>>>>> Metric per observation (lat x lon) at each time step (t)
+RMSE
+5.983721615796421,6.2538644540756145,6.303214022182526,6.323119044941377,6.336896303503271
+MAE
+2.5159154563026633,2.7557318255225605,2.852141121492029,2.88603818544092,2.9044702480183564
+>>>>>>>>
+Test RMSE: 6.2434
+Test MAE: 2.7829
+email sent

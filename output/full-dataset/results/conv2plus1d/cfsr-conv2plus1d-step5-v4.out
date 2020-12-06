@@ -1,0 +1,15 @@
+RUN MODEL: CONV2PLUS1D
+Device: GPU
+Settings: Namespace(batch=15, chirps=False, cuda='0', email=True, epoch=50, hidden_dim=32, iteration=1, kernel_size=5, model='conv2plus1d', no_seed=False, no_stop=True, num_layers=3, patience=16, plot=True, pre_trained=None, small_dataset=False, step=5, verbose=False, version='4', workers=4)
+
+Training time: 1:51:24.58 [6684.583963632584]
+=> Loaded checkpoint cfsr_step5_4_20200622-002634.pth.tar (best epoch: 32, validation rmse: 1.3071)
+>>>>>>>>> Metric per observation (lat x lon) at each time step (t)
+RMSE
+0.9380010051469366,1.1357572611095836,1.282884400859785,1.4200545696544251,1.5934969586902783
+MAE
+0.6290215806061616,0.7740136153489641,0.887089401028854,0.9859868627811437,1.105495070948184
+>>>>>>>>
+Test RMSE: 1.2944
+Test MAE: 0.8763
+email sent

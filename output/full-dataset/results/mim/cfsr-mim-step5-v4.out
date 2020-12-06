@@ -1,0 +1,55 @@
+RUN MODEL: MIM
+Device: GPU
+Settings: Namespace(batch=15, chirps=False, cuda='1', email=True, epoch=80, hidden_dim=32, iteration=3, kernel_size=5, model='mim', no_seed=False, no_stop=False, num_layers=3, patience=16, plot=True, pre_trained=None, small_dataset=False, step=5, verbose=False, version='4', workers=4)
+
+Training time: 9:20:15.70 [33615.69692516327]
+=> Loaded checkpoint cfsr_step5_4_20200528-001216.pth.tar (best epoch: 34, validation rmse: 1.6678)
+Training time/epochs: 0:11:12.31 [672.3139385032654]
+>>>>>>>>> Metric per observation (lat x lon) at each time step (t)
+RMSE
+1.8348658901643158,1.637556281069942,1.6079513145385933,1.60595487539712,1.6078374384180352
+MAE
+1.2967367276404669,1.1559615392294738,1.1347999814148584,1.1338590397583463,1.1368876349248105
+>>>>>>>>
+Test RMSE: 1.6621
+Test MAE: 1.1716
+
+Training time: 14:56:51.48 [53811.476501464844]
+=> Loaded checkpoint cfsr_step5_4_20200528-093340.pth.tar (best epoch: 76, validation rmse: 1.6508)
+Training time/epochs: 0:09:44.91 [584.9073532767918]
+>>>>>>>>> Metric per observation (lat x lon) at each time step (t)
+RMSE
+1.824225167791655,1.6317463881761125,1.6222188581871424,1.6292864393427369,1.635247266573648
+MAE
+1.2993193221654376,1.1520215659796282,1.1441222556586403,1.1503142755008438,1.1565110218012382
+>>>>>>>>
+Test RMSE: 1.6712
+Test MAE: 1.1805
+
+Training time: 8:59:46.04 [32386.037175655365]
+=> Loaded checkpoint cfsr_step5_4_20200529-003139.pth.tar (best epoch: 32, validation rmse: 1.6710)
+Training time/epochs: 0:11:14.71 [674.7091078261534]
+>>>>>>>>> Metric per observation (lat x lon) at each time step (t)
+RMSE
+1.858269636409458,1.656377434565191,1.633925900379927,1.631911929867304,1.6337139500658986
+MAE
+1.3090179302160023,1.165982060475422,1.1490271897487931,1.1484129918266435,1.1517593974710008
+>>>>>>>>
+Test RMSE: 1.6861
+Test MAE: 1.1848
+
+RMSE:  [1.662081803428978, 1.671223588360166, 1.6860580244275964]
+
+MAE:  [1.1716489834031516, 1.180457685509601, 1.1848399122445825]
+
+Training times:  [33615.69692516327, 53811.476501464844, 32386.037175655365]
+
+Training times/epochs:  [672.3139385032654, 584.9073532767918, 674.7091078261534]
+-----------------------
+Mean and standard deviation after 3 iterations
+=> Test RMSE: mean: 1.6731, std: 0.009880
+=> Test MAE: mean: 1.1790, std: 0.005485
+=> Training times: mean_readable: 11:05:37.74, mean: 39937.7369, std: 9823.051269
+=> Training times/epochs: mean_readable: 0:10:43.98, mean: 643.9768, std: 41.779850
+-----------------------
+email sent

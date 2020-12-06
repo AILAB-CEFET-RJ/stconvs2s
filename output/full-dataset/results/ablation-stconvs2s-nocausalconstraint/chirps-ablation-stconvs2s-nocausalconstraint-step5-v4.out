@@ -1,0 +1,15 @@
+RUN MODEL: ABLATION-STCONVS2S-NOCAUSALCONSTRAINT
+Device: GPU
+Settings: Namespace(batch=15, chirps=True, cuda='1', email=True, epoch=50, hidden_dim=8, iteration=1, kernel_size=5, model='ablation-stconvs2s-nocausalconstraint', no_seed=False, no_stop=True, num_layers=2, patience=16, plot=True, pre_trained=None, small_dataset=False, step=5, verbose=False, version='4', workers=4)
+
+Training time: 0:10:19.37 [619.3733699321747]
+=> Loaded checkpoint chirps_step5_4_20200621-200816.pth.tar (best epoch: 39, validation rmse: 6.2416)
+>>>>>>>>> Metric per observation (lat x lon) at each time step (t)
+RMSE
+5.961162675510753,6.2376338071364135,6.291751368160554,6.3092157266994215,6.324179913270919
+MAE
+2.577894474095839,2.8034301205752366,2.86491013210725,2.913091794054776,2.9077305902134287
+>>>>>>>>
+Test RMSE: 6.2281
+Test MAE: 2.8134
+email sent

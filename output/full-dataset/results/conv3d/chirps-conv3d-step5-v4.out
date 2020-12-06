@@ -1,0 +1,15 @@
+RUN MODEL: CONV3D
+Device: GPU
+Settings: Namespace(batch=15, chirps=True, cuda='1', email=True, epoch=50, hidden_dim=8, iteration=1, kernel_size=5, model='conv3d', no_seed=False, no_stop=True, num_layers=2, patience=16, plot=True, pre_trained=None, small_dataset=False, step=5, verbose=False, version='4', workers=4)
+
+Training time: 0:09:27.11 [567.1100423336029]
+=> Loaded checkpoint chirps_step5_4_20200621-202033.pth.tar (best epoch: 39, validation rmse: 6.2694)
+>>>>>>>>> Metric per observation (lat x lon) at each time step (t)
+RMSE
+5.979819460986132,6.264256894269729,6.3175510977678755,6.3327193170945275,6.348297998866933
+MAE
+2.6008741141640566,2.8670478090245455,2.915512901576445,2.9266102505240212,2.949589896967067
+>>>>>>>>
+Test RMSE: 6.2519
+Test MAE: 2.8519
+email sent

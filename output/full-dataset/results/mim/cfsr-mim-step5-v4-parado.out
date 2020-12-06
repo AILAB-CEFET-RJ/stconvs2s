@@ -1,0 +1,15 @@
+RUN MODEL: MIM
+Device: GPU
+Settings: Namespace(batch=15, chirps=False, cuda='1', email=True, epoch=80, hidden_dim=32, iteration=3, kernel_size=5, model='mim', no_seed=False, no_stop=False, num_layers=3, patience=16, plot=True, pre_trained=None, small_dataset=False, step=5, verbose=False, version='4', workers=4)
+
+Training time: 9:19:34.26 [33574.26178812981]
+=> Loaded checkpoint cfsr_step5_4_20200527-034547.pth.tar (best epoch: 34, validation rmse: 1.6678)
+Training time/epochs: 0:11:11.49 [671.4852357625962]
+>>>>>>>>> Metric per observation (lat x lon) at each time step (t)
+RMSE
+1.8348658901643158,1.637556281069942,1.6079513145385933,1.60595487539712,1.6078374384180352
+MAE
+1.2967367276404669,1.1559615392294738,1.1347999814148584,1.1338590397583463,1.1368876349248105
+>>>>>>>>
+Test RMSE: 1.6621
+Test MAE: 1.1716

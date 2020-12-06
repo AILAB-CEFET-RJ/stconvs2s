@@ -1,0 +1,15 @@
+RUN MODEL: ABLATION-STCONVS2S-R-INVERTED
+Device: GPU
+Settings: Namespace(batch=15, chirps=True, cuda='1', email=True, epoch=50, hidden_dim=8, iteration=1, kernel_size=5, model='ablation-stconvs2s-r-inverted', no_seed=False, no_stop=True, num_layers=2, patience=16, plot=True, pre_trained=None, small_dataset=False, step=5, verbose=False, version='4', workers=4)
+
+Training time: 0:10:56.49 [656.4866020679474]
+=> Loaded checkpoint chirps_step5_4_20200621-212426.pth.tar (best epoch: 48, validation rmse: 6.2545)
+>>>>>>>>> Metric per observation (lat x lon) at each time step (t)
+RMSE
+5.968979880134052,6.2533170424680655,6.301910515137535,6.321164568477774,6.33610175000155
+MAE
+2.573985080030513,2.8311918463936463,2.8495632983783987,2.851170365823144,2.8794428964349676
+>>>>>>>>
+Test RMSE: 6.2397
+Test MAE: 2.7971
+email sent

@@ -1,0 +1,15 @@
+RUN MODEL: ABLATION-STCONVS2S-R-INVERTED
+Device: GPU
+Settings: Namespace(batch=15, chirps=False, cuda='1', email=True, epoch=50, hidden_dim=32, iteration=1, kernel_size=5, model='ablation-stconvs2s-r-inverted', no_seed=False, no_stop=True, num_layers=3, patience=16, plot=True, pre_trained=None, small_dataset=False, step=5, verbose=False, version='4', workers=4)
+
+Training time: 1:56:05.42 [6965.422602653503]
+=> Loaded checkpoint cfsr_step5_4_20200622-041729.pth.tar (best epoch: 44, validation rmse: 1.3140)
+>>>>>>>>> Metric per observation (lat x lon) at each time step (t)
+RMSE
+0.9363258559561636,1.1421341985340092,1.292438191282931,1.4334371523123013,1.6109336816322126
+MAE
+0.6254082475885769,0.7767897814553587,0.8874502399427385,0.9896584121760978,1.118582618633355
+>>>>>>>>
+Test RMSE: 1.3044
+Test MAE: 0.8796
+email sent

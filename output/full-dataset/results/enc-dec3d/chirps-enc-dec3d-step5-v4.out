@@ -1,0 +1,15 @@
+RUN MODEL: ENC-DEC3D
+Device: GPU
+Settings: Namespace(batch=15, chirps=True, cuda='1', email=True, epoch=50, hidden_dim=8, iteration=1, kernel_size=5, model='enc-dec3d', no_seed=False, no_stop=True, num_layers=2, patience=16, plot=True, pre_trained=None, small_dataset=False, step=5, verbose=False, version='4', workers=4)
+
+Training time: 0:09:26.17 [566.169930934906]
+=> Loaded checkpoint chirps_step5_4_20200621-184317.pth.tar (best epoch: 18, validation rmse: 6.2713)
+>>>>>>>>> Metric per observation (lat x lon) at each time step (t)
+RMSE
+6.005105538801714,6.265036149458452,6.3154514435140845,6.328107674491597,6.340458997430648
+MAE
+2.54104198810251,2.799147280779752,2.865589221531057,2.8853189753976096,2.8974181783390556
+>>>>>>>>
+Test RMSE: 6.2540
+Test MAE: 2.7977
+email sent
