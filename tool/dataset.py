@@ -19,14 +19,16 @@ class NetCDFDataset(Dataset):
         else:
             data = sr.split_train(dataset)
         
-        # data format batch x channel x time x latitude x longitude
-        self.X = torch.from_numpy(data.x.values).float().permute(0, 4, 1, 2, 3)
-        
-        # Apply input_channels slicing if specified, otherwise use default :5
+        # Apply input_channels slicing if specified
         if input_channels is not None:
-            self.X = self.X[:, :, :input_channels, :, :]
+            # Take only the specified number of channels from data.x.values
+            x_data = data.x.values[:, :, :, :, :input_channels]
+            self.X = torch.from_numpy(x_data).float().permute(0, 4, 1, 2, 3)
         else:
-            self.X = self.X[:, :, :5, :, :]
+            self.X = torch.from_numpy(data.x.values).float().permute(0, 4, 1, 2, 3)
+        
+        # Keep first 5 timesteps (after permute: dim 2)
+        self.X = self.X[:, :, :5, :, :]
         
         # Apply output_channels slicing if specified
         if output_channels is not None:
