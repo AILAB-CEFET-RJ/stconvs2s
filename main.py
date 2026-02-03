@@ -45,8 +45,8 @@ def get_arguments():
     parser.add_argument('--no-stop', action='store_true', dest='no_stop')
     parser.add_argument('--small-dataset', action='store_true', dest='small_dataset')
     parser.add_argument('--chirps', action='store_true')
-    parser.add_argument('--input-channels', type=int, dest='input_channels', default=None,
-                        help='Number of input channels to use from X data (time steps)')
+    parser.add_argument('--dataset-path', '-dsp', dest='dataset_path', default=None,
+                        help='Custom path to dataset file (overrides --chirps)')
     parser.add_argument('--output-channels', type=int, dest='output_channels', default=None,
                         help='Number of output channels to use from y data')
        

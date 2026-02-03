@@ -2,13 +2,13 @@
 Create a toy NetCDF dataset for testing STConvS2S with configurable channels.
 
 This script generates a small dataset with known dimensions to test the
---input-channels and --output-channels CLI arguments.
+--output-channels CLI argument.
 
 Dataset structure:
 - 100 samples
-- 10 timesteps per sample
+- 5 timesteps per sample
 - 10x10 spatial grid (lat x lon)
-- 4 channels (e.g., temperature, precipitation, humidity, pressure)
+- 5 channels (e.g., temperature, precipitation, humidity, pressure, wind)
 """
 
 import numpy as np
@@ -121,14 +121,11 @@ if __name__ == "__main__":
     print("Dataset created successfully!")
     print("="*60)
     print("\nTest commands:")
-    print("\n1. Test with default channels (5 input timesteps, all output channels):")
-    print("   python main.py -m stconvs2s-r -e 5 -b 10 --small-dataset --verbose")
+    print("\n1. Test with default channels (all output channels):")
+    print("   python main.py -m stconvs2s-r -e 5 -b 10 -dsp data/toy-dataset-seq5-ystep5.nc --verbose")
     
-    print("\n2. Test with custom input channels (3 timesteps only):")
-    print("   python main.py -m stconvs2s-r -e 5 -b 10 --small-dataset --input-channels 3 --verbose")
+    print("\n2. Test with custom output channels (only first channel):")
+    print("   python main.py -m stconvs2s-r -e 5 -b 10 -dsp data/toy-dataset-seq5-ystep5.nc --output-channels 1 --verbose")
     
-    print("\n3. Test with custom output channels (only first channel):")
-    print("   python main.py -m stconvs2s-r -e 5 -b 10 --small-dataset --output-channels 1 --verbose")
-    
-    print("\n4. Test with both custom input and output channels:")
-    print("   python main.py -m stconvs2s-r -e 5 -b 10 --small-dataset --input-channels 3 --output-channels 2 --verbose")
+    print("\n3. Test with custom output channels (first 2 channels):")
+    print("   python main.py -m stconvs2s-r -e 5 -b 10 -dsp data/toy-dataset-seq5-ystep5.nc --output-channels 2 --verbose")

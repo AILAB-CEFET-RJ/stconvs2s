@@ -43,15 +43,12 @@ class MLBuilder:
 
         train_dataset = NetCDFDataset(ds, test_split=test_split, 
                                       validation_split=validation_split,
-                                      input_channels=self.config.input_channels,
                                       output_channels=self.config.output_channels)
         val_dataset   = NetCDFDataset(ds, test_split=test_split, 
                                       validation_split=validation_split, is_validation=True,
-                                      input_channels=self.config.input_channels,
                                       output_channels=self.config.output_channels)
         test_dataset  = NetCDFDataset(ds, test_split=test_split, 
                                       validation_split=validation_split, is_test=True,
-                                      input_channels=self.config.input_channels,
                                       output_channels=self.config.output_channels)
         if (self.config.verbose):
             print('[X_train] Shape:', train_dataset.X.shape)
@@ -94,8 +91,12 @@ class MLBuilder:
             
         # Creating the model    
         model_bulder = models[self.config.model]
-        model = model_bulder(train_dataset.X.shape, self.config.num_layers, self.config.hidden_dim, 
-                             self.config.kernel_size, self.device, self.dropout_rate, int(self.step))
+        # Pass both X and y shapes to handle different input/output channel counts
+        input_shape = train_dataset.X.shape
+        output_shape = train_dataset.y.shape
+        model = model_bulder(input_shape, self.config.num_layers, self.config.hidden_dim, 
+                             self.config.kernel_size, self.device, self.dropout_rate, int(self.step),
+                             output_channels=output_shape[1])
         model.to(self.device)
         criterion = RMSELoss()
         opt_params = {'lr': 0.001, 
@@ -180,8 +181,12 @@ class MLBuilder:
         np.random.seed(seed)
         
     def __get_dataset_file(self):
-        dataset_file, dataset_name = None, None
-        if (self.config.chirps):
+        # Priority: custom dataset path > chirps > cfsr (default)
+        if self.config.dataset_path is not None:
+            dataset_file = self.config.dataset_path
+            # Extract dataset name from filename (without extension)
+            dataset_name = os.path.splitext(os.path.basename(dataset_file))[0]
+        elif self.config.chirps:
             dataset_file = 'data/dataset-chirps-1981-2019-seq5-ystep' + self.step + '.nc'
             dataset_name = 'chirps'
         else:
