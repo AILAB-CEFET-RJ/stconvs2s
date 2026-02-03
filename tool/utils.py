@@ -162,7 +162,8 @@ class Util:
         
     def __create_image_plot(self, tensor, ax, i, j, index, step, ax_input=False):
         cmap = 'YlGnBu' if self.base_filename.startswith('chirps') else 'viridis'
-        tensor_numpy = tensor[0,:,index,:,:].squeeze().cpu().numpy()
+        # Select first channel (0) for visualization to ensure 2D image
+        tensor_numpy = tensor[0,0,index,:,:].squeeze().cpu().numpy()
         if step == 5 or ax_input:
             ax[j].imshow(np.flipud(tensor_numpy), cmap=cmap)
             ax[j].get_xaxis().set_visible(False)
