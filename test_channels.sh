@@ -1,5 +1,5 @@
 #!/bin/bash
-# Test script for configurable input/output channels feature
+# Test script for configurable output channels feature
 
 echo "=========================================="
 echo "Testing Configurable Channels Feature"

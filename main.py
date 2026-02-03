@@ -18,8 +18,8 @@ def get_arguments():
         # Full training run
         nohup python main.py --cuda 1 -i 1 -v 4 -m stconvs2s-r -e 200 -p 100 --plot &> RunModels_stconvs2s-r.log &
 
-        # Custom input/output channels
-        nohup python main.py --cuda 0 -m stconvs2s-c --input-channels 3 --output-channels 1 &> RunModels_custom_channels.log &
+        # Custom output channels
+        nohup python main.py --cuda 0 -m stconvs2s-c --output-channels 1 &> RunModels_custom_channels.log &
 
         # Quick testing with small dataset
         python main.py -m stconvs2s-r -e 10 --small-dataset --verbose

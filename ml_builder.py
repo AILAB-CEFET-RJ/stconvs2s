@@ -181,10 +181,8 @@ class MLBuilder:
         np.random.seed(seed)
         
     def __get_dataset_file(self):
-        # Priority: custom dataset path > chirps > cfsr (default)
         if self.config.dataset_path is not None:
             dataset_file = self.config.dataset_path
-            # Extract dataset name from filename (without extension)
             dataset_name = os.path.splitext(os.path.basename(dataset_file))[0]
         elif self.config.chirps:
             dataset_file = 'data/dataset-chirps-1981-2019-seq5-ystep' + self.step + '.nc'

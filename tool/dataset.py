@@ -6,7 +6,7 @@ from torch.utils.data import Dataset
 
 class NetCDFDataset(Dataset):
 
-    def __init__(self, dataset, test_split=0, validation_split=0, is_validation=False, is_test=False, is_2d_model=False, output_channels=None):
+    def __init__(self, dataset, test_split=0, validation_split=0, is_validation=False, is_test=False, is_2d_model=False, first_output_channels=None):
         super(NetCDFDataset, self).__init__()
         
         self.is_2d_model = is_2d_model
@@ -23,10 +23,8 @@ class NetCDFDataset(Dataset):
         self.X = torch.from_numpy(data.x.values).float().permute(0, 4, 1, 2, 3)
         self.X = self.X[:, :, :5, :, :]
         
-        # Apply output_channels slicing if specified
-        if output_channels is not None:
-            # Take only the specified number of channels from data.y.values
-            y_data = data.y.values[:, :, :, :, :output_channels]
+        if first_output_channels is not None:
+            y_data = data.y.values[:, :, :, :, :first_output_channels]
             self.y = torch.from_numpy(y_data).float().permute(0, 4, 1, 2, 3)
         else:
             self.y = torch.from_numpy(data.y.values).float().permute(0, 4, 1, 2, 3)
