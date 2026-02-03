@@ -42,11 +42,17 @@ class MLBuilder:
             ds = ds[dict(sample=slice(0,500))]
 
         train_dataset = NetCDFDataset(ds, test_split=test_split, 
-                                      validation_split=validation_split)
+                                      validation_split=validation_split,
+                                      input_channels=self.config.input_channels,
+                                      output_channels=self.config.output_channels)
         val_dataset   = NetCDFDataset(ds, test_split=test_split, 
-                                      validation_split=validation_split, is_validation=True)
+                                      validation_split=validation_split, is_validation=True,
+                                      input_channels=self.config.input_channels,
+                                      output_channels=self.config.output_channels)
         test_dataset  = NetCDFDataset(ds, test_split=test_split, 
-                                      validation_split=validation_split, is_test=True)
+                                      validation_split=validation_split, is_test=True,
+                                      input_channels=self.config.input_channels,
+                                      output_channels=self.config.output_channels)
         if (self.config.verbose):
             print('[X_train] Shape:', train_dataset.X.shape)
             print('[y_train] Shape:', train_dataset.y.shape)

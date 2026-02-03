@@ -6,7 +6,7 @@ from torch.utils.data import Dataset
 
 class NetCDFDataset(Dataset):
 
-    def __init__(self, dataset, test_split=0, validation_split=0, is_validation=False, is_test=False, is_2d_model=False):
+    def __init__(self, dataset, test_split=0, validation_split=0, is_validation=False, is_test=False, is_2d_model=False, input_channels=None, output_channels=None):
         super(NetCDFDataset, self).__init__()
         
         self.is_2d_model = is_2d_model
@@ -21,8 +21,20 @@ class NetCDFDataset(Dataset):
         
         # data format batch x channel x time x latitude x longitude
         self.X = torch.from_numpy(data.x.values).float().permute(0, 4, 1, 2, 3)
-        self.X = self.X[:,:,:5,:,:]
-        self.y = torch.from_numpy(data.y.values).float().permute(0, 4, 1, 2, 3)
+        
+        # Apply input_channels slicing if specified, otherwise use default :5
+        if input_channels is not None:
+            self.X = self.X[:, :, :input_channels, :, :]
+        else:
+            self.X = self.X[:, :, :5, :, :]
+        
+        # Apply output_channels slicing if specified
+        if output_channels is not None:
+            # Take only the specified number of channels from data.y.values
+            y_data = data.y.values[:, :, :, :, :output_channels]
+            self.y = torch.from_numpy(y_data).float().permute(0, 4, 1, 2, 3)
+        else:
+            self.y = torch.from_numpy(data.y.values).float().permute(0, 4, 1, 2, 3)
         
         if self.is_2d_model:
             self.X = torch.squeeze(self.X)
