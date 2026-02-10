@@ -11,7 +11,20 @@ from ml_builder import MLBuilder
 import torch
 
 def get_arguments():
-    parser = arg.ArgumentParser()
+    description = """
+    STConvS2S - Spatio-Temporal Convolutional Sequence to Sequence Model
+
+    Examples:
+        # Full training run
+        nohup python main.py --cuda 1 -i 1 -v 4 -m stconvs2s-r -e 200 -p 100 --plot &> RunModels_stconvs2s-r.log &
+
+        # Custom output channels
+        nohup python main.py --cuda 0 -m stconvs2s-c --output-channels 1 &> RunModels_custom_channels.log &
+
+        # Quick testing with small dataset
+        python main.py -m stconvs2s-r -e 10 --small-dataset --verbose
+    """
+    parser = arg.ArgumentParser(description=description, formatter_class=arg.RawTextHelpFormatter)
     parser.add_argument('-v', '--version', default=0)
     parser.add_argument('-i', '--iteration', type=int, default=3)
     parser.add_argument('-e', '--epoch', type=int, default=80)
@@ -32,6 +45,10 @@ def get_arguments():
     parser.add_argument('--no-stop', action='store_true', dest='no_stop')
     parser.add_argument('--small-dataset', action='store_true', dest='small_dataset')
     parser.add_argument('--chirps', action='store_true')
+    parser.add_argument('--dataset-path', '-dsp', dest='dataset_path', default=None,
+                        help='Custom path to dataset file (overrides --chirps)')
+    parser.add_argument('--output-channels', type=int, dest='output_channels', default=None,
+                        help='Number of output channels to use from y data')
        
     return parser.parse_args()
     

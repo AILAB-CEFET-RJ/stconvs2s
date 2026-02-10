@@ -1,0 +1,120 @@
+"""
+Create a toy NetCDF dataset for testing STConvS2S with configurable channels.
+
+This script generates a small dataset with known dimensions to test the
+--output-channels CLI argument.
+
+Dataset structure:
+- 100 samples
+- 5 timesteps per sample
+- 10x10 spatial grid (lat x lon)
+- 5 channels (e.g., temperature, precipitation, humidity, pressure, wind)
+"""
+
+import numpy as np
+import xarray as xr
+from pathlib import Path
+
+def create_toy_dataset(
+    output_file="data/toy-dataset-seq5-ystep5.nc",
+    n_samples=100,
+    n_timesteps=5,
+    n_lat=10,
+    n_lon=10,
+    n_channels=5,
+    seed=42
+):
+    """
+    Create a toy NetCDF dataset compatible with STConvS2S.
+    
+    Args:
+        output_file: Path to save the NetCDF file
+        n_samples: Number of samples
+        n_timesteps: Number of timesteps per sample
+        n_lat: Number of latitude points
+        n_lon: Number of longitude points
+        n_channels: Number of channels (variables)
+        seed: Random seed for reproducibility
+    """
+    np.random.seed(seed)
+    
+    lat = np.linspace(-30, -20, n_lat)
+    lon = np.linspace(-50, -40, n_lon)
+    sample = np.arange(n_samples)
+    timestep = np.arange(n_timesteps)
+    channel = np.arange(n_channels)
+    
+    x_data = np.random.randn(n_samples, n_timesteps, n_lat, n_lon, n_channels)
+    
+    # Add some spatial structure (smoother patterns)
+    for s in range(n_samples):
+        for t in range(n_timesteps):
+            for c in range(n_channels):
+                # Add a simple gradient pattern
+                x_data[s, t, :, :, c] += np.linspace(0, 5, n_lat)[:, None]
+                x_data[s, t, :, :, c] += np.linspace(0, 5, n_lon)[None, :]
+    
+    y_data = np.random.randn(n_samples, n_timesteps, n_lat, n_lon, n_channels)
+    
+    y_data = 0.7 * x_data + 0.3 * y_data
+    
+    ds = xr.Dataset(
+        {
+            "x": (["sample", "timestep", "lat", "lon", "channel"], x_data),
+            "y": (["sample", "timestep", "lat", "lon", "channel"], y_data),
+        },
+        coords={
+            "sample": sample,
+            "timestep": timestep,
+            "lat": lat,
+            "lon": lon,
+            "channel": channel,
+        },
+        attrs={
+            "description": "Toy dataset for testing STConvS2S channel configuration",
+            "n_samples": n_samples,
+            "n_timesteps": n_timesteps,
+            "n_lat": n_lat,
+            "n_lon": n_lon,
+            "n_channels": n_channels,
+        }
+    )
+    
+    output_path = Path(output_file)
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    
+    print("Creating toy dataset...")
+    print(f"  Samples: {n_samples}")
+    print(f"  Timesteps: {n_timesteps}")
+    print(f"  Spatial grid: {n_lat}x{n_lon}")
+    print(f"  Channels: {n_channels}")
+    print(f"  X shape: {x_data.shape}")
+    print(f"  Y shape: {y_data.shape}")
+    
+    ds.to_netcdf(output_file)
+    print(f"\nDataset saved to: {output_file}")
+    
+    print("\nVerifying dataset...")
+    loaded_ds = xr.load_dataset(output_file)
+    print(f"  X dimensions: {dict(loaded_ds.x.sizes)}")
+    print(f"  Y dimensions: {dict(loaded_ds.y.sizes)}")
+    print("\nDataset verified successfully!")
+    
+    return ds
+
+
+if __name__ == "__main__":
+    ds = create_toy_dataset()
+    
+    print("\n" + "="*60)
+    print("Dataset created successfully!")
+    print("="*60)
+    print("\nTest commands:")
+    print("\n1. Test with default channels (all output channels):")
+    print("   python main.py -m stconvs2s-r -e 5 -b 10 -dsp data/toy-dataset-seq5-ystep5.nc --verbose")
+    
+    print("\n2. Test with custom output channels (only first channel):")
+    print("   python main.py -m stconvs2s-r -e 5 -b 10 -dsp data/toy-dataset-seq5-ystep5.nc --output-channels 1 --verbose")
+    
+    print("\n3. Test with custom output channels (first 2 channels):")
+    print("   python main.py -m stconvs2s-r -e 5 -b 10 -dsp data/toy-dataset-seq5-ystep5.nc --output-channels 2 --verbose")
