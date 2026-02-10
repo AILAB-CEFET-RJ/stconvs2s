@@ -1,6 +1,6 @@
 # STConvS2S: Spatiotemporal Convolutional Sequence to Sequence Network for weather forecasting
 
-> *UPDATE: new code released with changes in our architecture. Please see the [release notes](https://github.com/MLRG-CEFET-RJ/stconvs2s/releases) for details (Nov/2020)*
+> *UPDATE: new code released with changes in our code. Please see the [release notes](https://github.com/MLRG-CEFET-RJ/stconvs2s/releases) for details (FEV/2026)*
 
 This repository has the open source implementation of a new architecture termed STConvS2S. To sum up, our approach (STConvS2S) uses only 3D convolutional neural network (CNN) to tackle the sequence-to-sequence task using spatiotemporal data. We compare our results with state-of-the-art architectures. Details in the [article published in Neurocomputing, Elsevier](https://doi.org/10.1016/j.neucom.2020.09.060) ([arXiv](https://arxiv.org/abs/1912.00134) versions).
 
@@ -82,7 +82,7 @@ python arima.py > output/arima/cfsr-arima.out
 * add `--email`: send email at the end. To use this functionality, set your email in the file [config/mail_config.ini](https://github.com/MLRG-CEFET-RJ/stconvs2s/blob/master/config/mail_config.ini).
 * add `--small-dataset`: have a quick training using a few sample dataset.
 
-Check out the other possible parameters [here](https://github.com/MLRG-CEFET-RJ/stconvs2s/blob/master/main.py#L15-L34).
+Check out the other possible parameters [here](https://github.com/AILAB-CEFET-RJ/stconvs2s/blob/master/main.py#L27-L51).
 
 ## Citation
 ```
