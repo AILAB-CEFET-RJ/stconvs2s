@@ -43,13 +43,13 @@ class MLBuilder:
 
         train_dataset = NetCDFDataset(ds, test_split=test_split, 
                                       validation_split=validation_split,
-                                      output_channels=self.config.output_channels)
+                                      first_output_channels=self.config.output_channels)
         val_dataset   = NetCDFDataset(ds, test_split=test_split, 
                                       validation_split=validation_split, is_validation=True,
-                                      output_channels=self.config.output_channels)
+                                      first_output_channels=self.config.output_channels)
         test_dataset  = NetCDFDataset(ds, test_split=test_split, 
                                       validation_split=validation_split, is_test=True,
-                                      output_channels=self.config.output_channels)
+                                      first_output_channels=self.config.output_channels)
         if (self.config.verbose):
             print('[X_train] Shape:', train_dataset.X.shape)
             print('[y_train] Shape:', train_dataset.y.shape)
