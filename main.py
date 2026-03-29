@@ -3,6 +3,7 @@ warnings.filterwarnings('ignore')
 
 import platform
 import traceback
+import sys
 import numpy as np
 import os
 import argparse as arg
@@ -121,4 +122,6 @@ if __name__ == '__main__':
     except Exception as e:
         traceback.print_exc()
         message = '=> Error: ' + str(e)
+        util.send_email(message, args.email)
+        sys.exit(1)
     util.send_email(message, args.email)
