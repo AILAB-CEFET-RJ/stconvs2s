@@ -4,6 +4,7 @@ import torch.nn as nn
 from .temporal_block import TemporalReversedBlock, TemporalCausalBlock
 from .spatial_block import SpatialBlock
 from .generator_block import TemporalGeneratorBlock
+from .capacity_block import ResidualCapacityBlock
 
 
 class STConvS2S_R(nn.Module):
@@ -32,8 +33,29 @@ class STConvS2S_C(nn.Module):
         return self.stconvs2s_c(x)        
 
 
+class STConvS2S_C_CapacityControl(nn.Module):
+    """STConvS2S-C with a parameter-matched residual capacity control."""
+
+    def __init__(self, input_size, num_layers, hidden_dim, kernel_size, device, dropout_rate,
+                 step=5, output_channels=None, capacity_expansion=2):
+        super(STConvS2S_C_CapacityControl, self).__init__()
+
+        self.stconvs2s_c = Model(
+            TemporalCausalBlock, input_size, num_layers, hidden_dim, kernel_size, device,
+            dropout_rate, step, output_channels,
+            feature_adapter_factory=lambda channels: ResidualCapacityBlock(
+                channels, expansion=capacity_expansion, dropout_rate=dropout_rate,
+            ),
+        )
+
+    def forward(self, x):
+        return self.stconvs2s_c(x)
+
+
 class Model(nn.Module):
-    def __init__(self, TemporalBlockInstance, input_size, num_layers, hidden_dim, kernel_size, device, dropout_rate, step=5, output_channels=None):
+    def __init__(self, TemporalBlockInstance, input_size, num_layers, hidden_dim, kernel_size,
+                 device, dropout_rate, step=5, output_channels=None,
+                 feature_adapter_factory=None):
         super(Model, self).__init__()
         
         initial_in_channels = input_size[1]
@@ -58,7 +80,18 @@ class Model(nn.Module):
         padding = kernel_size // 2
         self.conv_final = nn.Conv3d(in_channels=hidden_dim, out_channels=final_out_channels, kernel_size=kernel_size, 
                                     padding=padding)
+
+        # Constructed after all baseline modules so common parameters have identical
+        # initialization under the same random seed.
+        self.feature_adapter = (
+            feature_adapter_factory(hidden_dim)
+            if feature_adapter_factory is not None
+            else nn.Identity()
+        )
                                             
     def forward(self, x):
-        x = self.conv(x)
-        return self.conv_final(x)        
+        for index, block in enumerate(self.conv):
+            x = block(x)
+            if index == 1:
+                x = self.feature_adapter(x)
+        return self.conv_final(x)
