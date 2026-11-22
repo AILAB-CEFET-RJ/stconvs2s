@@ -5,6 +5,7 @@ from .temporal_block import TemporalReversedBlock, TemporalCausalBlock
 from .spatial_block import SpatialBlock
 from .generator_block import TemporalGeneratorBlock
 from .capacity_block import ResidualCapacityBlock
+from .attention_block import ResidualTemporalSelfAttentionBlock
 
 
 class STConvS2S_R(nn.Module):
@@ -45,6 +46,27 @@ class STConvS2S_C_CapacityControl(nn.Module):
             dropout_rate, step, output_channels,
             feature_adapter_factory=lambda channels: ResidualCapacityBlock(
                 channels, expansion=capacity_expansion, dropout_rate=dropout_rate,
+            ),
+        )
+
+    def forward(self, x):
+        return self.stconvs2s_c(x)
+
+
+class STConvS2S_C_TemporalAttention(nn.Module):
+    """STConvS2S-C with residual temporal self-attention per spatial cell."""
+
+    def __init__(self, input_size, num_layers, hidden_dim, kernel_size, device, dropout_rate,
+                 step=5, output_channels=None, attention_heads=4):
+        super(STConvS2S_C_TemporalAttention, self).__init__()
+        input_length = input_size[2]
+
+        self.stconvs2s_c = Model(
+            TemporalCausalBlock, input_size, num_layers, hidden_dim, kernel_size, device,
+            dropout_rate, step, output_channels,
+            feature_adapter_factory=lambda channels: ResidualTemporalSelfAttentionBlock(
+                channels, sequence_length=input_length, num_heads=attention_heads,
+                dropout_rate=dropout_rate,
             ),
         )
 
